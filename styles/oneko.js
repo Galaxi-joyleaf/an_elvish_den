@@ -26,6 +26,7 @@
   let hovered = false; // true while a mouse pointer is over the cat
   let atHome = false; // true while the cat sits at home, glued to the nav
   let homeEl = null;
+  let firstVisit = true; // no saved position yet: the cat starts at home
 
   let frameCount = 0;
   let idleTime = 0;
@@ -151,6 +152,7 @@
     if (persistPosition) {
       let storedNeko = JSON.parse(window.localStorage.getItem("oneko"));
       if (storedNeko !== null) {
+        firstVisit = false;
         nekoPosX = storedNeko.nekoPosX;
         nekoPosY = storedNeko.nekoPosY;
         mousePosX = storedNeko.mousePosX;
@@ -198,6 +200,18 @@
     nekoEl.appendChild(labelEl);
 
     document.body.appendChild(nekoEl);
+
+    // First visit: the cat starts out sitting at home (on pages that have a
+    // nav to sit in). Its home mode keeps it there until it is clicked.
+    if (firstVisit) {
+      const h = getHome();
+      if (h !== null) {
+        mode = MODE_HOME;
+        atHome = true;
+        pinTo(h);
+        setSprite("idle", 0);
+      }
+    }
 
     document.addEventListener("mousemove", function (event) {
       mouseSeen = true;
