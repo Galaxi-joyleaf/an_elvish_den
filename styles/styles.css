@@ -16,7 +16,7 @@
 /* End www.Cursors-4U.com Code */
 
 body {
-  background-image: url('/images/wallpaper.jpg');
+  background-image: url('./images/wallpaper.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
