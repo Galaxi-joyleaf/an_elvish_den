@@ -1,0 +1,2349 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="/styles/styles.css">
+
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html" class="site_name"><h1>An Elvish Den</h1></a>
+</div>
+
+<nav class="menu">
+  <ul>
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="/dvd_collection/index.html" class="dropbtn">DVD Collection</a>
+      <div class="dropdown-content">
+        <a href="/dvd_collection/movies.html">Movies</a>
+        <a href="/dvd_collection/shows.html">TV shows</a>
+      </div>
+    </li>
+
+    <li><a href="/music.html" class="dropbtn">Music Collection</a></li>
+
+    <li><a href="/books.html" class="dropbtn">Books</a></li>
+
+    <li><a href="/about.html" class="dropbtn">About me :)</a></li>
+
+    <img src="/images/sign.png" class="sign">
+  </ul>
+</nav>
+
+<main>
+    <section>
+        <div>
+            <h2>Music collection</h2>
+            <p>Here is my current record and CD collection !<br><br>
+              My parents raised me with 80s music constantly on somewhere in the house. Because of that, I feel very nostalgic towards certain songs of that time.<br><br>
+              Within the sections, there is no specific order to the albums.<br><br>  
+              <b>You can click on each album to have more info.<br>If the images don't load, please refresh the page</b>
+            </p>
+        </div>
+    </section>
+    <br><br>
+    <section class="dvd_section">
+
+    <h2>Records</h2>
+    <p>All of the records are 33 1/3 RPM unless stated otherwise.</p>
+
+      <!-- Tableau -->
+    <table class="table_dvd">
+      
+    <tbody>
+      <!-- Header 1 -->
+      <tr class="accordion-header" onclick="toggleRow('row1')">
+        <td class="td_dvd"><h3>Pop</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 1 -->
+      <tr id="row1" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/nuit_de_noel.jpg" alt="Nuit de Noël" class="album_poster" data-caption="Nuit de Noël" data-description-id="desc-nuit">
+          <template id="desc-nuit">
+
+            <div data-slot="author">Tino Rossi</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1966<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Petit Papa Noël</li>
+                <li>Trois Anges Sont Venus</li>
+                <li>Noël En Mer</li>
+                <li>Petite Etoile De Noël</li>
+                <li>Douce Nuit</li>
+                <li>Minuit Chrétiens</li>
+                <li>Noël Blanc</li>
+                <li>Le Noel Des Petits Santons</li>
+                <li>Il Est Né Le Divin Enfant</li>
+                <li>Noël Et L'Enfant</li>
+                <li>Noël Sous Les Tropiques</li>
+                <li>Noël C'est L'amour</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/finger5.jpg" alt="My Favorite Song" class="album_poster" data-caption="My Favorite Song" data-description-id="desc-jap">
+          <template id="desc-jap">
+
+            <div data-slot="author">あきら</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1974<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>いつになったら</li>
+                <li>この胸のときめきを</li>
+                <li>窓辺のデート</li>
+                <li>あなた</li>
+                <li>恋のハートビート</li>
+                <li>イエスタデイ・ワンス・モア</li>
+                <li>サインはウィッシュ</li>
+                <li>銀の十字架</li>
+                <li>君は僕の悩み</li>
+                <li>デイゴの少女</li>
+                <li>ロック天国</li>
+                <li>悲しきクラス替え</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/faith.jpg" alt="Faith" class="album_poster" data-caption="Faith" data-description-id="desc-faith">
+          <template id="desc-faith">
+
+            <div data-slot="author">George Michael</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1987<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Faith</li>
+                <li>Hand To Mouth</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/shy.jpg" alt="Too Shy" class="album_poster" data-caption="Too Shy" data-description-id="desc-shy">
+          <template id="desc-shy">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Kajagoogoo</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1983<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Too Shy</li>
+                <li>Take Another View</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/sin.jpg" alt="It's A Sin" class="album_poster" data-caption="It's A Sin" data-description-id="desc-sin">
+          <template id="desc-sin">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Pet Shop Boys</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1987<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>It's A Sin</li>
+                <li>You Know Where You Went Wrong</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+        </td>
+      </tr>
+      
+      <!-- Header 2 -->
+      <tr class="accordion-header" onclick="toggleRow('row2')">
+        <td class="td_dvd"><h3>Rock</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 2 -->
+      <tr id="row2" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/arctic_monkeys_am.jpg" alt="AM" class="album_poster" data-caption="AM" data-description-id="desc-am">
+          <template id="desc-am">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Arctic Monkeys</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2013<br><br>Record's creation : <br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Do I Wanna Know ?</li>
+                <li>R U Mine ?</li>
+                <li>One for the Road ?</li>
+                <li>Arabella</li>
+                <li>I Want It All</li>
+                <li>No. 1 Party Anthem</li>
+                <li>Mad Sounds</li>
+                <li>Fireside</li>
+                <li>Why'd You Only Call Me When You're High?</li>
+                <li>Snap Out of It</li>
+                <li>Knee Socks</li>
+                <li>I Wanna Be Yours</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/arctic_monkeys_favourite_worst_nightmare.jpg" alt="Favourite Worst Nightmare" class="album_poster" data-caption="Favourite Worst Nightmare" data-description-id="desc-nightmare">
+          <template id="desc-nightmare">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Arctic Monkeys</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2007<br><br>Record's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Brianstorm</li>
+                <li>Teddy Picker</li>
+                <li>D Is for Dangerous</li>
+                <li>Balaclava</li>
+                <li>Fluorescent Adolescent</li>
+                <li>Only Ones Who Know</li>
+                <li>Do Me a Favour</li>
+                <li>This House Is a Circus</li>
+                <li>If You Were There, Beware</li>
+                <li>Snap Out of It</li>
+                <li>The Bad Thing</li>
+                <li>Old Yellow Bricks</li>
+                <li>505</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/music_cover/queen_greatest_hits.jpg" alt="Queen Greatest Hits" class="album_poster" data-caption="Queen Greatest Hits" data-description-id="desc-queen">
+          <template id="desc-queen">
+
+            <div data-slot="author">Queen</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1981<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Bohemian Rhapsody</li>
+                <li>Another One Bites The Dust</li>
+                <li>Killer Queen</li>
+                <li>Fat Bottomed Girls</li>
+                <li>Bicycle Race</li>
+                <li>You'Re My Best Friend</li>
+                <li>Don't Stop Me Now</li>
+                <li>Save Me</li>
+                <li>Crazy Little Thing Called Love</li>
+                <li>Somebody To Love</li>
+                <li>Now I'M Here</li>
+                <li>Good Old-fashioned Lover Boy</li>
+                <li>Play The Game</li>
+                <li>Flash</li>
+                <li>Seven Seas Of Rhye</li>
+                <li>We Will Rock You</li>
+                <li>We Are The Champions</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/music_cover/goldman.jpg" alt="Puisque Tu Pars" class="album_poster" data-caption="Puisque Tu Pars" data-description-id="desc-goldman">
+          <template id="desc-goldman">
+
+            <div data-slot="author">Jean-Jacques Goldman</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1988<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Puisque Tu Pars</li>
+                <li>Entre Gris Clair Et Gris Fonce</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/music_cover/asia.jpg" alt="Heat Of The Moment" class="album_poster" data-caption="Heat Of The Moment" data-description-id="desc-moment">
+          <template id="desc-moment">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Asia</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1982<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Heat Of The Moment</li>
+                <li>Time Again</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/ferryman.jpg" alt="Don't Pay The Ferryman" class="album_poster" data-caption="Don't Pay The Ferryman" data-description-id="desc-ferry">
+          <template id="desc-ferry">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Chris de Burgh</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1982<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Don't Pay The Ferryman</li>
+                <li>Living On The Island</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+        
+        </td>
+      </tr>
+
+      <!-- Header 3 -->
+      <tr class="accordion-header" onclick="toggleRow('row3')">
+        <td class="td_dvd"><h3>Soundtracks</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 3 -->
+      <tr id="row3" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/tron_legacy.jpg" alt="Tron Legacy" class="album_poster" data-caption="Tron Legacy" data-description-id="desc-tron">
+          <template id="desc-tron">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Daft Punk</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2021<br><br>Record's creation : <br><br>Number of discs : 2 (blue and clear)</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Overture</li>
+                <li>The Grid</li>
+                <li>The Son of Flynn</li>
+                <li>Recognizer</li>
+                <li>Armory</li>
+                <li>Arena</li>
+                <li>Rinzler</li>
+                <li>The Game Has Changed</li>
+                <li>Outlands</li>
+                <li>Adagio For TRON</li>
+                <li>Nocturne</li>
+                <li>End of Line</li>
+                <li>Derezzed</li>
+                <li>Fall</li>
+                <li>Solar Sailer</li>
+                <li>Rectifier</li>
+                <li>Disc Wars</li>
+                <li>C.L.U.</li>
+                <li>Arrival</li>
+                <li>Flynn Lives</li>
+                <li>TRON Legacy (End Titles)</li>
+                <li>Finale</li>
+                <li>Sea of Simulation</li>
+                <li>Encom Part II</li>
+                <li>Encom Part I</li>
+                <li>Round One</li>
+                <li>Castor</li>
+                <li>Reflections</li>
+                <li>Sunrise Prelude</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/music_cover/the_outsiders.jpg" alt="The Outsiders" class="album_poster" data-caption="The Outsiders - Original Motion Picture Soundtrack" data-description-id="desc-outsiders">
+          <template id="desc-outsiders">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Carmine Coppola</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2021<br><br>Record's creation : <br><br>Number of discs : 2 (blue and orange)</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Stay Gold</li>
+                <li>Fate Theme</li>
+                <li>Country Suite</li>
+                <li>Cherry Says Goodbye</li>
+                <li>Incidental Music 1</li>
+                <li>Fight in the Park</li>
+                <li>Bob Is Dead</li>
+                <li>Deserted Church Suite</li>
+                <li>Sunrise</li>
+                <li>Fire at the Church</li>
+                <li>Incidental Music 2</li>
+                <li>Rumble Variation / Dallas' Death</li>
+                <li>Brothers Together</li>
+                <li>Rumble</li>
+                <li>Stay Gold (Alternate) </li>
+                <li>The Outside In </li>
+                <li>Stay Gold</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/exodus.jpg" alt="Exodus" class="album_poster" data-caption="Exodus" data-description-id="desc-exodus">
+          <template id="desc-exodus">
+
+            <div data-slot="author">Ernest Gold</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1960<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Theme Of Exodus</li>
+                <li>Summer In Cyprus</li>
+                <li>Escape</li>
+                <li>Ari</li>
+                <li>Karen</li>
+                <li>Valley Of Jezreel</li>
+                <li>Fight For Survival</li>
+                <li>In Jerusalem</li>
+                <li>The Brothers</li>
+                <li>Conspiracy</li>
+                <li>Prison Break</li>
+                <li>Dawn</li>
+                <li>Fight For Peace</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+          
+          <img src="/images/music_cover/awesome_mix.jpg" alt="Guardians Of The Galaxy : Awesome Mix, Volume 1" class="album_poster" data-caption="Guardians Of The Galaxy : Awesome Mix, Volume 1" data-description-id="desc-galaxy">
+          <template id="desc-galaxy">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2014<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Hooked On A Feeling</li>
+                <li>Go All The Way</li>
+                <li>Spirit In The Sky</li>
+                <li>Moonage Daydream</li>
+                <li>Fooled Around And Fell In Love</li>
+                <li>I Want You Back</li>
+                <li>I'm Not In Love</li>
+                <li>Come And Get Your Love</li>
+                <li>Cherry Bomb</li>
+                <li>Escape The Pina Colada Song</li>
+                <li>O-o-h Child</li>
+                <li>Something With A Ring To It</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>My first ever record !</p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 4 -->
+      <tr class="accordion-header" onclick="toggleRow('row4')">
+        <td class="td_dvd"><h3>Musicals</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 4 -->
+      <tr id="row4" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/wss_2.jpg" alt="West Side Story" class="album_poster" data-caption="West Side Story - the original Broadway cast" data-description-id="desc-wss2">
+          <template id="desc-wss2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Leonard Bernstein & Stephen Sondheim</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1961<br><br>Record's creation : 1961<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prologue</li>
+                <li>Jet Song</li>
+                <li>Something's Coming</li>
+                <li>Dance at the Gym</li>
+                <li>Maria</li>
+                <li>Tonight</li>
+                <li>America</li>
+                <li>Cool</li>
+                <li>I Feel Pretty</li>
+                <li>One Hand, One Heart</li>
+                <li>Quintet</li>
+                <li>The Rumble</li>
+                <li>Gee, Officer Krupke!</li>
+                <li>A Boy Like That and I Have a Love</li>
+                <li>Somewhere (Finale)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/music_cover/wss_1.jpg" alt="West Side Story" class="album_poster" data-caption="West Side Story - the original soundtrack" data-description-id="desc-wss1">
+          <template id="desc-wss1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Leonard Bernstein & Stephen Sondheim</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1961<br><br>Record's creation : 2019<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prologue</li>
+                <li>Jet Song</li>
+                <li>Something's Coming</li>
+                <li>Dance at the Gym</li>
+                <li>Maria</li>
+                <li>America</li>
+                <li>Tonight</li>
+                <li>Gee, Officer Krupke!</li>
+                <li>I Feel Pretty</li>
+                <li>One Hand, One Heart</li>
+                <li>Quintet</li>
+                <li>The Rumble</li>
+                <li>Cool</li>
+                <li>A Boy Like That and I Have a Love</li>
+                <li>Somewhere (Finale)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>           
+          
+          <img src="/images/music_cover/american_in_paris.jpg" alt="An American In Paris" class="album_poster" data-caption="An American In Paris: The Original MGM Soundtrack Album" data-description-id="desc-american">
+          <template id="desc-american">
+
+            <div data-slot="author">George Gershwin</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1951<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>S Wonderful</li>
+                <li>Love Is Here to Stay</li>
+                <li>I'll Build a Stairway to Paradise</li>
+                <li>I Got Rhythm</li>
+                <li>An American in Paris Ballet</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>I received it as a gift ! Not a huge fan of the movie but the songs are good.</p>            
+            </div>
+          </template>           
+          
+          <img src="/images/music_cover/easter_parade.png" alt="Easter Parade" class="album_poster" data-caption="Easter Parade" data-description-id="desc-easter">
+          <template id="desc-easter">
+
+            <div data-slot="author">Irving Berlin</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 19-<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Steppin' Out With My Baby</li>
+                <li>A Fella With An Umbrella</li>
+                <li>Shaking The Blues Away</li>
+                <li>I Love A Piano</li>
+                <li>Snooky Ookums</li>
+                <li>When The Midnight Choo Choo Leaves For Alabam</li>
+                <li>A Couple Of Swells</li>
+                <li>It Only Happens When I Dance With You</li>
+                <li>Better Luck Next Time</li>
+                <li>Easter Parade</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/troy_saga.jpg" alt="Troy Saga" class="album_poster" data-caption="EPIC The Musical : Troy Saga" data-description-id="desc-troy">
+          <template id="desc-troy">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>           
+            
+            <div data-slot="author">Jorge Rivera-Herrans</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2025<br><br>Record's creation : <br><br>Number of discs : 1 (coloured)</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>The Horse and the Infant</li>
+                <li>Just a Man</li>
+                <li>Full Speed Ahead</li>
+                <li>Open Arms</li>
+                <li>Warrior of the Mind</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/sound_of_music.jpg" alt="The Sound of Music" class="album_poster" data-caption="The Sound of Music" data-description-id="desc-sound">
+          <template id="desc-sound">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Rodgers & Hammerstein</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1965<br><br>Record's creation : 1965<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prelude And The Sound Of Music</li>
+                <li>Overture And Preludium</li>
+                <li>Morning Hymn And Alleluia</li>
+                <li>Maria</li>
+                <li>I Have Confidence</li>
+                <li>Sixteen Going On Seventeen</li>
+                <li>My Favorite Things</li>
+                <li>Climb Ev'ry Mountain</li>
+                <li>The Lonely Goatherd</li>
+                <li>The Sound Of Music</li>
+                <li>Do-Re-Mi</li>
+                <li>Something Good</li>
+                <li>Processional And Maria</li>
+                <li>Edelweiss</li>
+                <li>So Long, Farewell</li>
+                <li>Climb Ev'ry Mountain (Reprise)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/flower_drum_song.jpg" alt="Flower Drum Song" class="album_poster" data-caption="Flower Drum Song" data-description-id="desc-drum">
+          <template id="desc-drum">
+
+            <div data-slot="author">Rodgers & Hammerstein</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1958<br><br>Record's creation : -<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Overture</li>
+                <li>You Are Beautiful</li>
+                <li>A Hundred Million Miracles</li>
+                <li>I Enjoy Being a Girl</li>
+                <li>I Am Going to Like It Here</li>
+                <li>Like a God</li>
+                <li>Chop Suey</li>
+                <li>Don't Marry Me</li>
+                <li>Entr'acte</li>
+                <li>Grant Avenue</li>
+                <li>Love, Look Away</li>
+                <li>At the Celestial Bar</li>
+                <li>The Other Generation</li>
+                <li>Sunday</li>
+                <li>The Other Generation (Reprise)</li>
+                <li>Wedding Parade and Finale</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>I haven't listened to it yet or seen the movie/musical.</p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/grease.jpg" alt="Grease" class="album_poster" data-caption="Grease" data-description-id="desc-grease">
+          <template id="desc-grease">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1978<br><br>Record's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Grease</li>
+                <li>Summer Nights</li>
+                <li>Hopelessly Devoted To You</li>
+                <li>You're The One That I Want</li>
+                <li>Sandy</li>
+                <li>Beauty School Drop-Out</li>
+                <li>Look At Me, I'm Sandra Dee</li>
+                <li>Greased Lightnin'</li>
+                <li>It's Raining On Prom Night</li>
+                <li>Alone At A Drive-In Movie (Instrumental)</li>
+                <li>Blue Moon</li>
+                <li>Rock 'N' Roll Is Here To Stay</li>
+                <li>Those Magic Changes</li>
+                <li>Hound Dog</li>
+                <li>Born To Hand-Jive</li>
+                <li>Tears On My Pillow</li>
+                <li>Mooning</li>
+                <li>Freddy, My Love</li>
+                <li>Rock 'N' Roll Party Queen</li>
+                <li>There Are Worse Things I Could Do</li>
+                <li>Look At Me, I'm Sandra Dee (Reprise)</li>
+                <li>We Go Together</li>
+                <li>Love Is A Many Splendored Thing (Instrumental)</li>
+                <li>Grease (Reprise)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>ALL these songs are just amazing ! If I had to pick my favourites, it would probably be "Grease" and "Greased Lightnin'".</p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/mary_poppins.jpg" alt="Mary Poppins" class="album_poster" data-caption="Mary Poppins (Original Cast Sound Track)" data-description-id="desc-poppins">
+          <template id="desc-poppins">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1964<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Overture</li>
+                <li>The Perfect Nanny</li>
+                <li>Sister Suffragette</li>
+                <li>The Life I Lead</li>
+                <li>A Spoonful Of Sugar</li>
+                <li>Pavement Artist (Chim Chim Cheree)</li>
+                <li>Jolly Holiday</li>
+                <li>Super-Cali-Fragil-Istic-Expi-Ali Docious</li>
+                <li>Stay Awake</li>
+                <li>I Love To Laugh</li>
+                <li>A British Bank (The Life I Lead)</li>
+                <li>Feed The Birds (Tuppence A Bag)</li>
+                <li>Fidelity Fiduciary Bank</li>
+                <li>Chim Chim Cheree</li>
+                <li>Step In Time</li>
+                <li>A Man Has Dreams (The Life I Lead-A Spoonful Of Sugar)</li>
+                <li>Let's Go Fly A Kite</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>I can barely listen to this album without feeling unbearably nostalgic.</p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/kiss_me_kate.jpg" alt="Kiss Me, Kate" class="album_poster" data-caption="Kiss Me, Kate" data-description-id="desc-kate">
+          <template id="desc-kate">
+
+            <div data-slot="author">Henri Rene</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1959<br><br>Record's creation : -<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Another Op'nin', Another Show</li>
+                <li>Why Can't You Behave?</li>
+                <li>Wunderbar</li>
+                <li>So in Love</li>
+                <li>Tom, Dick or Harry</li>
+                <li>We Open in Venice</li>
+                <li>Too Darn Hot</li>
+                <li>I've Come to Wive It Wealthily in Padua</li>
+                <li>Always True to You in My Fashion</li>
+                <li>Were Thine That Special Face</li>
+                <li>Brush Up Your Shakespeare</li>
+                <li>I Hate Men</li>
+                <li>Where is the Life That Late I Led?</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/music_cover/music_man.png" alt="The Music Man" class="album_poster" data-caption="The Music Man" data-description-id="desc-music">
+          <template id="desc-music">
+
+            <div data-slot="author">Meredith Willson</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1958<br><br>Record's creation : -<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Main Title</li>
+                <li>Rock Island</li>
+                <li>Iowa Stubborn</li>
+                <li>Ya Got Trouble</li>
+                <li>Piano Lesson & If You Don't Mind My Saying So</li>
+                <li>Goodnight My Someone</li>
+                <li>Ya Got Trouble & Seventy-Six Trombones</li>
+                <li>Sincere</li>
+                <li>The Sadder But Wiser Girl</li>
+                <li>Pick-A-Little, Talk-A-Little</li>
+                <li>Marian The Librarian</li>
+                <li>Being In Love</li>
+                <li>Gary, Indiana</li>
+                <li>The Wells Fargo Wagon</li>
+                <li>Lida Rose & Will I Ever Tell You?</li>
+                <li>Gary, Indiana</li>
+                <li>Shipoopi</li>
+                <li>Till There Was You</li>
+                <li>Goodnight, My Someone</li>
+                <li>Seventy-Six Trombones</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>Haven't listened to it or seen the movie yet.</p>
+            </div>
+          </template>
+
+          <img src="/images/music_cover/gigi.png" alt="Gigi" class="album_poster" data-caption="Gigi" data-description-id="desc-gigi">
+          <template id="desc-gigi">
+
+            <div data-slot="author">Alan Jay Lerner & Frederick Loewe</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1958<br><br>Record's creation : -<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Overture</li>
+                <li>Thank Heaven For Little Girls</li>
+                <li>It's A Bore</li>
+                <li>The Parisians</li>
+                <li>Waltz At Maxim's (She Is Not Thinking Of Me)</li>
+                <li>The Night They Invented Champagne</li>
+                <li>I Remember It Well</li>
+                <li>Say A Prayer For Me Tonight</li>
+                <li>I'm Glad I'm Not Young Anymore</li>
+                <li>Gigi</li>
+                <li>Finale. Thank Heaven For Little Girls</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>Haven't listened to it or seen the movie yet.</p>
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 5 -->
+      <tr class="accordion-header" onclick="toggleRow('row5')">
+        <td class="td_dvd"><h3>Jazz & Crooners</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 5 -->
+      <tr id="row5" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/all_that_jazz.jpg" alt="All That Jazz 2 (ジブリジャズ)" class="album_poster" data-caption="All That Jazz 2 (ジブリジャズ)" data-description-id="desc-ghibli">
+          <template id="desc-ghibli">
+
+            <div data-slot="author">Tatsuru Ishikawa & Chikara Nogami</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2022<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>風の通り道 (My Neighbor Totoro)</li>
+                <li>晴れた日に (Kiki's Delivery Service)</li>
+                <li>さんぽ (My Neighbor Totoro)</li>
+                <li>空から降ってきた少女 (Castle In The Sky)</li>
+                <li>めぐる季節 (Kiki's Delivery Service)</li>
+                <li>アシタカせっ記 (The Princess Mononoke)</li>
+                <li>愛は花、君はその種子 (Only Yesterday)</li>
+                <li>テルーの唄 (Legend of Earthsea)</li>
+                <li>あの夏へ (Spirited Away)</li>
+                <li>いつも何度でも (Spirited Away)</li>
+                <li>Arrietty's Song (Arrietty the Borrower)</li>
+                <li>世界の約束 (Howl’s Moving Castle)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/music_cover/chet_baker_sings.jpg" alt="Chet Baker Sings" class="album_poster" data-caption="Chet Baker Sings" data-description-id="desc-chet">
+          <template id="desc-chet">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Chet Baker</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1956<br><br>Record's creation : <br><br>Number of discs : 1 (blue)</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>That Old Feeling</li>
+                <li>It's Always You</li>
+                <li>Like Someone In Love</li>
+                <li>My Ideal</li>
+                <li>I've Never Been In Love Before</li>
+                <li>My Buddy</li>
+                <li>But Not For Me</li>
+                <li>Time After Time</li>
+                <li>I Get Along Without You Very Well</li>
+                <li>My Funny Valentine</li>
+                <li>There Will Never Be Another You</li>
+                <li>The Thrill Is Gone</li>
+                <li>I Fall In Love Too Easily</li>
+                <li>Look For The Silver Lining</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/frank_sinatra.jpg" alt="Frank Sinatra Come Fly With Me" class="album_poster" data-caption="Frank Sinatra - Come Fly With Me" data-description-id="desc-sinatra">
+          <template id="desc-sinatra">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Frank Sinatra</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2020<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Come Fly With Me</li>
+                <li>I've Got You Under My Skin</li>
+                <li>Just One Of Those Things</li>
+                <li>They Can't Take That Away From Me</li>
+                <li>I Get A Kick Out Of You</li>
+                <li>My Funny Valentine</li>
+                <li>It Happened In Monterey</li>
+                <li>Come Dance With Me</li>
+                <li>Cheek To Cheek</li>
+                <li>You Make Me Feel So Young</li>
+                <li>Nice 'N' Easy</li>
+                <li>Night And Day</li>
+                <li>Pennies From Heaven</li>
+                <li>As Time Goes By</li>
+                <li>Young At Heart</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/music_cover/slow_dance.jpg" alt="Slow-Dance & Blues" class="album_poster" data-caption="Orgue Hammond - Slow-Dance & Blues" data-description-id="desc-blues">
+          <template id="desc-blues">
+
+            <div data-slot="author">Jean-Claude Pelletier et son orchestre</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1974<br><br>Record's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Basin Street Blues</li>
+                <li>Stardust</li>
+                <li>Deep Purple</li>
+                <li>Wabash Blues</li>
+                <li>By A Waterfall</li>
+                <li>Life Is Pleasant Here</li>
+                <li>Stormy Weather</li>
+                <li>Sweet And Lovely</li>
+                <li>Mood Indigo</li>
+                <li>Me And My Shadow</li>
+                <li>Blue Skies</li>
+                <li>Bye... Bye... Blackbird</li>
+                <li>Moonlight Serenade</li>
+                <li>I'm In The Mood For Love</li>
+                <li>Ebb Tide</li>
+                <li>Blue Moon</li>
+                <li>My Funny Valentine</li>
+                <li>Love For Sale</li>
+                <li>Blues In The Night</li>
+                <li>My Foolish Heart</li>
+                <li>Date With The Blues</li>
+                <li>That's My Desire</li>
+                <li>Singing In The Rain</li>
+                <li>Margie</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+              
+          <img src="/images/music_cover/noel_crooners.jpg" alt="Noël Crooners" class="album_poster" data-caption="Noël Crooners" data-description-id="desc-noel">
+          <template id="desc-noel">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2018<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Let It Snow! Let It Snow! Let It Snow!</li>
+                <li>Jingle Bells</li>
+                <li>White Christmas</li>
+                <li>The Christmas Song</li>
+                <li>Christmas In New Orleans</li>
+                <li>Winter Wonderland</li>
+                <li>O Come All Ye Faithful</li>
+                <li>Wade In The Water</li>
+                <li>Blue Christmas</li>
+                <li>It's Christmas Everywhere</li>
+                <li>I Heard The Bells On The Christmas Day</li>
+                <li>Santa Claus Is Coming To Town</li>
+                <li>Silent Night</li>
+                <li>The Snow Is Falling</li>
+                <li>Silver Bells</li>
+                <li>I Believe</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+        
+        </td>
+      </tr>
+
+      <!-- Header 6 -->
+      <tr class="accordion-header" onclick="toggleRow('row6')">
+        <td class="td_dvd"><h3>Classical & Lofi</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 6 -->
+      <tr id="row6" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/peter_and_the_wolf.jpg" alt="Peter and the Wolf" class="album_poster" data-caption="David Bowie Narrates Prokofiev's Peter and the Wolf" data-description-id="desc-wolf">
+          <template id="desc-wolf">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">David Bowie & Philadelphia Orchestra</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1978<br><br>Record's creation : 1978<br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Notes</h3>
+              <p>This record is so nostalgic to me. I used to listen to it quite a bit when I was like 5. Makes me tear up when I hear the first couple notes haha !<br><br>
+                So when I found the ORIGINAL record at a local flea market, I immediately bought it !
+              </p>            
+            </div>
+          </template>  
+          
+          <img src="/images/music_cover/the_gate_to_serenity.jpg" alt="The Gate To Serenity" class="album_poster" data-caption="The Gate To Serenity" data-description-id="desc-serenity">
+          <template id="desc-serenity">
+
+            <div data-slot="author">DaniSogen</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2022<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Peaceful Warrior</li>
+                <li>Devotion</li>
+                <li>Voice of the Wind</li>
+                <li>The Old Legend</li>
+                <li>Nei</li>
+                <li>Strong Minded</li>
+                <li>Miasu</li>
+                <li>Healing Touch</li>
+                <li>Ekiso</li>
+                <li>Quitness</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/forest_kingdom.jpg" alt="Forest Kingdom" class="album_poster" data-caption="Forest Kingdom" data-description-id="desc-forest">
+          <template id="desc-forest">
+
+            <div data-slot="author">Mondo Loops</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2022<br><br>Record's creation : <br><br>Number of discs : 1 (green)</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Ancient Map</li>
+                <li>The Lasting Memory</li>
+                <li>Savoured Breath</li>
+                <li>Luthien’s Song</li>
+                <li>The Road Goes Even On</li>
+                <li>Visions In The Swamp</li>
+                <li>Desert Winds</li>
+                <li>Lofi Lullaby</li>
+                <li>Overgrown Piano</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+        
+        </td>
+      </tr>
+
+      <!-- Header 7 -->
+      <tr class="accordion-header" onclick="toggleRow('row7')">
+        <td class="td_dvd"><h3>Other</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 7 -->
+      <tr id="row7" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/cigarettes_after_sex.jpg" alt="X's" class="album_poster" data-caption="X's" data-description-id="desc-x">
+          <template id="desc-x">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Cigarettes After Sex</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2024<br><br>Record's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>X's</li>
+                <li>Tejano Blue</li>
+                <li>Silver Sable</li>
+                <li>Hideaway</li>
+                <li>Holding You, Holding Me</li>
+                <li>Dark Vacay</li>
+                <li>Baby Blue Movie</li>
+                <li>Hot</li>
+                <li>Dreams From Bunker Hill</li>
+                <li>Ambien Slide</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>Ugh, I love these songs so much !</p>            
+            </div>
+          </template>        
+        
+          <img src="/images/music_cover/love_somebody.jpg" alt="If You Love Somebody Set Them Free" class="album_poster" data-caption="If You Love Somebody Set Them Free" data-description-id="desc-somebody">
+          <template id="desc-somebody">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Sting</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1985<br><br>Record's creation : -<br><br>45 RPM</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>If You Love Somebody Set Them Free</li>
+                <li>Another Day</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+  <h2>CDs</h2>
+
+      <!-- Tableau -->
+    <table class="table_dvd">
+      
+    <tbody>
+      <!-- Header 1 -->
+      <tr class="accordion-header" onclick="toggleRow('row8')">
+        <td class="td_dvd"><h3>Pop</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 1 -->
+      <tr id="row8" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/wdw.jpg" alt="8 Letters" class="album_poster" data-caption="8 Letters" data-description-id="desc-wdw">
+          <template id="desc-wdw">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Why Don't We</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2018<br><br>Record's creation : 1<br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>8 Letters</li>
+                <li>Talk</li>
+                <li>Choose</li>
+                <li>In Too Deep</li>
+                <li>Friends</li>
+                <li>Hard</li>
+                <li>Hooked</li>
+                <li>Falling</li>
+                <li>Trust Fund Baby</li>
+                <li>These Girls</li>
+                <li>Something Different</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p>Used to be OBSESSED with them when they were first formed !</p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+      
+      <!-- Header 2 -->
+      <tr class="accordion-header" onclick="toggleRow('row9')">
+        <td class="td_dvd"><h3>Rock</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 2 -->
+      <tr id="row9" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/beach_boys_golden_greats.jpg" alt="Album Poster" class="album_poster">
+          <img src="/images/music_cover/police_every_breath.jpg" alt="Album Poster" class="album_poster">
+          <img src="/images/music_cover/queen_greatest_hits.jpg" alt="Album Poster" class="album_poster">
+
+          <img src="/images/music_cover/xy.jpg" alt="X&Y" class="album_poster" data-caption="X&Y" data-description-id="desc-xy">
+          <template id="desc-xy">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Coldplay</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2005<br><br>CD's creation : <br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Square One</li>
+                <li>What If</li>
+                <li>White Shadows</li>
+                <li>Fix You</li>
+                <li>Talk</li>
+                <li>X&Y</li>
+                <li>Speed Of Sound</li>
+                <li>A Message</li>
+                <li>Low</li>
+                <li>The Hardest Part</li>
+                <li>Swallowed In The Sea</li>
+                <li>Twisted Logic</li>
+                <li>Til Kingdom Come</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/u2_1.jpg" alt="All That You Can't Leave Behind" class="album_poster" data-caption="All That You Can't Leave Behind" data-description-id="desc-U21">
+          <template id="desc-U21">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">U2</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2000<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Beautiful Day</li>
+                <li>Stuck In A Moment You Can't Get Out Of</li>
+                <li>Elevation</li>
+                <li>Walk On</li>
+                <li>Kite</li>
+                <li>In A Little While</li>
+                <li>Wild Honey</li>
+                <li>Peace On Earth</li>
+                <li>When I Look At The World</li>
+                <li>New York</li>
+                <li>Grace</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/u2_2.jpg" alt="How To Dismantle An Atomic Bomb" class="album_poster" data-caption="How To Dismantle An Atomic Bomb" data-description-id="desc-U22">
+          <template id="desc-U22">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">U2</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2004<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Vertigo</li>
+                <li>Miracle Drug</li>
+                <li>Sometimes You Can't Make It On Your Own</li>
+                <li>Love And Peace Or Else</li>
+                <li>City Of Blinding Lights</li>
+                <li>A Man And A Woman</li>
+                <li>Crumbs From Your Table</li>
+                <li>One Step Closer</li>
+                <li>Original Of The Species</li>
+                <li>Yahweh</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/u2_3.jpg" alt="Pop" class="album_poster" data-caption="Pop" data-description-id="desc-U23">
+          <template id="desc-U23">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">U2</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1997<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Discothèque</li>
+                <li>Do You Feel Loved</li>
+                <li>MOFO</li>
+                <li>If God Will Send His Angels</li>
+                <li>Staring At The Sun</li>
+                <li>Last Night On Earth</li>
+                <li>Gone</li>
+                <li>Miami</li>
+                <li>The Playboy Mansion</li>
+                <li>If You Wear That Velvet Dress</li>
+                <li>Please</li>
+                <li>Wake Up Dead Man</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/u2_4.jpg" alt="The Best Of 1990-2000 & B-Sides" class="album_poster" data-caption="The Best Of 1990-2000 & B-Sides" data-description-id="desc-U24">
+          <template id="desc-U24">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">U2</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2002<br><br>CD's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <p><b>The Best Of</b></p>
+
+                <li>Even Better Than The Real Thing</li>
+                <li>Mysterious Ways</li>
+                <li>Beautiful Day</li>
+                <li>Electrical Storm (William Orbit Mix)</li>
+                <li>One</li>
+                <li>Miss Sarajevo</li>
+                <li>Stay (Faraway, So Close!)</li>
+                <li>Stuck In A Moment You Can't Get Out Of</li>
+                <li>Gone (New Mix)</li>
+                <li>Until The End Of The World</li>
+                <li>The Hands That Built America</li>
+                <li>Discothèque (New Mix)</li>
+                <li>Hold Me, Thrill Me, Kiss Me, Kill Me</li>
+                <li>Staring At The Sun (New Mix)</li>
+                <li>Numb (New Mix)</li>
+                <li>The First Time</li>
+                <li>The Fly</li><br>
+
+                <p><b>The B-Sides</b></p>
+
+                <li>Lady With The Spinning Head (Extended Dance Mix)</li>
+                <li>Dirty Day (Junk Day Mix)</li>
+                <li>Summer Rain</li>
+                <li>Electrical Storm</li>
+                <li>North And South Of The River</li>
+                <li>Your Blue Room</li>
+                <li>Happiness Is A Warm Gun (The Gun Mix)</li>
+                <li>Salomé (Zooromancer Remix)</li>
+                <li>Even Better Than The Real Thing (The Perfecto Mix)</li>
+                <li>Numb (Gimme Some More Dignity Mix)</li>
+                <li>Mysterious Ways (Solar Plexus Club Mix)</li>
+                <li>If God Will Send His Angels (Big Yam Mix)</li>
+                <li>Lemon (Jeep Mix)</li>
+                <li>Discothèque (Hexidecimal Mix)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/keane.jpg" alt="Hopes And Fears" class="album_poster" data-caption="Hopes And Fears" data-description-id="desc-keane">
+          <template id="desc-keane">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+            
+            <div data-slot="author">Keane</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2004<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Somewhere Only We Know</li>
+                <li>Bend And Break</li>
+                <li>We Might As Well Be Strangers</li>
+                <li>Everybody's Changing</li>
+                <li>Your Eyes Open</li>
+                <li>She Has No Time</li>
+                <li>Can't Stop Now</li>
+                <li>Sunshine</li>
+                <li>This Is The Last Time</li>
+                <li>On A Day Like Today</li>
+                <li>Untitled 1</li>
+                <li>Bedshaped</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/wicked.jpg" alt="Wicked Game" class="album_poster" data-caption="Wicked Game" data-description-id="desc-wicked">
+          <template id="desc-wicked">
+
+            <div data-slot="author">Chris Isaak</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1991<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Wicked Game</li>
+                <li>You Owe Me Some Kind Of Love</li>
+                <li>Blue Spanish Sky</li>
+                <li>Heart Shaped World</li>
+                <li>Heart Full Of Soul</li>
+                <li>Funeral In The Rain</li>
+                <li>Blue Hotel</li>
+                <li>Dancin'</li>
+                <li>Nothing's Changed</li>
+                <li>Voodoo</li>
+                <li>Lie To Me</li>
+                <li>Wicked Game (Instrumental)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/eagle.jpg" alt="Desireless" class="album_poster" data-caption="Desireless" data-description-id="desc-eagle">
+          <template id="desc-eagle">
+
+            <div data-slot="author">Eagle-Eye Cherry</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1997<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Save Tonight</li>
+                <li>Indecision</li>
+                <li>Comatose (In The Arms Of Slumber)</li>
+                <li>Worried Eyes</li>
+                <li>Rainbow Wings</li>
+                <li>Conversation</li>
+                <li>When Mermaids Cry</li>
+                <li>Shooting Up In Vain</li>
+                <li>Permanent Tears</li>
+                <li>Death Defied By Will</li>
+                <li>Desireless</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/collins.jpg" alt="...Hits" class="album_poster" data-caption="...Hits" data-description-id="desc-collins">
+          <template id="desc-collins">
+
+            <div data-slot="author">Phil Collins</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1998<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Another Day In Paradise</li>
+                <li>True Colors</li>
+                <li>Easy Lover</li>
+                <li>You Can't Hurry Love</li>
+                <li>Two Hearts</li>
+                <li>I Wish It Would Rain Down</li>
+                <li>Against All Odds</li>
+                <li>Something Happened On The Way To Heaven</li>
+                <li>Separate Lives</li>
+                <li>Both Sides Of The Story</li>
+                <li>One More Night</li>
+                <li>Sussudio</li>
+                <li>Dance Into The Light</li>
+                <li>A Groovy Kind Of Love</li>
+                <li>In The Air Tonight</li>
+                <li>Take Me Home</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/hotel.jpg" alt="Hotel*s" class="album_poster" data-caption="Hotel*s" data-description-id="desc-hotels">
+          <template id="desc-hotels">
+
+            <div data-slot="author">Stephan Eicher</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2001<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>La Chanson Bleue</li>
+                <li>Combien De Temps</li>
+                <li>Two People In A Room</li>
+                <li>Silence</li>
+                <li>Guggisberglied</li>
+                <li>Déjeuner En Paix</li>
+                <li>Pas D'Ami Comme Toi</li>
+                <li>Hemmige</li>
+                <li>Tu Ne Me Dois Rien</li>
+                <li>Elle Vient Me Voir</li>
+                <li>Des Hauts, Des Bas</li>
+                <li>Manteau De Gloire</li>
+                <li>Ni Remords, Ni Regrets</li>
+                <li>Rivière</li>
+                <li>Rien À Voir</li>
+                <li>Oh Ironie</li>
+                <li>1000 Vies</li>
+                <li>Venez Danser</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/mind.jpg" alt="Mindscapers" class="album_poster" data-caption="Mindscapers" data-description-id="desc-mind">
+          <template id="desc-mind">
+
+            <div data-slot="author">Galadriel</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1997<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>The Probe</li>
+                <li>On The Verge Of A New World</li>
+                <li>Soft As A Feather</li>
+                <li>Mindscapers</li>
+                <li>Homeland</li>
+                <li>Run For Cover</li>
+                <li>Last Train To Wonderland</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/pat.jpg" alt="Heartbreaker (Sixteen Classic Performances)" class="album_poster" data-caption="Heartbreaker (Sixteen Classic Performances)" data-description-id="desc-pat">
+          <template id="desc-pat">
+
+            <div data-slot="author">Pat Benatar</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1996<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Heartbreaker</li>
+                <li>Need A Lover</li>
+                <li>We Live For Love</li>
+                <li>Hell Is For Children</li>
+                <li>Promises In The Dark</li>
+                <li>Looking For A Stranger</li>
+                <li>Love Is A Battlefield (Single Version)</li>
+                <li>We Belong</li>
+                <li>Ooh Ooh Song</li>
+                <li>All Fired Up</li>
+                <li>Sex As A Weapon</li>
+                <li>True Love</li>
+                <li>Crazy</li>
+                <li>So Long</li>
+                <li>Helter Skelter (Live)</li>
+                <li>Hit Me With Your Best Shot (Live)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 3 -->
+      <tr class="accordion-header" onclick="toggleRow('row10')">
+        <td class="td_dvd"><h3>Holidays</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 3 -->
+      <tr id="row10" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/silent_night.jpg" alt="Silent Night" class="album_poster" data-caption="Silent Night" data-description-id="desc-silent">
+          <template id="desc-silent">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2004<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Jingle Bells - <i>Frank Sinatra</i></li>
+                <li>Feliz Navidad - <i>The Miracles</i></li>
+                <li>Lonely This Christmas - <i>Mud</i></li>
+                <li>What Child Is This - <i>Glen Campbell</i></li>
+                <li>Silent Night - <i>Mahalia Jackson</i></li>
+                <li>Joy To The World - <i>Nat King Cole</i></li>
+                <li>Wonderful Christmas Time - <i>The Cranberry Singers</i></li>
+                <li>Rudolph The Red Nosed Reindeer - <i>Bing Crosby, Ella Fitzgerald</i></li>
+                <li>Winter Wonderland - <i>Bill Pinkney</i></li>
+                <li>Santa Claus Is Coming To Town - <i>The Platters</i></li>
+                <li>Christmas In New Orleans - <i>Louis Armstrong</i></li>
+                <li>Here Comes Santa Claus - <i>Gene Autry</i></li>
+                <li>O Little Town Of Bethlehem - <i>Billy Vaughn</i></li>
+                <li>Please Come Home For Christmas - <i>The Three Degrees</i></li>
+                <li>The Christmas Song - <i>The Miracles</i></li>
+                <li>White Christmas - <i>Bing Crosby</i></li>
+                <li>We Wish You A Merry Christmas - <i>Orchestra Tijuana</i></li>
+                <li>I've Got The Christmas Spirit - <i>Brook Benton</i></li>
+                <li>Frosty The Snowman - <i>The Coasters</i></li>
+                <li>Gloria In Excelsis Deo - <i>Ann Phillips</i></li>
+              </ol>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/christmas.jpg" alt="Silent Night" class="album_poster" data-caption="Silent Night" data-description-id="desc-christmas">
+          <template id="desc-christmas">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : -<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li></li>
+              </ol>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+                
+        </td>
+      </tr>
+
+      <!-- Header 4 -->
+      <tr class="accordion-header" onclick="toggleRow('row11')">
+        <td class="td_dvd"><h3>Musicals</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 4 -->
+      <tr id="row11" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/fiddler.jpg" alt="Fiddler on the Roof: The Original Broadway Cast Recording" class="album_poster" data-caption="Fiddler on the Roof: The Original Broadway Cast Recording" data-description-id="desc-fiddler">
+          <template id="desc-fiddler">
+
+            <div data-slot="author">Broadway cast</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1964<br><br>CD's creation : -<br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prologue - Tradition</li>
+                <li>Matchmaker</li>
+                <li>If I Were A Rich Man</li>
+                <li>Sabbath Prayer</li>
+                <li>To Life</li>
+                <li>Miracle Of Miracles</li>
+                <li>The Dream</li>
+                <li>Sunrise, Sunset</li>
+                <li>Wedding Dance</li>
+                <li>Now I Have Everything</li>
+                <li>Do You Love Me?</li>
+                <li>The Rumor</li>
+                <li>Far From The Home I Love</li>
+                <li>Anatevka</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/fame.jpg" alt="Fame - Original Soundtrack From The Motion Picture" class="album_poster" data-caption="Fame - Original Soundtrack From The Motion Picture" data-description-id="desc-fame">
+          <template id="desc-fame">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1980<br><br>Record's creation : <br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Fame</li>
+                <li>Out Here On My Own</li>
+                <li>Hot Lunch Jam</li>
+                <li>Dogs In The Yard</li>
+                <li>Red Light</li>
+                <li>Is It Okay If I Call You Mine?</li>
+                <li>Never Alone</li>
+                <li>Ralph And Monty (Dressing Room Piano)</li>
+                <li>I Sing The Body Electric</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/woods.jpg" alt="Into The Woods (Original Cast Recording)" class="album_poster" data-caption="Into The Woods (Original Cast Recording)" data-description-id="desc-woods">
+          <template id="desc-woods">
+
+            <div data-slot="author">Stephen Sondheim</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1988<br><br>Record's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prologue: Into The Woods</li>
+                <li>Cinderella At The Grave</li>
+                <li>Hello, Little Girl</li>
+                <li>I Guess This Is Goodbye</li>
+                <li>Maybe They're Magic</li>
+                <li>I Know Things Now</li>
+                <li>A Very Nice Prince</li>
+                <li>First Midnight</li>
+                <li>Giants In The Sky</li>
+                <li>Agony</li>
+                <li>It Takes Two</li>
+                <li>Stay With Me</li>
+                <li>On The Steps Of The Palace</li>
+                <li>Ever After</li>
+                <li>Act II Prologue: So Happy</li>
+                <li>Agony</li>
+                <li>Lament</li>
+                <li>Any Moment</li>
+                <li>Moments In The Woods</li>
+                <li>Your Fault</li>
+                <li>Last Midnight</li>
+                <li>No More</li>
+                <li>No One Is Alone</li>
+                <li>Finale: Children Will Listen</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/shop.jpg" alt="Little Shop Of Horrors / Original Motion Picture Soundtrack" class="album_poster" data-caption="Little Shop Of Horrors - Original Motion Picture Soundtrack" data-description-id="desc-shop">
+          <template id="desc-shop">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 198?<br><br>Record's creation : <br><br>Number of discs : 2</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Prologue (Little Shop Of Horrors)</li>
+                <li>Skid Row (Downtown)</li>
+                <li>Da-Doo</li>
+                <li>Grow For Me</li>
+                <li>Somewhere That's Green</li>
+                <li>Some Fun Now</li>
+                <li>Dentist!</li>
+                <li>Feed Me (Git It)</li>
+                <li>Suddenly, Seymour</li>
+                <li>Suppertime</li>
+                <li>The Meek Shall Inherit</li>
+                <li>Mean Green Mother From Outerspace</li>
+                <li>Finale (Don't Feed The Plants)</li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/epic.jpg" alt="EPIC: The Musical (Complete CD Series)" class="album_poster" data-caption="EPIC: The Musical (Complete CD Series)" data-description-id="desc-epic">
+          <template id="desc-epic">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+            
+            <div data-slot="author">Jorge Rivera-Herrans</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2025<br><br>CD's creation : <br><br>Number of discs : 3</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <p><b>The Troy Saga</b></p>
+                
+                <li>The Horse And The Infant</li>
+                <li>Just a Man</li>
+                <li>Full Speed Ahead</li>
+                <li>Open Arms</li>
+                <li>Warrior of the Mind</li><br>
+                
+                <p><b>The Cyclops Saga</b></p>
+
+                <li>Polyphemus</li>
+                <li>Survive</li>
+                <li>Remember Them</li>
+                <li>My Goodbye</li><br>
+
+                <p><b>The Ocean Saga</b></p>
+
+                <li>Storm</li>
+                <li>Luck Runs Out</li>
+                <li>Keep Your Friends Close</li>
+                <li>Ruthlessness</li><br>
+
+                <p><b>The Circe Saga</b></p>
+
+                <li>Puppeteer</li>
+                <li>Wouldn´t You Like</li>
+                <li>Done For</li>
+                <li>There Are Other Ways</li><br>
+
+                <p><b>The Underworld Saga</b></p>
+
+                <li>The Underworld</li>
+                <li>No Longer You</li>
+                <li>Monster</li><br>
+
+                <p><b>The Thunder Saga</b></p>
+
+                <li>Suffering</li>
+                <li>Different Beast</li>
+                <li>Scylla</li>
+                <li>Mutiny</li>
+                <li>Thunder Bringer</li><br>
+
+                <p><b>The Wisdom Saga</b></p>
+
+                <li>Legendary</li>
+                <li>Little Wolf</li>
+                <li>We´ll Be Fine</li>
+                <li>Love in Paradise</li>
+                <li>God Games</li><br>
+
+                <p><b>The Vengeance Saga</b></p>
+
+                <li>Not Sorry For Loving You</li>
+                <li>Dangerous</li>
+                <li>Charybdis</li>
+                <li>Get in the Water</li>
+                <li>Six Hundred Strike</li><br>
+
+                <p><b>The Ithaca  Saga</b></p>
+
+                <li>The Challenge</li>
+                <li>Hold Them Down</li>
+                <li>Odysseus</li>
+                <li>I Can´t Help but Wonder</li>
+                <li>Would You Fall In Love With Me Again</li><br>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/musicals.jpg" alt="An evening at the musical" class="album_poster" data-caption="An evening at the musical" data-description-id="desc-evening">
+          <template id="desc-evening">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1994<br><br>CD's creation : <br><br>Number of discs : 3</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <p>Various songs from multiple musicals.</p> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 5 -->
+      <tr class="accordion-header" onclick="toggleRow('row12')">
+        <td class="td_dvd"><h3>Jazz & Crooners</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 5 -->
+      <tr id="row12" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/sinatra.jpg" alt="Sinatra's Sinatra: A Collection Of Frank's Favorites" class="album_poster" data-caption="Sinatra's Sinatra: A Collection Of Frank's Favorites" data-description-id="desc-frank">
+          <template id="desc-frank">
+
+            <div data-slot="author">Frank Sinatra</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2018<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>I've Got You Under My Skin</li>
+                <li>In The Wee Small Hours Of The Morning</li>
+                <li>The Second Time Around</li>
+                <li>Nancy (With The Laughing Face)</li>
+                <li>Witchcraft</li>
+                <li>Young At Heart</li>
+                <li>All The Way</li>
+                <li>(How Little It Matters) How Little We Know</li>
+                <li>Pocketful Of Miracles</li>
+                <li>Oh! What It Seemed To Be</li>
+                <li>Call Me Irresponsible</li>
+                <li>Put Your Dreams Away (For Another Day)</li>
+              </ol>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 6 -->
+      <tr class="accordion-header" onclick="toggleRow('row13')">
+        <td class="td_dvd"><h3>Other</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 6 -->
+      <tr id="row13" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/music_cover/poulain.jpg" alt="Le Fabuleux Destin D'Amélie Poulain" class="album_poster" data-caption="Le Fabuleux Destin D'Amélie Poulain" data-description-id="desc-poulain">
+          <template id="desc-poulain">
+
+            <div data-slot="author">Yann Tiersen</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2001<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>J'Y Suis Jamais Allé</li>
+                <li>Les Jours Tristes (Instrumental)</li>
+                <li>La Valse D'Amélie</li>
+                <li>Comptine D'Un Autre Été: L'Après Midi</li>
+                <li>La Noyée</li>
+                <li>L'Autre Valse D'Amélie</li>
+                <li>Guilty</li>
+                <li>A Quai</li>
+                <li>Le Moulin</li>
+                <li>Pas Si Simple</li>
+                <li>La Valse D'Amélie (Version Orchestre)</li>
+                <li>La Valse Des Vieux Os</li>
+                <li>La Dispute</li>
+                <li>Si Tu N'Étais Pas Là</li>
+                <li>Soir De Fête</li>
+                <li>La Redécouverte</li>
+                <li>Sur Le Fil</li>
+                <li>Le Banquet</li>
+                <li>La Valse D'Amélie (Version Piano)</li>
+                <li>La Valse Des Monstres</li>
+              </ol>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/music_cover/corrs.jpg" alt="Unplugged" class="album_poster" data-caption="Unplugged" data-description-id="desc-corrs">
+          <template id="desc-corrs">
+
+            <div data-slot="author">The Corrs</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 1999<br><br>CD's creation : <br><br>Number of discs : 1</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li>Only When I Sleep</li>
+                <li>What Can I Do</li>
+                <li>Radio</li>
+                <li>Toss The Feathers</li>
+                <li>Runaway</li>
+                <li>Forgiven Not Forgotten</li>
+                <li>At Your Side</li>
+                <li>Little Wing</li>
+                <li>No Frontiers</li>
+                <li>Queen Of Hollywood</li>
+                <li>Old Town</li>
+                <li>Lough Erin Shore</li>
+                <li>So Young</li>
+                <li>Everybody Hurts</li>>
+              </ol>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h2>Cassette tapes</h2>
+
+  <p>I own a good number of cassette tapes but some of them don't work and most of them were recorded by my parents when they were younger. So I decided not to put them on this website for now.</p>
+
+
+  <br><br>
+
+
+    </section>
+</main>
+
+<footer>©An Elvish Den 2026</footer>
+
+<script src="/styles/javascript.js"></script>
+<script src="/styles/oneko.js" data-cat="/images/oneko.gif"></script>
+
+</body>
+</html>
+
+<!-- TEMPLATE -->
+
+<!--
+
+          <img src="/images/music_cover/fiddler.jpg" alt="Fiddler on the Roof: The Original Broadway Cast Recording" class="album_poster" data-caption="Fiddler on the Roof: The Original Broadway Cast Recording" data-description-id="desc-fiddler">
+          <template id="desc-am">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Arctic Monkeys</div>
+
+            <div data-slot="right">
+              <p><i>Album released : 2013<br><br>Record's creation : <br><br>Number of discs : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Tracklist</h3>
+              <ol>
+                <li></li>
+                <li></li>
+              </ol> 
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+-->

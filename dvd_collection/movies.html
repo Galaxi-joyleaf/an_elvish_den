@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="/styles/styles.css">
+
+</head>
+<body>
+
+<div class="header">
+    <a href="/index.html" class="site_name"><h1>An Elvish Den</h1></a>
+</div>
+
+<nav class="menu">
+  <ul>
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="/dvd_collection/index.html" class="dropbtn">DVD Collection</a>
+      <div class="dropdown-content">
+        <a href="/dvd_collection/movies.html">Movies</a>
+        <a href="/dvd_collection/shows.html">TV shows</a>
+      </div>
+    </li>
+
+    <li><a href="/music.html" class="dropbtn">Music Collection</a></li>
+
+    <li><a href="/books.html" class="dropbtn">Books</a></li>
+
+    <li><a href="/about.html" class="dropbtn">About me :)</a></li>
+
+    <img src="/images/sign.png" class="sign">
+  </ul>
+</nav>
+
+<main>
+    <section>
+        <div>
+            <h2>Movies</h2><br>
+            <p>Here is my current DVD collection !<br>
+              I have a couple blu-rays and vhs tapes. Unless specified otherwise, these are all dvds.<br>
+              I'm not always big on rating movies so I've made a sticker that will pop-up for some of them if I really enjoyed watching them :</p>
+            <img src="/images/books/loved_it.png" alt="Loved it !" class="rating"><br>
+            <p>Within the sections, there is no specific order to the DVDs.<br><br>
+            <b>You can click on each movie to have more info.<br>If the images don't load, please refresh the page</b></p>             
+        </div>
+    </section>
+    <br><br>
+
+    <section class="dvd_section">
+
+<!--Boutons de tri-->
+    <div>
+      <button onclick="sortTable('original')">Ordre visité</button>
+      <button onclick="sortTable('alpha')">Alphabétique</button>
+    </div>
+    <br><br>
+
+      <!-- Tableau -->
+    <table class="table_dvd">
+      
+    <tbody>
+      <!-- Header 1 -->
+      <tr class="accordion-header" onclick="toggleRow('row1')">
+        <td class="td_dvd"><h3>Marvel</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 1 -->
+      <tr id="row1" class="accordion-content">
+        <td colspan="5">
+          <p>I'm a big Marvel fan ! I read comic here and there.</p>
+          
+          <img src="/images/movie_poster/spiderman_1.png" alt="Spider-Man 1" class="movie_poster" data-caption="Spider-Man 1" data-description-id="desc-spiderman1">
+          <template id="desc-spiderman1">
+
+            <div data-slot="right">
+              <p><i>Released : 2002<br><br>Run time : 2h 1m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A shy teenager is bitten by a genetically modified spider and uses his new spider-like abilities to fight injustice as a masked superhero.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/spiderman_2.png" alt="Spider-Man 2" class="movie_poster" data-caption="Spider-Man 2" data-description-id="desc-spiderman2">
+          <template id="desc-spiderman2">
+
+            <div data-slot="right">
+              <p><i>Released : 2004<br><br>Run time : 2h 7m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/spiderman_3.jpg" alt="Spider-Man 3" class="movie_poster" data-caption="Spider-Man 3" data-description-id="desc-spiderman3">
+          <template id="desc-spiderman3">
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : 2h 19m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/captain_america_the_first_avenger.jpg" alt="Captain America The First Avenger" class="movie_poster" data-caption="Captain America The First Avenger" data-description-id="desc-firstavenger">
+          <template id="desc-firstavenger">
+
+            <div data-slot="author">Blu-ray</div>
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 2h 4m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+  
+          <img src="/images/movie_poster/ironman_1.jpg" alt="Iron Man" class="movie_poster" data-caption="Iron Man" data-description-id="desc-ironman1">
+          <template id="desc-ironman1">
+
+            <div data-slot="right">
+              <p><i>Released : 2008<br><br>Run time : 2h 6m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/hulk.jpg" alt="Hulk" class="movie_poster" data-caption="Hulk" data-description-id="desc-hulk">          
+          <template id="desc-hulk">
+
+            <div data-slot="right">
+              <p><i>Released : 2003<br><br>Run time : 2h 18m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Bruce Banner, a genetics researcher with a tragic past, suffers a lab accident that makes him transform into a raging, giant green monster when angered, making him a target of forces seeking to abuse his power.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/ironman_2.jpg" alt="Iron Man 2" class="movie_poster" data-caption="Iron Man 2" data-description-id="desc-ironman2">
+          <template id="desc-ironman2">
+
+            <div data-slot="right">
+              <p><i>Released : 2010<br><br>Run time : 2h 4m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful madman with ties to his father's legacy.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/thor.jpg" alt="Thor" class="movie_poster" data-caption="Thor" data-description-id="desc-thor">
+          <template id="desc-thor">
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 1h 55m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/avengers.jpg" alt="The Avengers" class="movie_poster" data-caption="The Avengers" data-description-id="desc-avengers">
+          <template id="desc-avengers">
+
+            <div data-slot="right">
+              <p><i>Released : 2012<br><br>Run time : 2h 23m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/ironman_3.jpg" alt="Iron Man 3" class="movie_poster" data-caption="Iron Man 3" data-description-id="desc-ironman3">
+          <template id="desc-ironman3">
+
+            <div data-slot="right">
+              <p><i>Released : 2013<br><br>Run time : 2h 10m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/thor_dark_world.jpg" alt="Thor : The Dark World" class="movie_poster" data-caption="Thor : The Dark World" data-description-id="desc-darkworld">
+          <template id="desc-darkworld">
+
+            <div data-slot="right">
+              <p><i>Released : 2013<br><br>Run time : 1h 52m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with Doctor Jane Foster.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+          
+          <img src="/images/movie_poster/ragnarok.jpg" alt="Thor: Ragnarok" class="movie_poster" data-caption="Thor: Ragnarok" data-description-id="desc-ragnarok">
+          <template id="desc-ragnarok">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+            
+            <div data-slot="right">
+              <p><i>Released : 2017<br><br>Run time : 2h 10m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/captain_america_winter_soldier.jpg" alt="Captain America : The Winter Soldier" class="movie_poster" data-caption="Captain America : The Winter Soldier" data-description-id="desc-wintersoldier">
+          <template id="desc-wintersoldier">
+
+            <div data-slot="right">
+              <p><i>Released : 2014<br><br>Run time : 2h 16m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/avengers_age_of_ultron.png" alt="Avengers Age of Ultron" class="movie_poster" data-caption="Avengers : Age of Ultron" data-description-id="desc-ultron">
+          <template id="desc-ultron">
+
+            <div data-slot="author">Steelbook blu-ray and dvd discs</div>
+
+            <div data-slot="right">
+              <p><i>Released : 2015<br><br>Run time : 2h 21m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>  
+          
+          <img src="/images/movie_poster/civil_war.jpg" alt="Captain America: Civil War" class="movie_poster" data-caption="Captain America: Civil War" data-description-id="desc-civil">
+          <template id="desc-civil">
+
+            <div data-slot="right">
+              <p><i>Released : 2016<br><br>Run time : 2h 28m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/antman.jpg" alt="Ant-Man" class="movie_poster" data-caption="Ant-Man" data-description-id="desc-antman">
+          <template id="desc-antman">
+
+            <div data-slot="right">
+              <p><i>Released : 2015<br><br>Run time : 1h 57m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, pull off a plan that will save the world.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/avengers_infinity_war.jpg" alt="Avengers Infinity War" class="movie_poster" data-caption="Avengers Infinity War" data-description-id="desc-infinitywar">
+          <template id="desc-infinitywar">
+
+            <div data-slot="right">
+              <p><i>Released : 2018<br><br>Run time : 2h 29m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/avengers_endgame.jpg" alt="Avengers Endgame" class="movie_poster" data-caption="Avengers Endgame" data-description-id="desc-endgame">
+          <template id="desc-endgame">
+
+            <div data-slot="right">
+              <p><i>Released : 2019<br><br>Run time : 3h 1m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/spiderman_no_way_home.jpg" alt="Spider-Man No Way Home" class="movie_poster" data-caption="Spider-Man No Way Home" data-description-id="desc-nowayhome">
+          <template id="desc-nowayhome">
+
+            <div data-slot="right">
+              <p><i>Released : 2021<br><br>Run time : 2h 28m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Peter Parker turns to Doctor Strange after his identity destroys the life he knows, but a magical mistake draws powerful outsiders into his world and forces him to confront what being Spider-Man really means.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+          
+          <img src="/images/movie_poster/multiverse.jpg" alt="Doctor Strange in the Multiverse of Madness" class="movie_poster" data-caption="Doctor Strange in the Multiverse of Madness" data-description-id="desc-multiverse">
+          <template id="desc-multiverse">
+
+            <div data-slot="right">
+              <p><i>Released : 2022<br><br>Run time : 2h 6m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Doctor Strange teams up with a mysterious teenage girl who can travel across multiverses, to battle other-universe versions of himself which threaten to wipe out the multiverse. They seek help from the Scarlet Witch, Wong and others.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+          
+          <img src="/images/movie_poster/thunderbolts.jpg" alt="Thunderbolts*" class="movie_poster" data-caption="Thunderbolts*" data-description-id="desc-thunderbolts">
+          <template id="desc-thunderbolts">
+
+            <div data-slot="right">
+              <p><i>Released : 2025<br><br>Run time : 2h 7m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After finding themselves ensnared in a death trap, an unconventional team of antiheroes must go on a dangerous mission that will force them to confront the darkest corners of their pasts.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/fantastic_4.jpg" alt="Fantastic 4" class="movie_poster" data-caption="Fantastic 4" data-description-id="desc-tower">
+          <template id="desc-tower">
+
+            <div data-slot="right">
+              <p><i>Released : 2005<br><br>Run time : 1h 46m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A group of astronauts gain superpowers after a cosmic radiation exposure and must use them to oppose the plans of their enemy, Doctor Victor Von Doom.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <br><br>
+
+          <img src="/images/movie_poster/xmen_1.png" alt="X-Men" class="movie_poster" data-caption="X-Men" data-description-id="desc-xmen1">
+          <template id="desc-xmen1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2000<br><br>Run time : 1h 44m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>         
+          
+          <img src="/images/movie_poster/xmen_2.jpg" alt="X2" class="movie_poster" data-caption="X2" data-description-id="desc-xmen2">
+          <template id="desc-xmen2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2003<br><br>Run time : 2h 14m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When anti-mutant Colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/xmen_last_stand.jpg" alt="X-Men : The Last Stand" class="movie_poster" data-caption="X-Men : The Last Stand" data-description-id="desc-laststand">
+          <template id="desc-laststand">
+
+            <div data-slot="right">
+              <p><i>Released : 2006<br><br>Run time : 1h 44m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The human government develops a cure for mutations, and Jean Grey becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>  
+          
+          <br><br>
+          
+          <img src="/images/movie_poster/xmen_first_class.jpg" alt="X-Men First Class" class="movie_poster" data-caption="X-Men First Class" data-description-id="desc-firstclass">
+          <template id="desc-firstclass">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 2h 11m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In the 1960s, superpowered humans Charles Xavier and Erik Lehnsherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/xmen_days_of_future_past.jpg" alt="X-Men : Days of Future Past" class="movie_poster" data-caption="X-Men : Days of Future Past" data-description-id="desc-futurepast">
+          <template id="desc-futurepast">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2014<br><br>Run time : 2h 12m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/xmen_apocalypse.png" alt="X-Men Apocalypse" class="movie_poster" data-caption="X-Men Apocalypse" data-description-id="desc-apocalypse">
+          <template id="desc-apocalypse">
+
+            <div data-slot="right">
+              <p><i>Released : 2016<br><br>Run time : 2h 24m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In the 1980s, the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive by bringing destruction to the world.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/xmen_dark_phoenix.png" alt="X-Men : Dark Phoenix" class="movie_poster" data-caption="X-Men : Dark Phoenix" data-description-id="desc-darkphoenix">
+          <template id="desc-darkphoenix">
+
+            <div data-slot="right">
+              <p><i>Released : 2019<br><br>Run time : 1h 54m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix, causing the X-Men to have to decide if her life is worth more than all of humanity.
+
+</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+        
+        </td>
+      </tr>
+      
+      <!-- Header 2 -->
+      <tr class="accordion-header" onclick="toggleRow('row2')">
+        <td class="td_dvd"><h3>Musicals</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 2 -->
+      <tr id="row2" class="accordion-content">
+        <td colspan="5">
+          <p>When I was a kid, I hated black and white movies and was indifferent to live action musicals. But at some point that changed.<br>
+            I love musicals now ! More so the charm the older ones have. But it's nearly impossible to find unproblematic ones... So I watch them with a certain detachment lol.</p>
+          
+          <img src="/images/movie_poster/dream_factory.jpg" alt="Classic Musicals from the Dream Factory Volume 2" class="movie_poster" data-caption="Classic Musicals from the Dream Factory Volume 2" data-description-id="desc-dream">
+          <template id="desc-dream">
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p><b>The Pirate (1948) : </b>A girl is engaged to the local rich man, but meanwhile she has dreams about the legendary pirate Macoco. A traveling singer falls in love with her and to impress her he poses as the pirate.<br><br>
+                <b>Words and Music (1948) : </b>Musical biography chronicling the songwriting partnership of Richard Rodgers and Lorenz Hart.<br><br>
+                <b>That's Dancing (1985) : </b>The history of dance depicted on film featuring a compilation of some of Hollywood's greatest dance numbers.<br><br>
+                <b>That Midnight Kiss (1949) : </b>A singing truck driver battles snobbery to become a star.<br><br>
+                <b>The Toast of New Orleans (1950) : </b>A snooty opera singer meets a rough-and-tumble singing fisherman in the Louisiana bayous. Her agent lures him away to New Orleans to teach him how to sing opera, but comes to regret this decision when the two singers fall in love.<br><br>
+                <b>Royal Wedding (1951) : </b>A brother and sister dance act encounter challenges and romance when booked in London during the Royal Wedding.<br><br>
+                <b>The Belle of New York (1952) : </b>Playboy Charlie Hill meets beautiful Angela Bonfils, a mission house worker in the Bowery. He genuinely falls in love, so, dedicated to winning her over, Charlie cleans up his act and even gets a job as a driver to impress her.
+              </p>
+              <h3>Notes</h3>
+              <p>Bought at a local flea market.</p>            
+            </div>
+          </template> 
+
+          <img src="/images/movie_poster/phantom_of_the_opera.jpg" alt="The Phantom of the Opera" class="movie_poster" data-caption="The Phantom of the Opera" data-description-id="desc-opera">
+          <template id="desc-opera">
+
+            <div data-slot="right">
+              <p><i>Released : 2004<br><br>Run time : 2h 23m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A young soprano becomes the obsession of a disfigured and murderous musical genius who lives beneath the Paris Opéra House.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/bugsy_malone.png" alt="Bugsy Malone" class="movie_poster" data-caption="Bugsy Malone" data-description-id="desc-bugsy">
+          <template id="desc-bugsy">
+
+            <div data-slot="right">
+              <p><i>Released : 1976<br><br>Run time : 1h 33m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The classic gangster story of Bugsy Malone told with an all-child cast. The rise of Bugsy Malone and the battle for power between gangsters Fat Sam and Dandy Dan.</p>
+              <h3>Notes</h3>
+              <p>I loved this movie so much when I was a kid ! I loved that they used pies to attack each other and the songs are really good. My favourite was always "Down and Out" for some reason.<br>Rewatching this movie now made me realise most of the time when the kids would sing, they were dubbed by adults which is hilarious ! I hadn't noticed when I was younger haha.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/roi_soleil.jpg" alt="Roi Soleil" class="movie_poster" data-caption="Le roi soleil" data-description-id="desc-roisoleil">
+          <template id="desc-roisoleil">
+
+            <div data-slot="right">
+              <p><i>Released : 2006<br><br>Run time : 2h 5m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Le Roi Soleil is a French musical about the life of Louis XIV. It premiered on 22 September 2005 at the Palais des Sports in Paris.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/moulin_rouge.jpg" alt="Moulin Rouge" class="movie_poster" data-caption="Moulin Rouge" data-description-id="desc-moulin">
+          <template id="desc-moulin">
+
+            <div data-slot="right">
+              <p><i>Released : 2001<br><br>Run time : 2h 7m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A poor Bohemian poet in 1890s Paris falls for a beautiful courtesan and nightclub star coveted by a jealous duke.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/grease.png" alt="Grease" class="movie_poster" data-caption="Grease" data-description-id="desc-grease">
+          <template id="desc-grease">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1978<br><br>Run time : 1h 50m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer. When they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance?</p>
+              <h3>Notes</h3>
+              <p>Grease is a childhood movie for me. The opening never fails to drown me in nostalgia. My favourite song has always been "Greased Lightnin'" but they're all soooo good !</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/beetlejuice.jpg" alt="Beetlejuice" class="movie_poster" data-caption="Beetlejuice" data-description-id="desc-beetlejuice">
+          <template id="desc-beetlejuice">
+
+            <div data-slot="right">
+              <p><i>Released : 1988<br><br>Run time : 1h 32m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/singin_in_the_rain.jpg" alt="Singin' in the Rain" class="movie_poster" data-caption="Singin' in the Rain" data-description-id="desc-rain">
+          <template id="desc-rain">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1952<br><br>Run time : 1h 43m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>I love this movie so so much ! The songs are just incredible :)</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/west_side_story_1.jpg" alt="West Side Story" class="movie_poster" data-caption="West Side Story" data-description-id="desc-wss">
+          <template id="desc-wss">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1961<br><br>Run time : 2h 33m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Yes, I have multiple copies of this movie</h3>
+              <p>Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.</p>
+              <h3>Notes</h3>
+              <p>Now for some reason I'm completely obsessed with this movie. I've lost count of the times I’ve rewatched it.
+                <br><br>The first time I watched it, I didn't like it very much. I found it goofy to see gangs dance with ballet-like moves in the middle of the street. But in the upcoming days, as I thought again and again about the movie, I somehow started loving it !
+                <br><br>I was lucky enough to go see the actual musical a couple years ago. Listening to the songs live was just something else.
+                <br><br>Now this is an obviously old movie that unsuprisingly has some stuff in it that is no longer considered "ok". I'm not even a big fan of the love story (which is basically the whole plot). So why do I like it ? I have no idea. What I do know is I did a bunch of research on all the actors and found out that there were some of them that played in the original 1957 production of West Side Story.
+                <br><br>Anyways, I could go on for hours so I'll stop here !</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/west_side_story_2.png" alt="West Side Story" class="movie_poster" data-caption="West Side Story" data-description-id="desc-wss">
+
+          <img src="/images/movie_poster/till_the_clouds_roll_by.png" alt="'till the Clouds Roll By" class="movie_poster" data-caption="'till the Clouds Roll By" data-description-id="desc-clouds">
+          <template id="desc-clouds">
+
+            <div data-slot="right">
+              <p><i>Released : 1946<br><br>Run time : 2h 12m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Songwriter and Broadway pioneer Jerome Kern is unable to find immediate success in the U.S. He sought recognition abroad. He journeyed to England where his dreams of success became real and where he met his future wife Eva Leale.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/my_sister_eileen.png" alt="My Sister Eileen" class="movie_poster" data-caption="My Sister Eileen" data-description-id="desc-eileen">
+          <template id="desc-eileen">
+
+            <div data-slot="right">
+              <p><i>Released : 1955<br><br>Run time : 1h 48m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After submitting a story of her beautiful sister, a woman assumes her identity to maintain the attention of a playboy publisher.</p>
+              <h3>Notes</h3>
+              <p>This was a hard dvd to find.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/mary_poppins.jpg" alt="Mary Poppins" class="movie_poster" data-caption="Mary Poppins" data-description-id="desc-poppins">
+          <template id="desc-poppins">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1964<br><br>Run time : 2h 19m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.</p>
+              <h3>Notes</h3>
+              <p>A classic of my childhood like many people around the world ! Although, I haven't rewatched it since then, the nostalgia would just destroy me.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/the_pajama_game.jpg" alt="The Pajama Game" class="movie_poster" data-caption="The Pajama Game" data-description-id="desc-pajama">
+          <template id="desc-pajama">
+
+            <div data-slot="right">
+              <p><i>Released : 1957<br><br>Run time :1h 41m </i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>An Iowa pajama factory worker falls in love with an affable superintendent who was hired by the factory boss to deny the workers' demand for a pay raise.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/comedies_musicales.png" alt="Comédies Musicales" class="movie_poster" data-caption="Comédies Musicales" data-description-id="desc-musicales">
+          <template id="desc-musicales">
+
+            <div data-slot="right">
+              <p><i>Released : 2021<br><br>Run time : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Compilation of 16 classic musicals</h3>
+              <p><b>An American in Paris (1951) : </b>Three friends struggle to find work in Paris. Things become more complicated when two of them fall in love with the same woman.<br><br>
+                <b>Brigadoon (1954) : </b>Two Americans on a hunting trip in Scotland become lost. They encounter a small village not on the map, Brigadoon, in which people harbor a mysterious secret and behave as if they were still living 200 years in the past.<br><br>       
+                <b>The Barkleys of Broadway (1949) : </b>A married musical team splits up so the wife can become a serious actress.<br><br>
+                <b>A Star Is Born (1954) : </b>A fading matinee idol helps a young singer and actress find fame, even as age and alcoholism send his own career on a downward spiral.<br><br>                
+                <b>The Wizard of Oz (1939) : </b>Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes.<br><br>
+                <b>Singin' in the Rain (1952) : </b>When Hollywood's silent era gives way to talkies, a dashing screen idol and a gifted newcomer navigate romance, rivalry, and the comic chaos of reinventing the movies.<br><br>
+                <b>The Band Wagon (1953) : </b>An aging movie star uncertain of his future teams up with a top ballerina to headline a new Broadway musical, but the pretentiously artistic goals of its director threaten to change it beyond recognition.<br><br>
+                <b>Meet Me in St. Louis (1944) : </b>Young love and childish fears highlight a year in the life of a turn-of-the-century family in St. Louis, and their pending move to New York.<br><br>
+                <b>Easter Parade (1948) : </b>A nightclub performer hires a naive chorus girl to become his new dance partner to make his former partner jealous and to prove he can make any partner a star.<br><br>
+                <b>High Society (1956) : </b>With socialite Tracy Lord about to remarry, her ex-husband - with the help of a sympathetic reporter - has 48 hours to convince her that she really still loves him.<br><br>
+                <b>West Side Story (1961) : </b>Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.<br><br>
+                <b>Little Shop of Horrors (1986) : </b>A nerdy florist finds his chance for success and romance with the help of a giant man-eating plant who demands to be fed.<br><br>
+                <b>Seven Brides for Seven Brothers (1954) : </b>When a backwoodsman in 1850s Oregon brings a wife home to his farm, his six brothers decide that they want to get married too, whether the women are willing or not.<br><br>
+                <b>Finian's Rainbow (1968) : </b>An Irish immigrant and his daughter move into a town in the American South with a magical crock of gold that will change people's lives, including a struggling farmer and African American citizens threatened by a bigoted politician.<br><br>
+                <b>Victor/Victoria (1982) : </b>A struggling female soprano in 1934 Paris finally finds work after posing as a female impersonator, but it complicates her personal life when a visiting Chicago gangster finds himself inexplicably attracted to the seemingly male performer.<br><br>
+                <b>The Great Ziegfeld (1936) : </b>The ups and downs of Florenz Ziegfeld Jr., famed producer of extravagant stage revues, are portrayed.<br><br>
+              </p>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/pirates_of_penzance.png" alt="The Pirates of Penzance" class="movie_poster" data-caption="The Pirates of Penzance" data-description-id="desc-penzance">
+          <template id="desc-penzance">
+
+            <div data-slot="author">VHS</div>
+
+            <div data-slot="right">
+              <p><i>Released : 1983<br><br>Run time : 1h 52m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After a young man leaves a band of pirates, hilarity ensues.</p>
+              <h3>Notes</h3>
+              <p>I watched it a couple times when I was a kid. The part I always found funny/impressive was when that one policeman swings his arm in a full circle.</p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 3 -->
+      <tr class="accordion-header" onclick="toggleRow('row3')">
+        <td class="td_dvd"><h3>Japanese Animations</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 3 -->
+      <tr id="row3" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          <h3>Studio Ghibli</h3>
+
+          <img src="/images/movie_poster/nausicaa.jpg" alt="Nausicaä of the Valley of the Wind" class="movie_poster" data-caption="Nausicaä of the Valley of the Wind" data-description-id="desc-nausicaa">
+          <template id="desc-nausicaa">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1984<br><br>Run time : 1h 57m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Warrior and pacifist Princess Nausicaä desperately struggles to prevent two warring nations from destroying themselves and their dying planet.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>         
+          
+          <img src="/images/movie_poster/castle_in_the_sky.png" alt="Castle in the Sky" class="movie_poster" data-caption="Castle in the Sky" data-description-id="desc-castlesky">
+          <template id="desc-castlesky">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1986<br><br>Run time : 2h 4m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Pazu's life changes when he meets Sheeta, a girl whom pirates are chasing for her crystal amulet, which has the potential to locate Laputa, a legendary castle floating in the sky.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/totoro.jpg" alt="My Neighbor Totoro" class="movie_poster" data-caption="My Neighbor Totoro" data-description-id="desc-totoro">
+          <template id="desc-totoro">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1988<br><br>Run time : 1h 26m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.</p>
+              <h3>Notes</h3>
+              <p>Such a childhood classic ♡</p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/porco_rosso.jpg" alt="Porco Rosso" class="movie_poster" data-caption="Porco Rosso" data-description-id="desc-rosso">
+          <template id="desc-rosso">
+
+            <div data-slot="right">
+              <p><i>Released : 1992<br><br>Run time : 1h 34m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In 1930s Italy, a veteran World War I pilot is cursed to look like an anthropomorphic pig.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/whisper_of_the_heart.jpg" alt="Whisper of the Heart" class="movie_poster" data-caption="Whisper of the Heart" data-description-id="desc-whisper">
+          <template id="desc-whisper">
+
+            <div data-slot="right">
+              <p><i>Released : 1995<br><br>Run time : 1h 51m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A love story between a girl who loves reading books and a boy who has previously checked out all of the library books she chooses.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/mononoke.jpg" alt="Princess Mononoke" class="movie_poster" data-caption="Princess Mononoke" data-description-id="desc-mononoke">
+          <template id="desc-mononoke">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1997<br><br>Run time : 2h 13m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After a deadly curse forces him from home, young warrior Ashitaka journeys west and is drawn into a conflict between ancient forest spirits, an iron town, and a wolf-raised girl.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/howls_moving_castle.png" alt="Howl's Moving Castle" class="movie_poster" data-caption="Howl's Moving Castle" data-description-id="desc-howl">
+          <template id="desc-howl">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2004<br><br>Run time : 1h 59m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.</p>
+              <h3>Notes</h3>
+              <p>One of my favourite Ghibli movies !</p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/from_up_on_poppy_hill.jpg" alt="From Up on Poppy Hill" class="movie_poster" data-caption="From Up on Poppy Hill" data-description-id="desc-poppyhill">
+          <template id="desc-poppyhill">
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 1h 30m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A group of Yokohama teens look to save their school's clubhouse from the wrecking ball in preparations for the 1964 Tokyo Olympics.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <h3>Makoto Shinkai</h3>
+
+          <img src="/images/movie_poster/your_name.png" alt="Your Name." class="movie_poster" data-caption="Your Name." data-description-id="desc-yourname">
+          <template id="desc-yourname">
+
+            <div data-slot="right">
+              <p><i>Released : 2016<br><br>Run time : 1h 46m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Two teenagers, a city boy in Tokyo and a girl in rural Japan, mysteriously begin swapping bodies, forging a connection that sends them searching for one another.</p>              
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/lost_voices.jpg" alt="Children Who Chase Lost Voices" class="movie_poster" data-caption="Children Who Chase Lost Voices" data-description-id="desc-lostvoices">
+          <template id="desc-lostvoices">
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 1h 56m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A coming of age story involving young love and a mysterious music, coming from a crystal radio left as a memento by an absent father, that leads a young heroine deep into a hidden world.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <h3>Mamoru Hosoda</h3>
+          
+          <img src="/images/movie_poster/wolf_children.jpg" alt="Wolf Children" class="movie_poster" data-caption="Wolf Children" data-description-id="desc-wolfchildren">
+          <template id="desc-wolfchildren">
+
+            <div data-slot="right">
+              <p><i>Released : 2012<br><br>Run time : 1h 57m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>After her werewolf lover unexpectedly dies in an accident, a young woman must find ways to raise their werewolf son and daughter while keeping their trait hidden from society.</p>
+              <h3>Notes</h3>
+              <p>Used to love the manga !</p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/summer_wars.jpg" alt="Summer Wars" class="movie_poster" data-caption="Summer Wars" data-description-id="desc-summerwars">
+          <template id="desc-summerwars">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2009<br><br>Run time : 1h 54m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A student tries to fix a problem he accidentally caused in OZ, a digital world, while pretending to be the fiancé of his friend at her grandmother's 90th birthday.</p>
+              <h3>Notes</h3>
+              <p>Watched it a bunch as a kid !</p>            
+            </div>
+          </template>  
+          
+          <img src="/images/movie_poster/leapt_through_time.png" alt="The Girl Who Leapt Through Time" class="movie_poster" data-caption="The Girl Who Leapt Through Time" data-description-id="desc-throughtime">
+          <template id="desc-throughtime">
+
+            <div data-slot="right">
+              <p><i>Released : 2006<br><br>Run time : 1h 38m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A high-school girl named Makoto acquires the power to travel back in time, and decides to use it for her own personal benefits. Little does she know that she is affecting the lives of others just as much as she is her own.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <h3>Other</h3>
+
+          <img src="/images/movie_poster/patema.png" alt="Patema" class="movie_poster" data-caption="Patema Inverted" data-description-id="desc-patema">
+          <template id="desc-patema">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2013<br><br>Run time : 1h 38m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A young girl, from a civilization that resides in deep underground tunnels, finds herself trapped in an inverted world and teams up with a resident to escape and return home.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+        
+        </td>
+      </tr>
+
+      <!-- Header 4 -->
+      <tr class="accordion-header" onclick="toggleRow('row4')">
+        <td class="td_dvd"><h3>Fantasy</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 4 -->
+      <tr id="row4" class="accordion-content">
+        <td colspan="5">
+          <p>My favourite movie genre !</p>
+          
+          <img src="/images/movie_poster/narnia.jpg" alt="The Chronicles of Narnia: The Lion, the Witch and the Wardrobe" class="movie_poster" data-caption="The Chronicles of Narnia: The Lion, the Witch and the Wardrobe" data-description-id="desc-narnia">
+          <template id="desc-narnia">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2005<br><br>Run time : 2h 23m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Four siblings wind up entering the magical land of Narnia. Once there, they discover a world inhabited by fantastical creatures and find themselves in a battle to defeat a witch.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+                    
+          <img src="/images/movie_poster/inkheart.jpg" alt="Inkheart" class="movie_poster" data-caption="Inkheart" data-description-id="desc-inkheart">
+          <template id="desc-inkheart">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2008<br><br>Run time : 1h 46m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A teenage girl discovers her father has an amazing talent to bring characters out of their books and must try to stop a freed villain from destroying them all, with the help of her father, her aunt, and a storybook's hero.</p>
+              <h3>Notes</h3>
+              <p>I haven't read the book.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/moonacre.jpg" alt="The Secret of Moonacre" class="movie_poster" data-caption="The Secret of Moonacre" data-description-id="desc-moonacre">
+          <template id="desc-moonacre">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2008<br><br>Run time : 1h 43m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Maria inherits a book of secrets from her dad. She moves to her uncle's Moonacre estate. A family curse was cast on the valley. Only Maria can break it using her book.</p>
+              <h3>Notes</h3>
+              <p>I haven't read the book.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/midnight.jpg" alt="Midnight in Paris" class="movie_poster" data-caption="Midnight in Paris" data-description-id="desc-paris">
+          <template id="desc-paris">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2011<br><br>Run time : 1h 34m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.</p>
+              <h3>Notes</h3>
+              <p>I related to Gil so much.</p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/neverending1.jpg" alt="The NeverEnding Story" class="movie_poster" data-caption="The NeverEnding Story" data-description-id="desc-neverending1">
+          <template id="desc-neverending1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1984<br><br>Run time : 1h 35m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Bastian finds a magical book in an old bookstore that takes him on an adventure into the land of Fantasia.</p>
+              <h3>Notes</h3>
+              <p>I cried when Atreyu's horse died :')</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/neverending2.jpg" alt="The NeverEnding Story II: The Next Chapter" class="movie_poster" data-caption="The NeverEnding Story II: The Next Chapter" data-description-id="desc-neverending2">
+          <template id="desc-neverending2">
+
+            <div data-slot="right">
+              <p><i>Released : 1990<br><br>Run time : 1h 30m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A young boy with a distant father enters a world of make-believe and magic through a portal within an antique book.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/compas.jpg" alt="The Golden Compass" class="movie_poster" data-caption="The Golden Compass" data-description-id="desc-compas">
+          <template id="desc-compas">
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : 1h 53m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In a parallel universe, young Lyra Belacqua journeys to the far North to save her best friend and other kidnapped children from terrible experiments by a mysterious organization.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/upsidedown.jpg" alt="Upside Down" class="movie_poster" data-caption="Upside Down" data-description-id="desc-upside">
+          <template id="desc-upside">
+
+            <div data-slot="right">
+              <p><i>Released : 2012<br><br>Run time : 1h 54m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Adam and Eden fell in love as teens despite the fact that they live on twinned worlds with gravities that pull in opposite directions. Ten years after a forced separation, Adam sets out on a dangerous quest to reconnect with his love.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/enchanted.jpg" alt="Enchanted " class="movie_poster" data-caption="Enchanted" data-description-id="desc-enchanted">
+          <template id="desc-enchanted">
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : 1h 47m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A young maiden in a land called Andalasia, who is prepared to be wed, is sent away to New York City by an evil Queen, where she falls in love with a lawyer.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/fairytale.jpg" alt="FairyTale: A True Story" class="movie_poster" data-caption="FairyTale: A True Story" data-description-id="desc-fairytale">
+          <template id="desc-fairytale">
+
+            <div data-slot="right">
+              <p><i>Released : 1997<br><br>Run time : 1h 39m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In 1917, two children take a photograph, which is soon believed by some to be the first scientific evidence of the existence of fairies.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/penelope.jpg" alt="Penelope" class="movie_poster" data-caption="Penelope" data-description-id="desc-penelope">
+          <template id="desc-penelope">
+
+            <div data-slot="right">
+              <p><i>Released : 2006<br><br>Run time : 1h 44m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A modern romantic tale about a young aristocratic heiress born under a curse that can only be broken when she finds true love with "one who will accept her as one of their own."</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/percy_jackson.jpg" alt="Percy Jackson & the Olympians: The Lightning Thief" class="movie_poster" data-caption="Percy Jackson & the Olympians: The Lightning Thief" data-description-id="desc-percy">
+          <template id="desc-percy">
+
+            <div data-slot="right">
+              <p><i>Released : 2010<br><br>Run time : 1h 58m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A troubled teen discovers he is the son of Poseidon and sets out with friends to recover Zeus's stolen lightning bolt before a war among the gods erupts.</p>
+              <h3>Notes</h3>
+              <p>Definitely doesn't follow the book much but as a separate movie, it's not that bad.</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/zodiac.jpg" alt="Knights of the Zodiac" class="movie_poster" data-caption="Knights of the Zodiac" data-description-id="desc-zodiac">
+          <template id="desc-zodiac">
+
+            <div data-slot="right">
+              <p><i>Released : 2023<br><br>Run time : 1h 52m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>When a goddess of war reincarnates in the body of a young girl, street orphan Seiya discovers that he is destined to protect her and save the world. But only if he can face his own past and become a Knight of the Zodiac.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/belle.jpg" alt="La Belle et la Bête (Beauty and the Beast)" class="movie_poster" data-caption="La Belle et la Bête (Beauty and the Beast)" data-description-id="desc-belle">
+          <template id="desc-belle">
+
+            <div data-slot="right">
+              <p><i>Released : 2014<br><br>Run time : 1h 52m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>An unexpected romance blooms after the youngest daughter of a merchant who has fallen on hard times offers herself to the mysterious beast to which her father has become indebted.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/emporium.jpg" alt="Mr. Magorium's Wonder Emporium" class="movie_poster" data-caption="Mr. Magorium's Wonder Emporium" data-description-id="desc-emporium">
+          <template id="desc-emporium">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : 1h 33m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The young apprentice of a magical, eccentric toy store owner learns to believe in herself, and in her friends, upon learning some grave news about the future.</p>
+              <h3>Notes</h3>
+              <p>Loved this movie so much as a kid !</p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 5 -->
+      <tr class="accordion-header" onclick="toggleRow('row5')">
+        <td class="td_dvd"><h3>Sci-fi</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 5 -->
+      <tr id="row5" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/movie_poster/tron.jpg" alt="Tron" class="movie_poster" data-caption="Tron" data-description-id="desc-tron">
+          <template id="desc-tron">
+
+            <div data-slot="right">
+              <p><i>Released : 1982<br><br>Run time : 1h 36m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A computer hacker is abducted into a digital world and forced to participate in gladiatorial games where his only chance of escape is with the help of a heroic security program.</p>
+              <h3>Notes</h3>
+              <p>My parents used to show us the animated TV series as well, it was so fun !</p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/tron_legacy.jpg" alt="Tron: Legacy" class="movie_poster" data-caption="Tron: Legacy" data-description-id="desc-legacy">
+          <template id="desc-legacy">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2010<br><br>Run time : 2h 5m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The son of a computer programmer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.</p>
+              <h3>Notes</h3>
+              <p>Absolutely LOVE the visuals !!</p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/avatar1.jpg" alt="Avatar" class="movie_poster" data-caption="Avatar" data-description-id="desc-avatar">
+          <template id="desc-avatar">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2009<br><br>Run time : 2h 42m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/avatar3d.jpg" alt="Avatar - 3d edition" class="movie_poster" data-caption="Avatar - 3d edition" data-description-id="desc-avatar3d">
+          <template id="desc-avatar3d">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">blu-ray 3d, blu-ray, DVD</div>
+
+            <div data-slot="right">
+              <p><i>Released : 2009<br><br>Run time : 2h 42m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/avatar_extended.jpg" alt="Avatar (Extended Collector's Edition)" class="movie_poster" data-caption="Avatar (Extended Collector's Edition)" data-description-id="desc-avatar_ext">
+          <template id="desc-avatar_ext">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">blu-ray</div>
+
+            <div data-slot="right">
+              <p><i>Released : 2010<br><br>Run time : 2h 58m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/avatar2.jpg" alt="Avatar: The Way of Water" class="movie_poster" data-caption="Avatar: The Way of Water" data-description-id="desc-avatar2">
+          <template id="desc-avatar2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">blu-ray</div>
+
+            <div data-slot="right">
+              <p><i>Released : 2022<br><br>Run time : 3h 12m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/avatar3.jpg" alt="Avatar: Fire and Ash" class="movie_poster" data-caption="Avatar: Fire and Ash" data-description-id="desc-avatar3">
+          <template id="desc-avatar3">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2025<br><br>Run time : 3h 17m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Jake and Neytiri's family grapples with grief, encountering a new, aggressive Na'vi tribe, the Ash People, who are led by the fiery Varang, as the conflict on Pandora escalates and a new moral focus emerges.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/matrix.jpg" alt="The Matrix" class="movie_poster" data-caption="The Matrix" data-description-id="desc-matrix">
+          <template id="desc-matrix">
+
+            <div data-slot="right">
+              <p><i>Released : 1999<br><br>Run time : 2h 16m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A computer hacker discovers that his life is nothing more than an elaborate simulation run by an evil AI.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+        </td>
+      </tr>
+
+      <!-- Header 6 -->
+      <tr class="accordion-header" onclick="toggleRow('row6')">
+        <td class="td_dvd"><h3>Classics</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 6 -->
+      <tr id="row6" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/movie_poster/holiday_collection.png" alt="MGM Holiday Collection" class="movie_poster" data-caption="MGM Holiday Collection" data-description-id="desc-holidaycolletion">
+          <template id="desc-holidaycolletion">
+
+            <div data-slot="right">
+              <p><i>Released : 2007<br><br>Run time : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Compilation of 3 classic holiday movies from MGM </h3>
+              <p><b>The Bishop's Wife (1947) : </b>A debonair angel comes to Earth to help an Episcopalian bishop and his wife in their quest to raise money for the new church.<br><br>
+                <b>March of the Wooden Soldiers (1934) : </b>Opposing the evil Barnaby, Stannie Dum and Ollie Dee try and fail to pay-off Mother Peep's mortgage and mislead his attempts to marry Little Bo. Enraged, Barnaby's Bogeymen are set on Toyland.<br><br>
+                <b>Pocketful of Miracles (1961) : </b>New York bootlegger Dave the Dude and his girlfriend Elizabeth "Queenie" Martin try to turn boozy street beggar Apple Annie into a society lady when Annie learns that her daughter Louise is marrying the son of a Spanish count.<br><br>
+              </p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/giant.jpg" alt="Giant" class="movie_poster" data-caption="Giant" data-description-id="desc-giant">
+          <template id="desc-giant">
+
+            <div data-slot="right">
+              <p><i>Released : 1956<br><br>Run time : 3h 21m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Sprawling epic covering the life of a Texas cattle rancher and his family and associates.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/movie_poster/outsiders.jpg" alt="The Outsiders - Limited Collector's Edition" class="movie_poster" data-caption="The Outsiders - Limited Collector's Edition" data-description-id="desc-outsiders">
+          <template id="desc-outsiders">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">2x 4K Ultra HDs, 2x Blu-rays</div>
+
+            <div data-slot="right">
+              <p><i>Released : 1983<br><br>Run time : 1h 31m and 1h 51m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In Tulsa, Oklahoma in 1964, the rivalry between two gangs, the poor Greasers and the rich Socs, heats up when one gang member accidentally kills a member of the other.</p>
+              <h3>Notes</h3>
+              <p>Obsessed with the movie and the book.</p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 7 -->
+      <tr class="accordion-header" onclick="toggleRow('row7')">
+        <td class="td_dvd"><h3>Whimsy (not fantasy)</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 7 -->
+      <tr id="row7" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/movie_poster/princess.jpg" alt="A Little Princess" class="movie_poster" data-caption="A Little Princess" data-description-id="desc-princess">
+          <template id="desc-princess">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1995<br><br>Run time : 1h 37m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Sara is sent to a strict boarding school after her father enlists in WWI. When he is presumed dead, the headmistress, knowing she will not receive any more money, forces the girl to become a servant.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/secret_garden.jpg" alt="The Secret Garden" class="movie_poster" data-caption="The Secret Garden" data-description-id="desc-garden">
+          <template id="desc-garden">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 1993<br><br>Run time : 1h 41m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A young, recently-orphaned girl is sent to England after living in India all of her life. Once there, she begins to explore her new, seemingly-isolated surroundings, and its secrets.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 8 -->
+      <tr class="accordion-header" onclick="toggleRow('row8')">
+        <td class="td_dvd"><h3>Other</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 8 -->
+      <tr id="row8" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/movie_poster/avenir.jpg" alt="La Venue de l'avenir (Colours of Time)" class="movie_poster" data-caption="La Venue de l'avenir (Colours of Time)" data-description-id="desc-avenir">
+          <template id="desc-avenir">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2025<br><br>Run time : 2h 6m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Follows the lives of the cousins who inherit an old house in rural Normandy and retrace the steps of their ancestors in 19th century Paris.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/movie_poster/neverland.jpg" alt="Finding Neverland" class="movie_poster" data-caption="Finding Neverland" data-description-id="desc-neverland">
+          <template id="desc-neverland">
+
+            <div data-slot="right">
+              <p><i>Released : 2004<br><br>Run time : 1h 46m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The story of Sir J.M. Barrie's friendship with a family who inspired him to create Peter Pan.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/lady_in_white.jpg" alt="Lady in White" class="movie_poster" data-caption="Lady in White" data-description-id="desc-white">
+          <template id="desc-white">
+
+            <div data-slot="right">
+              <p><i>Released : 1988<br><br>Run time : 1h 58m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>An author tells the story of how, as a young boy growing up in a 1960s small town, he was haunted after witnessing the murder of a little girl.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/movie_poster/fox.jpg" alt="Fantastic Mr. Fox" class="movie_poster" data-caption="Fantastic Mr. Fox" data-description-id="desc-fox">
+          <template id="desc-fox">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : 2009<br><br>Run time : 1h 28m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <br><br>
+
+    </section>
+
+</main>
+
+<footer>©An Elvish Den 2026</footer>
+
+<!-- TEMPLATE -->
+
+<!--
+
+<img src="/images/books/the_girl_in_the_tower.jpg"
+     alt="The Girl in the Tower"
+     class="book_cover"
+     data-caption="The Girl in the Tower"
+     data-description-id="desc-tower">
+
+          <template id="desc-tower">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="right">
+              <p><i>Released : <br><br>Run time : h m</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p></p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+-->
+
+<script src="/styles/javascript.js"></script>
+<script src="/styles/oneko.js" data-cat="/images/oneko.gif"></script>
+
+</body>
+</html>

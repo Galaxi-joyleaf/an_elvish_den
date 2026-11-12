@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="/styles/styles.css">
+
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html" class="site_name"><h1>An Elvish Den</h1></a>
+</div>
+
+<nav class="menu">
+  <ul>
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="/dvd_collection/index.html" class="dropbtn">DVD Collection</a>
+      <div class="dropdown-content">
+        <a href="/dvd_collection/movies.html">Movies</a>
+        <a href="/dvd_collection/shows.html">TV shows</a>
+      </div>
+    </li>
+
+    <li><a href="/music.html" class="dropbtn">Music Collection</a></li>
+
+    <li><a href="/books.html" class="dropbtn">Books</a></li>
+
+    <li><a href="/about.html" class="dropbtn">About me :)</a></li>
+
+    <img src="/images/sign.png" class="sign">
+  </ul>
+</nav>
+
+<main>
+    <section>
+        <div>
+            <h2>Books</h2>
+            <p>This is <b>NOT</b> a list of every book I've read, but all the ones I <b>own</b> :)<br>
+              I'm not always big on rating books so I've made 3 stickers that will pop-up for some of them :</p>
+            <img src="/images/books/loved_it.png" alt="Loved it !" class="rating">
+            <img src="/images/books/to_be_read.png" alt="To be read" class="rating">
+            <img src="/images/books/couldnt_finish.png" alt="Couldn't finish" class="rating">
+
+            <p>Most of my books don't fit in any of these categories so they won't have a sticker. It could mean I liked it, I didn't, it was meh or anything else.<br><br>
+              You may notice as you browse my collection that some books have a French or German title/cover. I try to show here the exact editions that I own which means that I have read those specific books in French/German. Since my website is in English, the rest of their summaries will be written in English. EXCEPT if the book doesn't have an English translation.<br><br>
+              Within the sections, there is no specific order to the books.<br><br>
+              <b>You can click on each cover to have more info.<br>If the images don't load, please refresh the page</b></p>
+        </div>
+    </section>
+    <br><br>
+    <section class="dvd_section">
+
+    <br><br>
+
+    <!-- Tableau -->
+    <table class="table_dvd">
+      
+    <tbody>
+      <!-- Header 1 -->
+      <tr class="accordion-header" onclick="toggleRow('row1')">
+        <td class="td_dvd"><h3>Favs</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 1 -->
+      <tr id="row1" class="accordion-content">
+        <td colspan="5">
+          <h3>Fav author : Katherine Arden</h3>
+          <p>I've been struggling with finding books that I actually love and want to finish for a couple of years now. But every single book I read by Katherine Arden takes me to a whole new world.<br>It's her writing I fell in love with. It always feels like a fairytale for adults, so poetic and immersive. If you miss that feeling when you felt like every story was magical when you were a kid, you HAVE to read "The Winternight Trilogy" down below !</p>
+          <img src="/images/books/the_bear_and_the_nightingale.jpg" alt="The Bear and the Nightingale" class="book_cover" data-caption="The Bear and the Nightingale" data-description-id="desc-bear">
+          <img src="/images/books/the_girl_in_the_tower.jpg" alt="The Girl in the Tower" class="book_cover" data-caption="The Girl in the Tower" data-description-id="desc-tower">
+          <img src="/images/books/the_winter_of_the_witch.jpg" alt="The Winter of the Witch" class="book_cover" data-caption="The Winter of the Witch" data-description-id="desc-witch">
+          <p>"The Warm Hands of Ghosts" is a little different from her other books. It's a lot more psychological and there is a little less magical elements. But her writing is just as wonderful !
+            <br>"The Unicorn Hunters" is her most recent book (as of November 12th 2026). It's of course just as magical and I was able to get a special edition signed copy (!!) through my book subscription to Goldsboro Books.</p>
+          <img src="/images/books/the_warm_hands_of_ghosts.jpg" alt="Album Poster" class="book_cover">
+          <img src="/images/books/the_unicorn_hunter_2.jpg" alt="The Unicorn Hunters" class="book_cover" data-caption="The Unicorn Hunters" data-description-id="desc-unicorn">
+          <h3>Fav book series : "The Bone Season" by Samantha Shannon</h3>
+          <p>I discovered Samantha Shannon at a local festival where she had a panel. I had somehow never heard of her before ! I found her so cool, I was curious to see her writing. So I picked up the first book of the series (also called "The Bone Season") after the panel. I was lucky enough to get it signed too !
+            <br>The second I started reading, I couldn't put it down. It dragged me into the story and didn't let me go. Book after book, I'm currently still devouring them.
+            <br><br>This series is set to have 7 books and 2 novellas. The 6th one will be published in February 2027.</p>
+          <img src="/images/books/the_bone_season.jpg" alt="The Bone Season" class="book_cover" data-caption="The Bone Season" data-description-id="desc-bone">
+          <img src="/images/books/the_mime_order.jpg" alt="The Mime Order" class="book_cover" data-caption="The Mime Order" data-description-id="desc-mime">
+          <img src="/images/books/the_song_rising.jpg" alt="The Song Rising" class="book_cover" data-caption="The Song Rising" data-description-id="desc-song">
+          <img src="/images/books/the_dawn_chorus.jpg" alt="The Dawn Chorus" class="book_cover" data-caption="The Dawn Chorus" data-description-id="desc-chorus">
+          <img src="/images/books/the_mask_falling.jpg" alt="The Mask Falling" class="book_cover" data-caption="The Mask Falling" data-description-id="desc-mask">
+          <img src="/images/books/the_dark_mirror.jpg" alt="The Dark Mirror" class="book_cover" data-caption="The Dark Mirror" data-description-id="desc-mirror">
+        </td>
+      </tr>
+      
+      <!-- Header 2 -->
+      <tr class="accordion-header" onclick="toggleRow('row2')">
+        <td class="td_dvd"><h3>Fantasy</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 2 -->
+      <tr id="row2" class="accordion-content">
+        <td colspan="5">
+          <p>My favourite genre ! There's also some historical fantasy here and there :)<br><br>
+            I'm also currently subscribed to the Goldsboro Books Fellowship subscription, so I receive a limited and signed first edition of a new fantasy or sci-fi book every month.</p>          
+          <img src="/images/books/the_bear_and_the_nightingale.jpg" alt="The Bear and the Nightingale" class="book_cover" data-caption="The Bear and the Nightingale" data-description-id="desc-bear">
+          <template id="desc-bear">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Katherine Arden</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2017<br><br>Read : May 2025</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Winternight Trilogy</h3>
+              <p>Winter lasts most of the year at the edge of the Russian wilderness, and in the long nights, Vasilisa and her siblings love to gather by the fire to listen to their nurse’s fairy tales. Above all, Vasya loves the story of Frost, the blue-eyed winter demon. Wise Russians fear him, for he claims unwary souls, and they honor the spirits that protect their homes from evil.<br><br>
+              Then Vasya’s widowed father brings home a new wife from Moscow. Fiercely devout, Vasya’s stepmother forbids her family from honoring their household spirits, but Vasya fears what this may bring. And indeed, misfortune begins to stalk the village.<br><br>
+              But Vasya’s stepmother only grows harsher, determined to remake the village to her liking and to groom her rebellious stepdaughter for marriage or a convent. As the village’s defenses weaken and evil from the forest creeps nearer, Vasilisa must call upon dangerous gifts she has long concealed—to protect her family from a threat sprung to life from her nurse’s most frightening tales.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+                    
+          <img src="/images/books/the_girl_in_the_tower.jpg" alt="The Girl in the Tower" class="book_cover" data-caption="The Girl in the Tower" data-description-id="desc-tower">
+          <template id="desc-tower">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Katherine Arden</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2017<br><br>Read : June 2025</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Winternight Trilogy</h3>
+              <p>Vasilisa has grown up at the edge of a Russian wilderness, where snowdrifts reach the eaves of her family’s wooden house and there is truth in the fairy tales told around the fire. Vasilisa’s gift for seeing what others do not won her the attention of Morozko—Frost, the winter demon from the stories—and together they saved her people from destruction. But Frost’s aid comes at a cost, and her people have condemned her as a witch.<br><br>
+              Now Vasilisa faces an impossible choice. Driven from her home by frightened villagers, the only options left for her are marriage or the convent. She cannot bring herself to accept either fate and instead chooses adventure, dressing herself as a boy and setting off astride her magnificent stallion Solovey.<br><br>
+              But after Vasilisa prevails in a skirmish with bandits, everything changes. The Grand Prince of Moscow anoints her a hero for her exploits, and she is reunited with her beloved sister and brother, who are now part of the Grand Prince’s inner circle. She dares not reveal to the court that she is a girl, for if her deception were discovered it would have terrible consequences for herself and her family. Before she can untangle herself from Moscow’s intrigues—and as Frost provides counsel that may or may not be trustworthy—she will also confront an even graver threat lying in wait for all of Moscow itself.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+          
+          <img src="/images/books/the_winter_of_the_witch.jpg" alt="The Winter of the Witch" class="book_cover" data-caption="The Winter of the Witch" data-description-id="desc-witch">
+          <template id="desc-witch">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Katherine Arden</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2019<br><br>Read : July 2025</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of the Winternight Trilogy</h3>
+              <p>Now Moscow has been struck by disaster. Its people are searching for answers—and for someone to blame. Vasya finds herself alone, beset on all sides. The Grand Prince is in a rage, choosing allies that will lead him on a path to war and ruin. A wicked demon returns, stronger than ever and determined to spread chaos. Caught at the center of the conflict is Vasya, who finds the fate of two worlds resting on her shoulders. Her destiny uncertain, Vasya will uncover surprising truths about herself and her history as she desperately tries to save Russia, Morozko, and the magical world she treasures. But she may not be able to save them all.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/the_bone_season.jpg" alt="The Bone Season" class="book_cover" data-caption="The Bone Season" data-description-id="desc-bone">
+          <template id="desc-bone">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2013<br><br>Read : July 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of The Bone Season</h3>
+              <p>The year is 2059. For two centuries, the Republic of Scion has led an oppressive campaign against unnaturalness in Europe.<br><br>
+                In London, Paige Mahoney holds a high rank in the criminal underworld. The right hand of the ruthless White Binder, Paige is a dreamwalker, a rare and formidable kind of clairvoyant. Under Scion law, she commits treason simply by breathing.<br><br>
+                When Paige is arrested for murder, she meets the mysterious founders of Scion, who have designs on her uncommon abilities. If she is to survive and escape, Paige must use every skill at her disposal – and put her trust in someone who ought to be her enemy.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>                
+          
+          <img src="/images/books/the_mime_order.jpg" alt="The Mime Order" class="book_cover" data-caption="The Mime Order" data-description-id="desc-mime">
+          <template id="desc-mime">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2015<br><br>Read : August 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of The Bone Season</h3>
+              <p>Paige Mahoney has escaped the clandestine prison city of Oxford. Now a fugitive in London, she nurtures a new taste for revolution.<br><br>
+                Oxford may be behind her, but the Republic of Scion is undefeated. As it turns its all-seeing eye on Paige, she is forced to return to Jaxon Hall, her charismatic and brutal employer, to keep her foothold in the underworld.<br><br>
+                But Paige will bow to one now, and not even Jaxon will stop her exposing the corruption in the syndicate. As she plots to win the fabled Rose Crown, both sides of an ancient conflict seek her talents for themselves.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/the_song_rising.jpg" alt="The Song Rising" class="book_cover" data-caption="The Song Rising" data-description-id="desc-song">
+          <template id="desc-song">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : March 2017<br><br>Read : August 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of The Bone Season</h3>
+              <p>Following a fierce battle for the Rose Crown, Paige Mahoney has risen to the dangerous position of Underqueen, ruling over the clairvoyant syndicate of London. But with vengeful enemies still at large, the task of stabilizing the fractured underworld has never seemed so challenging.<br><br>
+                As Paige rallies her army of criminals, she continues to meet in secret with her former enemy, Arcturus Mesarthim. Should they be discovered, the fragile alliance with the Ranthen will fail.<br><br>
+                But all bets are off when Scion introduces Senshield, a deadly technology that spells doom for clairvoyants. Now Paige must race against the clock to stop her reign ending in blood.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/the_dawn_chorus.jpg" alt="The Dawn Chorus" class="book_cover" data-caption="The Dawn Chorus" data-description-id="desc-chorus">
+          <template id="desc-chorus">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2020<br><br>Read : September 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Novella 3.5 of The Bone Season</h3>
+              <p>Paige Mahoney and Arcturus Mesarthim have arrived in the Scion Citadel of Paris. Exhausted by her efforts against Scion, Paige has no choice but to remain in hiding, away from the revolution she started, so she can heal and come to terms with her mental and physical scars.<br><br>
+                In the confines of a safe house, Arcturus and Paige begin to reconnect after following separate paths for weeks. As they wait for contact from the mysterious Domino Programme – an espionage network operating in Scion – they remember their complicated past, and what brought them together.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>  
+          
+          <img src="/images/books/the_mask_falling.jpg" alt="The Mask Falling" class="book_cover" data-caption="The Mask Falling" data-description-id="desc-mask">
+          <template id="desc-mask">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2021<br><br>Read : September 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 4 of The Bone Season</h3>
+              <p>Paige Mahoney has eluded death again. Snatched from the jaws of captivity and sent to a safe house in the Scion Citadel of Paris, she finds herself caught between factions that seek Scion's downfall and those who would kill to protect the puppet empire.<br><br>
+                The mysterious Domino Program has plans for Paige, but she has ambitions of her own in this new citadel. With Arcturus at her side, she embarks on an adventure that will lead her from the catacombs of Paris to the glittering hallways of Versailles.<br><br>
+                As Scion widens its bounds and the free world trembles in its shadow, Paige strives to understand her bond with Arcturus, which grows stronger by the day. But there are those who know the revolution began with them--and could end with them...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>  
+          
+          <img src="/images/books/the_dark_mirror.jpg" alt="The Dark Mirror" class="book_cover" data-caption="The Dark Mirror" data-description-id="desc-mirror">
+          <template id="desc-mirror">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Samantha Shannon</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2025<br><br>Read : October 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 5 of The Bone Season</h3>
+              <p>Paige Mahoney is outside the Republic of Scion for the first time in more than a decade – but she has no idea how she got to the free world. Half a year has been wiped from her memory.<br><br>
+                As she makes her way back to the revolution, her journey takes her to Venice, where she learns a dangerous secret – one that could change the face of the war between humans and immortals. Before she can return to London, she must help the Domino Programme unravel the sinister Operation Ventriloquist.<br><br>
+                And it soon becomes clear that the one person who could recover her memories – Arcturus Mesarthim – might also hold the key to saving Italy.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>         
+          
+          <img src="/images/books/the_unicorn_hunter.jpg" alt="The Unicorn Hunters" class="book_cover" data-caption="The Unicorn Hunters" data-description-id="desc-unicorn">
+          <template id="desc-unicorn">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Katherine Arden</div>
+
+            <div data-slot="right">
+              <p><i>Published : June 2026<br><br>Read : June 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Yes, I have multiple copies of this book</h3>
+              <p>Anne of Brittany was a child when France invaded and drove her royal father to his death. Now she is a young woman, sovereign duchess of an occupied realm, and France means to crown their conquest by marrying her to their king. Such an alliance would put her title, her lands, and her body forever in the hands of her enemies.<br><br>
+                But Anne refuses to be the last duchess of Brittany.<br><br>
+                Her only hope of resisting conquest is another alliance sealed with marriage, so Anne arranges a daring last gambit: a secret betrothal to Charles of France’s greatest rival. But secrets are hard to keep in a world where rival courts spy on each other with diviners.<br><br>
+                The forest of Brocéliande was once the haunt of Merlin the Enchanter and the long-lost faerie queen. But magic is long gone from Broceliande, except for the occasional sight of a unicorn and one critical quirk: This ancient forest is completely hostile to divination.<br><br>
+                While pretending compliance with France, Anne plans a unicorn hunt in Brocéliande. A bit of pointless pageantry. A diversion so she can wed in secret.<br><br>
+                Or so she thinks.</p>
+              <h3>Notes</h3>
+              <p>From the Goldsboro Books Fellowship subscription.</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/the_unicorn_hunter_2.jpg" alt="The Unicorn Hunters" class="book_cover" data-caption="The Unicorn Hunters" data-description-id="desc-unicorn">
+          <img src="/images/books/the_warm_hands_of_ghosts.jpg" alt="The Warm Hands of Ghosts" class="book_cover" data-caption="The Warm Hands of Ghosts" data-description-id="desc-ghosts">
+          <template id="desc-ghosts">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Katherine Arden</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2024<br><br>Read : February 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p><i>January 1918.</i> Laura Iven was a revered field nurse until she was wounded and discharged from the medical corps, leaving behind a brother still fighting in Flanders. Now home in Halifax, Canada, she receives word of Freddie’s death in combat, along with his personal effects—but something doesn’t make sense. Determined to uncover the truth, Laura returns to Belgium as a volunteer at a private hospital. Soon after arriving, she hears whispers about haunted trenches, and a strange hotelier whose wine gives soldiers the gift of oblivion. Could Freddie have escaped the battlefield, only to fall prey to something—or someone—else?<br><br>
+                <i>November 1917.</i> Freddie Iven awakens after an explosion to find himself trapped in an overturned pillbox with an enemy soldier, a German by the name of Hans Winter—each of them grievously wounded. Against all odds, the two men form an alliance and succeed in clawing their way out. Unable to bear the thought of returning to the killing fields, especially on opposite sides, they take refuge with a mysterious man who seems to have the power to make the hellscape of the trenches disappear.<br><br>
+                As shells rain down on Flanders, and ghosts move among those yet living, Laura’s and Freddie’s deepest traumas are reawakened. Now they must decide whether their world is worth salvaging—or better left behind entirely.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/the_castle_and_the_cloister.jpg" alt="The Castle and the Cloister" class="book_cover" data-caption="The Castle and the Cloister" data-description-id="desc-cloister">
+          <template id="desc-cloister">
+
+            <div data-slot="author">Laura E. Weymouth</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2026<br><br>Read : September 2026</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Daughters of Light Duology</h3>
+              <p>Two hundred years ago, the warmongering Inver clan conquered the nation of Honoria, suppressing its pacifist goddesses, and ushering in an era of blood and battles. Now, after a brief but fraught peace, a king’s whims threaten to reignite the engines of war.<br><br>
+                At the sun goddess Raea’s cloister, the last stronghold of Honoria’s matriarchal religion, Fia and her infant daughter are in search of a safe haven. Fia aims to offer her child more than the poverty and abuse she was raised with, but the price of the cloister’s protection will tear her from what she loves most and thrust her into a game more complex than she could imagine.<br><br>
+                Within the Invers’ mountain fortress, Ariana is known as the apostate queen. Once a follower of the goddess of stars, she left her faith for the sake of a king. But old loyalties are not easily severed. Ariana treads a dangerous path, striving for peace in a court made for conquest.<br><br>
+                Deep in the heart of the mountain, the Inver Priest bides his time, presiding over his people’s brutal religion. Blinded in the fight for the throne, he harbors a bitter grudge—one that could lead to Honoria’s ruin or renewal.<br><br>
+                Amid a treacherous landscape of enemies, allies, and intrigue, three lives will intertwine. Each will have to risk the wrath of gods and kings alike to alter the course of nations.</p>
+              <h3>Notes</h3>
+              <p>From the Goldsboro Books Fellowship subscription.</p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/harbour_of_hungry_ghosts.jpg" alt="Harbour of Hungry Ghosts" class="book_cover" data-caption="Harbour of Hungry Ghosts" data-description-id="desc-harbour">
+          <template id="desc-harbour">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Eliza Chan</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2026<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Chronicles of the Yiugwai Hunters</h3>
+              <p>The Au family serve the people of Hong Kong: blessing shrines, honouring the dead and dealing with dangerous monster incursions. The expectations on eldest daughter Kiamling are high, which is not something her strict grandmother will let her forget.<br><br>
+                When the British disrupt the Hungry Ghosts festival and her grandmother is seized by a strange new monster, Kiamling must step up and lead the search. She is aided by unexpected allies: Archie, an earnest civil servant, Hoi gor, childhood sweetheart turned merchant-pirate and Jingling, her younger sister keeping secrets of her own. Kiamling must figure out who is behind the incursion and more importantly, how to defeat them.<br><br>
+                With British fables mingling with local Chinese monsters, can Kiamling prove herself, when the old rules no longer seem to apply?</p>
+              <h3>Notes</h3>
+              <p>From the Goldsboro Books Fellowship subscription.</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/six_crimson_cranes.jpg" alt="Six Crimson Cranes" class="book_cover" data-caption="Six Crimson Cranes" data-description-id="desc-cranes">
+          <template id="desc-cranes">
+
+            <div data-slot="author">Elizabeth Lim</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2021<br><br>Read : 2022</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Six Crimson Cranes series</h3>
+              <p>Shiori’anma, the only princess of Kiata, has a secret. Forbidden magic runs through her veins. Normally she conceals it well, but on the morning of her betrothal ceremony, Shiori loses control. At first, her mistake seems like a stroke of luck, forestalling the wedding she never wanted, but it also catches the attention of Raikama, her stepmother.<br><br>
+                A sorceress in her own right, Raikama banishes the young princess, turning her brothers into cranes, and warning Shiori that she must speak of it to no one: for with every word that escapes her lips, one of her brothers will die.<br><br>
+                Penniless, voiceless, and alone, Shiori searches for her brothers, and uncovers a dark conspiracy to seize the throne. Only Shiori can set the kingdom to rights, but to do so she must place her trust in a paper bird, a mercurial dragon, as well as the very boy she fought so hard not to marry. And she must embrace the magic she's been taught all her life to contain—no matter what it costs her.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/the_dragons_promise.jpg" alt="The Dragon's Promise" class="book_cover" data-caption="The Dragon's Promise" data-description-id="desc-promise">
+          <template id="desc-promise">
+
+            <div data-slot="author">Elizabeth Lim</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2022<br><br>Read : 2023</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Six Crimson Cranes series</h3>
+              <p>Princess Shiori made a deathbed promise to return the dragon's pearl to its rightful owner, but keeping that promise is more dangerous than she ever imagined.<br><br>
+                She must journey to the kingdom of dragons, navigate political intrigue among humans and dragons alike, fend off thieves who covet the pearl for themselves and will go to any lengths to get it, all while cultivating the appearance of a perfect princess to dissuade those who would see her burned at the stake for the magic that runs in her blood.<br><br>
+                The pearl itself is no ordinary cargo; it thrums with malevolent power, jumping to Shiori's aid one minute, and betraying her the next—threatening to shatter her family and sever the thread of fate that binds her to her true love. It will take every ounce of strength Shiori can muster to defend the life and the love she's fought so hard to win.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/her_radiant_curse.jpg" alt="Her Radiant Curse" class="book_cover" data-caption="Her Radiant Curse" data-description-id="desc-radiant">
+          <template id="desc-radiant">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Elizabeth Lim</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2023<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 0 (prequel) of the Six Crimson Cranes series</h3>
+              <p>Channi was not born a monster. But when her own father offers her in sacrifice to the Demon Witch, she is forever changed. Cursed with a serpent’s face, Channi is the exact opposite of her beautiful sister, Vanna—the only person in the village who looks at Channi and doesn’t see a monster. The only person she loves and trusts.<br><br>
+                Now seventeen, Vanna is to be married off in a vulgar contest that will enrich the coffers of the village leaders. Only Channi, who’s had to rely on her strength and cunning all these years, can defend her sister against the cruelest of the suitors. But in doing so, she becomes the target of his wrath—launching a grisly battle royale, a quest over land and sea, a romance between sworn enemies, and a choice that will strain Channi’s heart to its breaking point.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/caraval.jpg" alt="Caraval" class="book_cover" data-caption="Caraval" data-description-id="desc-caraval">
+          <template id="desc-caraval">
+
+            <div data-slot="author">Stephanie Garber</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Caraval series</h3>
+              <p>Scarlett has never left the tiny island where she and her beloved sister, Tella, live with their powerful and cruel father. Now Scarlett’s father has arranged a marriage for her, and Scarlett thinks her dreams of seeing Caraval, the far-away, once-a-year performance where the audience participates in the show, are over.<br><br>
+                But this year, Scarlett's long-dreamt-of invitation finally arrives. With the help of a mysterious sailor, Tella whisks Scarlett away to attend. Only, as soon as they arrive, Tella is kidnapped by Caraval’s mastermind organizer, Legend. It turns out that this season's Caraval revolves around Tella, and whoever finds her first is the winner.<br><br>
+                Scarlett has been told that everything that happens during Caraval is only an elaborate performance. But whether Caraval is real or not, she must find Tella before the five nights of the game are over, and her sister disappears forever.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/legendary.jpg" alt="Legendary" class="book_cover" data-caption="Legendary" data-description-id="desc-legendary">
+          <template id="desc-legendary">
+
+            <div data-slot="author">Stephanie Garber</div>
+
+            <div data-slot="right">
+              <p><i>Published : May 2018<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Caraval series</h3>
+              <p>Donatella and Scarlett Dragna escaped their cruel father and made it out of Caraval alive, but the games aren’t over yet. What Scarlett doesn’t know is that, in order to gain their freedom, Tella made a deal with a mysterious stranger and now it’s time to pay.<br><br>
+                Except what Tella owes is something that no one has ever been able to deliver: the true name of Caraval Master Legend. Tella’s only chance at uncovering Legend’s true identity is to enter the dangerous game of Caraval once more, and win. But what will she have to sacrifice to do that?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>         
+          
+          <img src="/images/books/les_sorcieres_du_clan_du_nord.jpg" alt="Les sorcières du clan du nord" class="book_cover" data-caption="Les sorcières du clan du nord (The Hawkweed Prophecy)" data-description-id="desc-sorcieres">
+          <template id="desc-sorcieres">
+
+            <div data-slot="author">Irena Brignull</div>
+
+            <div data-slot="right">
+              <p><i>Published : June 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Hawkweed Prophecy series</h3>
+              <p>Poppy Hooper and Ember Hawkweed couldn't lead more different lives. Poppy is a troubled teen: moving from school to school, causing chaos wherever she goes, never making friends or lasting connections. Ember is a young witch, struggling to find a place within her coven and prove her worth. Both are outsiders: feeling like they don't belong and seeking escape.<br><br>
+                Poppy and Ember soon become friends, and secretly share knowledge of their two worlds. Little do they know that destiny has brought them together: an ancient prophecy, and a life-changing betrayal. Growing closer, they begin to understand why they've never belonged and the reason they are now forever connected to each other.<br><br>
+                Switched at birth by the scheming witch Raven Hawkweed, Poppy and Ember must come to terms with their true identities and fight for their own place in the world. Enter Leo, a homeless boy with a painful past who – befriending them both – tests their love and loyalty. Can Poppy and Ember's friendship survive? And can it withstand the dark forces that are gathering?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/tempest.jpg" alt="Tempest" class="book_cover" data-caption="Tempest" data-description-id="desc-tempest">
+          <template id="desc-tempest">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Victoria Aveyard</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2026<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of The Lyrian Sea series</h3>
+              <p>Cat Rose knows what it is to live in two worlds, in two times. Before—as Lady Catrine Rose of the Meridian Empire, chained to a loathsome lord with a dwindling fortune. And after—as the Widow Rose, queen of a pirate tavern in the Lyrian Sea, determined to be the master of her own fate.<br><br>
+                But tides turn and winds change. The Meridian Empire looms on the horizon, the full weight of her navy falling on the Lyrian, bent on reclaiming the wealthy colonies and crushing the pirate republic once and for all. Ship after ship is captured, save for one, captained by a pirate who continually evades both noose and blade: the legendary Valerian Kane.<br><br>
+                With his fearsome ship and uncanny connection to the song of the sea, Valerian is the only man who might rally the pirates who remain. The only man who threatens the Empire. And the only man Cat has ever loved, blazing in and out of her life like a star.<br><br>
+                Desperate for victory, the Empire offers Cat a devastating choice: bring them Valerian or hang. In truth, no choice at all.<br><br>
+                But Cat Rose is nothing if not a survivor.</p>
+              <h3>Notes</h3>
+              <p>From the Goldsboro Books Fellowship subscription.</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/loki.jpg" alt="Loki" class="book_cover" data-caption="Loki : Where Mischief Lies" data-description-id="desc-loki">
+          <template id="desc-loki">
+
+            <div data-slot="author">Mackenzi Lee</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2019<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Before the days of going toe-to-toe with the Avengers, a younger Loki is desperate to prove himself heroic and capable, while it seems everyone around him suspects him of inevitable villainy and depravity... except for Amora. Asgard's resident sorceress-in-training feels like a kindred spirit-someone who values magic and knowledge, who might even see the best in him.<br><br>
+                But when Loki and Amora cause the destruction of one of Asgard's most prized possessions, Amora is banished to Earth, where her powers will slowly and excruciatingly fade to nothing. Without the only person who ever looked at his magic as a gift instead of a threat, Loki slips further into anguish and the shadow of his universally adored brother, Thor.<br><br>
+                When Asgardian magic is detected in relation to a string of mysterious murders on Earth, Odin sends Loki to investigate. As he descends upon nineteenth-century London, Loki embarks on a journey that leads him to more than just a murder suspect, putting him on a path to discover the source of his power-and who he's meant to be.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/addie_larue.jpg" alt="The Invisible Life of Addie LaRue" class="book_cover" data-caption="The Invisible Life of Addie LaRue" data-description-id="desc-larue">
+          <template id="desc-larue">
+
+            <div data-slot="author">V.E. Schwab</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2020<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>France, 1714: In a moment of desperation, a young woman makes a Faustian bargain to live forever—and is cursed to be forgotten by everyone she meets. Thus begins the extraordinary life of Addie LaRue, and a dazzling adventure that will play out across centuries and continents, across history and art, as a young woman learns how far she will go to leave her mark on the world. But everything changes when, after nearly 300 years, Addie stumbles across a young man in a hidden bookstore and he remembers her name.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/gallant.jpg" alt="Gallant" class="book_cover" data-caption="Gallant" data-description-id="desc-gallant">
+          <template id="desc-gallant">
+
+            <div data-slot="author">V.E. Schwab</div>
+
+            <div data-slot="right">
+              <p><i>Published : March 2022<br><br>Read : 2022</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Olivia Prior has grown up in Merilance School for girls, and all she has of her past is her mother’s journal—which seems to unravel into madness. Then, a letter invites Olivia to come home—to Gallant. Yet when Olivia arrives, no one is expecting her. But Olivia is not about to leave the first place that feels like home, it doesn’t matter if her cousin Matthew is hostile or if she sees half-formed ghouls haunting the hallways.<br><br>
+                Olivia knows that Gallant is hiding secrets, and she is determined to uncover them. When she crosses a ruined wall at just the right moment, Olivia finds herself in a place that is Gallant—but not. The manor is crumbling, the ghouls are solid, and a mysterious figure rules over all. Now Olivia sees what has unraveled generations of her family, and where her father may have come from.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/pays_ailleurs.jpg" alt="Au pays de l'ailleurs" class="book_cover" data-caption="Au pays de l'ailleurs (Furthermore)" data-description-id="desc-ailleurs">
+          <template id="desc-ailleurs">
+
+            <div data-slot="author">Tahereh Mafi</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Furthermore</h3>
+              <p>There are only three things that matter to twelve-year-old Alice Alexis Queensmeadow: Mother, who wouldn’t miss her; magic and color, which seem to elude her; and Father, who always loved her. The day Father disappears from Ferenwood he takes nothing but a ruler with him. But it’s been almost three years since then, and Alice is determined to find him. She loves her father even more than she loves adventure, and she’s about to embark on one to find the other.<br><br>
+                But bringing Father home is no small matter. In order to find him she’ll have to travel through the mythical, dangerous land of Furthermore, where down can be up, paper is alive, and left can be both right and very, very wrong. It will take all of Alice's wits (and every limb she's got) to find Father and return home to Ferenwood in one piece. On her quest to find Father, Alice must first find herself—and hold fast to the magic of love in the face of loss.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/grimm.jpg" alt="La malédiction Grimm" class="book_cover" data-caption="La malédiction Grimm (The Grimm Legacy)" data-description-id="desc-grimm">
+          <template id="desc-grimm">
+
+            <div data-slot="author">Polly Shulman</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2010<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of The Grimm Legacy series</h3>
+              <p>Elizabeth has a new job at an unusual library - a lending library of objects, not books. In a secret room in the basement lies the Grimm Collection. That's where the librarians lock away powerful items straight out of the Brothers Grimm fairy tales; seven-league boots, a table that produces a feast at the blink of an eye, Snow White's stepmother's sinister mirror that talks in riddles.<br><br>
+                When the magical objects start to disappear, Elizabeth embarks on a dangerous quest to catch the thief before she can be accused of the crime or captured by the thief.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/ice_dragon.jpg" alt="The Ice Dragon" class="book_cover" data-caption="The Ice Dragon" data-description-id="desc-icedragon">
+          <template id="desc-icedragon">
+
+            <div data-slot="author">George R.R. Martin</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1980<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The ice dragon was a creature of legend and fear, for no man had ever tamed one. When it flew overhead, it left in its wake desolate cold and frozen land. But Adara was not afraid. For Adara was a winter child, born during the worst freeze that anyone, even the Old Ones, could remember.<br><br>
+                Adara could not remember the first time she had seen the ice dragon. It seemed that it had always been in her life, glimpsed from afar as she played in the frigid snow long after the other children had fled the cold. In her fourth year she touched it, and in her fifth year she rode upon its broad, chilled back for the first time. Then, in her seventh year, on a calm summer day, fiery dragons from the North swooped down upon the peaceful farm that was Adara's home. And only a winter child--and the ice dragon who loved her--could save her world from utter destruction.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+                    
+          <img src="/images/books/where_the_mountain_meets_the_moon.jpg" alt="Where the Mountain Meets the Moon" class="book_cover" data-caption="Where the Mountain Meets the Moon" data-description-id="desc-mountain">
+          <template id="desc-mountain">
+
+            <div data-slot="author">Grace Lin</div>
+
+            <div data-slot="right">
+              <p><i>Published : June 2009<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In the valley of Fruitless Mountain, a young girl named Minli spends her days working hard in the fields and her nights listening to her father spin fantastic tales about the Jade Dragon and the Old Man of the Moon. Minli's mother, tired of their poor life, chides him for filling her head with nonsense. But Minli believes these enchanting stories and embarks on an extraordinary journey to find the Old Man of the Moon and ask him how her family can change their fortune. She encounters an assorted cast of characters and magical creatures along the way, including a dragon who accompanies her on her quest.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+                                 
+          <img src="/images/books/the_cat_who_saved_books.jpg" alt="The Cat Who Saved Books" class="book_cover" data-caption="The Cat Who Saved Books" data-description-id="desc-catbooks">
+          <template id="desc-catbooks">
+
+            <div data-slot="author">Sōsuke Natsukawa</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of The Cat Who... series</h3>
+              <p>Natsuki Books was a tiny second-hand bookshop on the edge of town. Inside, towering shelves reached the ceiling, every one crammed full of wonderful books. Rintaro Natsuki loved this space that his grandfather had created. He spent many happy hours there, reading whatever he liked. It was the perfect refuge for a boy who tended to be something of a recluse.<br><br>
+                After the death of his grandfather, Rintaro is devastated and alone. It seems he will have to close the shop. Then, a talking tabby cat called Tiger appears and asks Rintaro for help. The cat needs a book lover to join him on a mission. This odd couple will go on three magical adventures to save books from people who have imprisoned, mistreated and betrayed them. Finally, there is one last rescue that Rintaro must attempt alone...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/azul.jpg" alt="Azul" class="book_cover" data-caption="Azul" data-description-id="desc-azul">
+          <template id="desc-azul">
+
+            <div data-slot="author">Antonio da Silva</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2021<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Entrer dans un tableau ?<br>
+                Ne plus faire qu’un avec eux ?<br>
+                Avoir la possibilité d’y évoluer et d’y rencontrer d’autres personnes ?<br>
+                Peut-être même y tomber amoureux ? Miguel a ce pouvoir.<br>
+                À partir d’une simple image, d’une reproduction dans un livre, il peut s’évader dans les plus grands chefs d’oeuvres.<br>
+                Et ce qu’il adore, c’est y apporter de légères modifications. Mais ce jeu n’est pas sans danger, surtout lorsque l’on attire l’attention de la Protection des Oeuvres dont les méthodes sont expéditives.<br>
+                De Renoir à Hokusai, de Vélasquez à Brueghel, le jeu va se transformer en chasse à l’homme…</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>  
+          
+          <img src="/images/books/darkest_minds_1.jpg" alt="The Darkest Minds" class="book_cover" data-caption="The Darkest Minds" data-description-id="desc-darkest">
+          <template id="desc-darkest">
+
+            <div data-slot="author">Alexandra Bracken</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of The Darkest Minds series</h3>
+              <p>When Ruby woke up on her tenth birthday, something about her had changed. Something alarming enough to make her parents lock her in the garage and call the police. Something that gets her sent to Thurmond, a brutal government “rehabilitation camp.” She might have survived the mysterious disease that’s killed most of America’s children, but she and the others have emerged with something far worse: frightening abilities they cannot control.<br><br>
+                Now sixteen, Ruby is one of the dangerous ones.<br><br>
+                When the truth comes out, Ruby barely escapes Thurmond with her life. Now she’s on the run, desperate to find the one safe haven left for kids like her—East River. She joins a group of kids who escaped their own camp. Liam, their brave leader, is falling hard for Ruby. But no matter how much she aches for him, Ruby can’t risk getting close. Not after what happened to her parents.<br><br>
+                When they arrive at East River, nothing is as it seems, least of all its mysterious leader. But there are other forces at work, people who will stop at nothing to use Ruby in their fight against the government. Ruby will be faced with a terrible choice, one that may mean giving up her only chance at a life worth living.</p>
+              <h3>Notes</h3>
+              <p>Started reading after seeing the movie.</p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/darkest_minds_2.jpg" alt="Never Fade" class="book_cover" data-caption="Le chemin de la vérité (Never Fade)" data-description-id="desc-fade">
+          <template id="desc-fade">
+
+            <div data-slot="author">Alexandra Bracken</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2013<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of The Darkest Minds series</h3>
+              <p>Ruby never asked for the abilities that almost cost her her life. Now she must call upon them on a daily basis, leading dangerous missions to bring down a corrupt government and breaking into the minds of her enemies. Other kids in the Children’s League call Ruby “Leader”, but she knows what she really is: a monster.<br><br>
+                When Ruby is entrusted with an explosive secret, she must embark on her most dangerous mission yet: leaving the Children’s League behind. Crucial information about the disease that killed most of America’s children—and turned Ruby and the others who lived into feared and hated outcasts—has survived every attempt to destroy it. But the truth is only saved in one place: a flashdrive in the hands of Liam Stewart, the boy Ruby once believed was her future—and who now wouldn’t recognize her.<br><br>
+                As Ruby sets out across a desperate, lawless country to find Liam—and answers about the catastrophe that has ripped both her life and America apart—she is torn between old friends and the promise she made to serve the League. Ruby will do anything to protect the people she loves. But what if winning the war means losing herself?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/darkest_minds_3.jpg" alt="In the Afterlight" class="book_cover" data-caption="Dénouement (In the Afterlight)" data-description-id="desc-afterlight">
+          <template id="desc-afterlight">
+
+            <div data-slot="author">Alexandra Bracken</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of The Darkest Minds series</h3>
+              <p>Ruby can't look back. Fractured by an unbearable loss, she and the kids who survived the government's attack on Los Angeles travel north to regroup. With them is a prisoner: Clancy Gray, son of the president, and one of the few people Ruby has encountered with abilities like hers. Only Ruby has any power over him, and just one slip could lead to Clancy wreaking havoc on their minds.<br><br>
+                They are armed only with a volatile secret: proof of a government conspiracy to cover up the real cause of IAAN, the disease that has killed most of America's children and left Ruby and others like her with powers the government will kill to keep contained. But internal strife may destroy their only chance to free the "rehabilitation camps" housing thousands of other Psi kids.<br><br>
+                Meanwhile, reunited with Liam, the boy she would-and did-sacrifice everything for to keep alive, Ruby must face the painful repercussions of having tampered with his memories of her. She turns to Cole, his older brother, to provide the intense training she knows she will need to take down Gray and the government. But Cole has demons of his own, and one fatal mistake may be the spark that sets the world on fire.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/starpoint.jpg" alt="La Fille aux cheveux rouges" class="book_cover" data-caption="La Fille aux cheveux rouges" data-description-id="desc-starpoint">
+          <template id="desc-starpoint">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Marie-Lorna Vaconsin</div>
+
+            <div data-slot="right">
+              <p><i>Published : March 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Le Projet Starpoint series</h3>
+              <p>Pythagore Luchon, 15 ans, entre en seconde. Il se réjouit à l'idée de retrouver sa meilleure amie Louise, mais cette dernière l'ignore, lui préférant la compagnie de Foresta Erivan. Au contact de ce dernier, elle s'isole et commence à s'absenter du lycée. Une nuit, Foresta vient annoncer la disparition de Louise à Pythagore : pour la retrouver, ils doivent passer par l'angle mort des miroirs.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/court_venus.jpg" alt="The Court of Venus" class="book_cover" data-caption="The Court of Venus" data-description-id="desc-venus">
+          <template id="desc-venus">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Bel Banta</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2026<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>In Alvion, magicians have always ruled beside kings. Blessed at birth by one of the seven planets, their abilities are miraculous and extremely rare. Magicians born under Jupiter influence luck. Saturnborn can speak to the dead. Venusborn read the desires of the living.<br><br>
+                At the moment of Bianca Mortlake’s birth, the stars and planets aligned just so, making her the first Moonborn magician in over a thousand years. A sorcery so rare that even the history books cannot say what she is capable of.<br><br>
+                After a childhood training under the realm’s most powerful magician—and alongside a most insufferable Venusborn named Roland—Bianca lives a quiet life far from court. Until a chilling missive arrives in the night, summoning her back.<br><br>
+                A mad and deadly court awaits. Two queens have met the executioner’s blade, and one wrong move could see any of them next beneath its steel. As power is pulled between ruthless royals and courtiers like the tides by the moon, Bianca must rely on the last person she would ever want to—the infuriatingly alluring Roland.<br><br>
+                Because something is terribly wrong in Alvion. And only this moon-blessed magician and her oldest rival can save the court—and each other—from the dark fate they see written in the stars.</p>
+              <h3>Notes</h3>
+              <p>From the Goldsboro Books Fellowship subscription.</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/travel_light.jpg" alt="Travel Light" class="book_cover" data-caption="Travel Light" data-description-id="desc-travel">
+          <template id="desc-travel">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Naomi Mitchison</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1952<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Halla is the daughter of a king, cast out as a baby into a world of danger and enchantment. She is raised by bears, lives amongst dragons, converses with Valkyries and avoids warmongering heroes. But times are changing, and an encounter with the Wanderer, Odin All-Father, finds her at a crossroads. Cutting a fold from his night-blue cloak and laying it over her shoulders, the Wanderer sends her on a journey into the unknown. With only her bear-like kindness, her dragonish wisdom and her own fierce spirit to guide her, Halla must forge her own path...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      <!-- Header 3 -->
+      <tr class="accordion-header" onclick="toggleRow('row3')">
+        <td class="td_dvd"><h3>Classics</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 3 -->
+      <tr id="row3" class="accordion-content">
+        <td colspan="5">
+          <p>This section includes books I've read for fun but most of them were read/studied for class in high school.</p>
+          
+          <img src="/images/books/anne_de_green_gables.jpg" alt="Anne of Green Gables" class="book_cover" data-caption="Anne of Green Gables" data-description-id="desc-greengables">
+          <template id="desc-greengables">
+
+            <div data-slot="author">L.M. Montgomery</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1908<br><br>Read : 2020</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Anne of Green Gables series</h3>
+              <p>Anne Shirley, an eleven-year-old orphan, has arrived in this verdant corner of Prince Edward Island only to discover that the Cuthberts—elderly Matthew and his stern sister, Marilla—want to adopt a boy, not a feisty redheaded girl. But before they can send her back, Anne—who simply must have more scope for her imagination and a real home—wins them over completely.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>        
+          
+          <img src="/images/books/anne_d_avonlea.jpg" alt="Anne of Avonlea" class="book_cover" data-caption="Anne of Avonlea" data-description-id="desc-avonlea">
+          <template id="desc-avonlea">
+
+            <div data-slot="author">L.M. Montgomery</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1909<br><br>Read : 2021</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Anne of Green Gables series</h3>
+              <p>When twelve-year-old Anne Shirley came to Avonlea, she quickly won everyone’s heart. Now, she’s five years older, almost a woman, and about to embark on a new adventure: becoming the teacher in her old Avonlea school. It’s an exciting year as Anne struggles to win over all her students, welcomes two new members to her family, and feels the first stirrings of love.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/outsiders_1.jpg" alt="The Outsiders" class="book_cover" data-caption="The Outsiders" data-description-id="desc-outsiders">
+          <template id="desc-outsiders">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">S.E. Hinton</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 1967<br><br>Read : 2022</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Yes, I have multiple copies of this book</h3>
+              <p>No one ever said life was easy. But Ponyboy is pretty sure that he's got things figured out. He knows that he can count on his brothers, Darry and Sodapop. And he knows that he can count on his friends - true friends who would do anything for him, like Johnny and Two-Bit. And when it comes to the beating up on "greasers" like him and his friends - he knows that he can count on them for trouble. But one night someone takes things too far, and Ponyboy's world is turned upside down...</p>
+              <h3>Notes</h3>
+              <p>Like most, I read The Outsiders in high school and fell in love with it. I had an English oral exam on it and I think it's the only time I had so much fun during an exam haha !<br><br>
+                I've watched the movie multiple times as well. More on that in my DVD section :)</p>            
+            </div>
+          </template>        
+          
+          <img src="/images/books/outsiders_2.jpg" alt="The Outsiders" class="book_cover" data-caption="The Outsiders" data-description-id="desc-outsiders">
+                   
+          <img src="/images/books/rumble_fish.jpg" alt="Rumble Fish" class="book_cover" data-caption="Rumble Fish" data-description-id="desc-rumble">
+          <template id="desc-rumble">
+
+            <div data-slot="author">S.E. Hinton</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 1975<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Rusty-James is the toughest guy in the group of high-school kids who hang out and shoot pool down at Benny's, and he enjoys keeping up his reputation. What he wants most of all is to be just like his older brother, the Motorcycle Boy. He wants to stay calm and laughing when things get dangerous, to be the toughest street fighter and the most respected guy on their side of the river. Rusty-James isn't book-smart, and he knows it. He relies on his fists instead of his brains. Until now he's gotten along all right, because whenever he gets into trouble, the Motorcycle Boy bails him out. But Rusty-James' drive to be like his brother eats away at his world--until it all comes apart in an explosive chain of events. And this time the Motorcycle Boy isn't around to pick up the pieces.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/tex.jpg" alt="Tex" class="book_cover" data-caption="Tex" data-description-id="desc-tex">
+          <template id="desc-tex">
+
+            <div data-slot="author">S.E. Hinton</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 1979<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Easygoing and reckless Tex likes everyone and everything, especially his horse, Negrito, and Johnny Collins's blue-eyed sister, Jamie. Life with his older brother, Mason, would be just about perfect if only Mace would stop complaining about Pop, who hasn't been home in five months. While Mason worries about paying the bills and getting a basketball scholarship--his ticket out of Oklahoma--Tex just seems to attract trouble. Can he find a way to keep things together when everything seems to be falling apart?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+        
+          <img src="/images/books/dead_poets_society.jpg" alt="Dead Poets Society" class="book_cover" data-caption="Dead Poets Society" data-description-id="desc-poets">
+          <template id="desc-poets">
+
+            <div data-slot="author">N.H. Kleinbaum</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1988<br><br>Read : 2023</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Todd Anderson and his friends at Welton Academy can hardly believe how different life is since their new English professor, the flamboyant John Keating, has challenged them to "make your lives extraordinary! " Inspired by Keating, the boys resurrect the Dead Poets Society--a secret club where, free from the constraints and expectations of school and parents, they let their passions run wild. As Keating turns the boys on to the great words of Byron, Shelley, and Keats, they discover not only the beauty of language, but the importance of making each moment count. But the Dead Poets pledges soon realize that their newfound freedom can have tragic consequences. Can the club and the individuality it inspires survive the pressure from authorities determined to destroy their dreams?</p>
+              <h3>Notes</h3>
+              <p>It's pretty rare for a book to be based on a movie so I wanted to try it out. From what I can remember, it was pretty good. Which is why I stopped reading after Neil finished his play lol.</p>            
+            </div>
+          </template>       
+        
+          <img src="/images/books/prince.jpg" alt="Le Petit Prince" class="book_cover" data-caption="Le Petit Prince (The Little Prince)" data-description-id="desc-prince">
+          <template id="desc-prince">
+
+            <div data-slot="author">Antoine de Saint-Exupéry</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 1943<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A pilot forced to land in the Sahara meets a little prince. The wise and enchanting stories the prince tells of his own planet with its three volcanoes and a haughty flower are unforgettable.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>           
+          
+          <img src="/images/books/sensibility.jpg" alt="Sense and Sensibility" class="book_cover" data-caption="Sense and Sensibility" data-description-id="desc-sensibility">
+          <template id="desc-sensibility">
+
+            <div data-slot="author">Jane Austen</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 1811<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister Elinor's warning that her impulsive behaviour leaves her open to gossip and innuendo. Meanwhile Elinor, always sensitive to social convention, is struggling to conceal her own romantic disappointment, even from those closest to her. Through their parallel experience of love—and its threatened loss—the sisters learn that sense must mix with sensibility if they are to find personal happiness in a society where status and money govern the rules of love.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>           
+          
+          <img src="/images/books/painting.jpg" alt="Treasures of 19th- and 20th-Century Painting: The Art Institute of Chicago" class="book_cover" data-caption="Treasures of 19th- and 20th-Century Painting: The Art Institute of Chicago" data-description-id="desc-painting">
+          <template id="desc-painting">
+
+            <div data-slot="author">James N. Wood</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 1993<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>The Art Institute of Chicago houses some of the most celebrated European and American paintings from the nineteenth and twentieth centuries. Included in this collection are numerous masterpieces of realism, Impressionism, Post-Impressionism, Surrealism, Cubism, Abstract Expressionism, and other aspects of modernism. Today a number of these paintings are revered as icons of modern Western culture, emblems of the inspired experimentation that has taken place on both sides of the Atlantic.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/art_book.jpg" alt="Little Big Art Book" class="book_cover" data-caption="Little Big Art Book" data-description-id="desc-book">
+          <template id="desc-book">
+
+            <div data-slot="author">Roberto Carvalho de Magalhães</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2004<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>-</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template> 
+          
+          <img src="/images/books/drax.jpg" alt="The Ninth Life of Louis Drax" class="book_cover" data-caption="The Ninth Life of Louis Drax" data-description-id="desc-drax">
+          <template id="desc-drax">
+
+            <div data-slot="author">Liz Jensen</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2004<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Louis Drax is a boy like no other. He is brilliant and strange, and every year something violent seems to happen to him. On his ninth birthday, Louis goes on a picnic with his parents and falls off a cliff. The details are shrouded in mystery. Louis's mother is shell-shocked; his father has vanished. And after some confusion Louis himself, miraculously alive but deep in a coma, arrives at Dr. Pascal Dannachet's celebrated coma clinic…</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template> 
+
+          <img src="/images/books/tschick.jpg" alt="Tschick" class="book_cover" data-caption="Tschick" data-description-id="desc-tschick">
+          <template id="desc-tschick">
+
+            <div data-slot="author">Wolfgang Herrndorf</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2010<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Zwei Jungs. Ein geknackter Lada. Eine Reise voller Umwege durch ein unbekanntes Deutschland.
+                Mutter in der Entzugsklinik, Vater mit Assistentin auf Geschäftsreise: Maik Klingenberg wird die großen Ferien allein am Pool der elterlichen Villa verbringen. Doch dann kreuzt Tschick auf. Tschick, eigentlich Andrej Tschichatschow, kommt aus einem der Asi-Hochhäuser in Hellersdorf, hat es von der Förderschule irgendwie bis aufs Gymnasium geschafft und wirkt doch nicht gerade wie das Musterbeispiel der Integration. Außerdem hat er einen geklauten Wagen zur Hand. Und damit beginnt eine unvergessliche Reise ohne Karte und Kompass durch die sommerglühende deutsche Provinz.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/incident.jpg" alt="The Curious Incident of the Dog in the Night-Time" class="book_cover" data-caption="The Curious Incident of the Dog in the Night-Time" data-description-id="desc-dog">
+          <template id="desc-dog">
+
+            <div data-slot="author">Mark Haddon</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2003<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Christopher John Francis Boone knows all the countries of the world and their capitals and every prime number up to 7,057. He relates well to animals but has no understanding of human emotions. He cannot stand to be touched. And he detests the color yellow. This improbable story of Christopher’s quest to investigate the suspicious death of a neighborhood dog makes for one of the most captivating, unusual, and widely heralded novels in recent years.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/micromegas.jpg" alt="Micromégas/Zadig" class="book_cover" data-caption="Micromégas/Zadig" data-description-id="desc-zadig">
+          <template id="desc-zadig">
+
+            <div data-slot="author">Voltaire</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1759<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Il faut être très court, et un peu salé, sans quoi les ministres et madame de Pompadour, les commis et les femmes de chambre, font des papillotes du livre. Brièveté et mordant : telles sont les principales qualités de Micromégas, Zadig et Candide, les trois contes de Voltaire les plus célèbres, traversés par deux motifs : le philosophe dans le monde, le bonheur par la philosophie. Chassé de sa planète, Micromégas -un jeune géant de près de sept cents ans - entame un périple cosmique qui le mènera à ces petites mites qu'on appelle les hommes. En proie aux caprices du sort, l'Oriental Zadig fera la rencontre d'un ermite à la barbe blanche, détenteur du livre des destinées où tout est écrit. Quant à Candide, contraint de quitter le château de Thunder-ten-tronckh, il apprendra à ses dépens que tout n'est pas pour le mieux dans le meilleur des mondes...</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/berenice.jpg" alt="Bérénice" class="book_cover" data-caption="Bérénice" data-description-id="desc-berenice">
+          <template id="desc-berenice">
+
+            <div data-slot="author">Jean Racine</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 1670<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Bérénice, au centre de l’œuvre de son auteur, en 1670, est une pièce singulière dans la production de Racine : c’est une tragédie où il n’y a pas de sang. Elle paraît peut-être d’autant plus douloureuse. Se séparer est pire ici que mourir. C’est le sort des trois personnages de la pièce : Bérénice, reine qui aime l’empereur Titus et qui devait l’épouser, Antiochus, qui voue un amour sans espoir à Bérénice. Il s’agit seulement de prononcer un mot, si dur, si tendre : adieu.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/trilogie.jpg" alt="Petite Trilogie de la mort: L'Intruse / Les Aveugles / Les Sept Princesses" class="book_cover" data-caption="Petite Trilogie de la mort: L'Intruse / Les Aveugles / Les Sept Princesses" data-description-id="desc-trilogie">
+          <template id="desc-trilogie">
+
+            <div data-slot="author">Maurice Maeterlinck</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2009<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Dans la salle d'un vieux château, un vieillard aveugle, entouré de sa famille, devine à des signes imperceptibles l'approche de la mort qui va frapper sa fille. Isolé par sa cécité, l'aïeul a gardé intacte son intuition. Il est le seul à pouvoir interpréter le bruissement des arbres, le silence des oiseaux et des cygnes, l'entrée du froid dans la salle. Plongé dans les ténèbres, il communique avec l'inconnu.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/celine.jpg" alt="Voyage au bout de la nuit" class="book_cover" data-caption="Voyage au bout de la nuit" data-description-id="desc-nuit">
+          <template id="desc-nuit">
+
+            <div data-slot="author">Louis-Ferdinand Céline</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1932<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Voyage au bout de la nuit est un récit à la première personne dans lequel le personnage principal, Bardamu, raconte son expérience de la Première Guerre mondiale, du colonialisme en Afrique, des États-Unis de l'entre-deux guerres, et de la condition sociale en général.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/huis_clos.jpg" alt="Huis clos: suivi de Les Mouches" class="book_cover" data-caption="Huis clos: suivi de Les Mouches" data-description-id="desc-clos">
+          <template id="desc-clos">
+
+            <div data-slot="author">Jean-Paul Sartre</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1946<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>-</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/iseut.jpg" alt="Tristan et Iseut: Les poèmes français - La saga norroise" class="book_cover" data-caption="Tristan et Iseut: Les poèmes français - La saga norroise" data-description-id="desc-iseut">
+          <template id="desc-iseut">
+
+            <div data-slot="author">Philippe Walter, Daniel Lacroix</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1972<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Peu de légendes ont marqué l’imaginaire amoureux de notre civilisation aussi fortement que celle de Tristan et Iseut. Ce volume réunit les romans et les récits en vers français qui en constituent, au XIIe siècle, les monuments les plus anciens : les romans de Béroul et de Thomas, la Folie Tristan, le lai du Chèvrefeuille et celui du Donnei des Amants (ou « Tristan rossignol »). On y a joint, traduite pour la première fois en français, la saga norroise du XII.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/sophie.jpg" alt="Le Monde de Sophie" class="book_cover" data-caption="Le Monde de Sophie" data-description-id="desc-sophie">
+          <template id="desc-sophie">
+
+            <div data-slot="author">Jostein Gaarder</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1991<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>A la veille de ses quinze ans, Sophie Amundsen, jeune fille « presque modèle », reçoit une lettre d’un mystérieux individu. A l’intérieur, une seule phrase : «Qui es-tu ?» C’est le début d’une étrange correspondance qui l’amène peu à peu à partir sur les traces des plus grandes figures de la philosophie. Un roman initiatique paré de magie devenu grand classique de la littérature contemporaine.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/avare.jpg" alt="L'Avare" class="book_cover" data-caption="L'Avare" data-description-id="desc-avare">
+          <template id="desc-avare">
+
+            <div data-slot="author">Molière</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1668<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Harpagon est un vieillard odieux et avare. Avare jusqu'au ridicule, puisqu'il fait comparaître en justice le chat d'un de ses voisins pour lui avoir mangé le reste d'un gigot ! Avare jusqu'au sordide aussi. Ne cherche-t-il pas à prêter à un taux usuraire l'argent qu'il refuse à son fils ? N'est-il pas prêt à vendre sa fille à qui offre de la prendre sans dot ? Quant à sa prétendue attirance pour Mariane, elle ne résiste pas à sa fascination pour l'or.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/voltaire.jpg" alt="Micromégas - L'Ingénu" class="book_cover" data-caption="Micromégas - L'Ingénu" data-description-id="desc-voltaire">
+          <template id="desc-voltaire">
+
+            <div data-slot="author">Voltaire</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1980<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>De fait, le conte voltairien gravite toujours, le plus élégamment du monde, autour d'un problè science, destinée, sagesse, optimisme, civilisation. Au centre, violemment mis en lumière, et tout prêt à faire ses expériences, le héros, esprit à la fois neuf et avisé, dont l'originalité est de toujours venir d'ailleurs.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/nothomb.jpg" alt="Stupeur et tremblements" class="book_cover" data-caption="Stupeur et tremblements" data-description-id="desc-nothomb">
+          <template id="desc-nothomb">
+
+            <div data-slot="author">Amélie Nothomb</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 1999<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Au début des années 90, la narratrice est embauchée par Yumimoto, une puissante firme japonaise. Elle va découvrir à ses dépens l'implacable rigueur de l'autorité d'entreprise, en même temps que les codes de conduite, incompréhensibles au profane, qui gouvernent la vie sociale au pays du Soleil levant.<br><br>
+                D'erreurs en maladresses et en échecs, commence alors pour elle, comme dans un mauvais rêve, la descente inexorable dans les degrés de la hiérarchie, jusqu'au rang de surveillante des toilettes, celui de l'humiliation dernière. Une course absurde vers l'abîme - image de la vie -, où l'humour percutant d'Amélie Nothomb fait mouche à chaque ligne.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/condamne.jpg" alt="Le dernier jour d'un condamné" class="book_cover" data-caption="Le dernier jour d'un condamné" data-description-id="desc-condamne">
+          <template id="desc-condamne">
+
+            <div data-slot="author">Victor Hugo</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 1829<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Ce roman se présente comme le journal d'un condamné à mort écrit durant les vingt-quatre dernières heures de son existence dans lequel il raconte ce qu'il a vécu depuis le verdict de son procès jusqu'au moment de son exécution, soit environ cinq semaines de sa vie. Ce récit, long monologue intérieur, est entrecoupé de réflexions angoissées et de souvenirs de son autre vie, la « vie d'avant ». Le lecteur ne connaît ni le nom de cet homme, ni ce qu'il a fait pour être condamné, mis à part la phrase : « moi, misérable qui ai commis un véritable crime, qui ai versé du sang ! ».</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/baudelaire.jpg" alt="Les Fleurs du Mal" class="book_cover" data-caption="Les Fleurs du Mal" data-description-id="desc-mal">
+          <template id="desc-mal">
+
+            <div data-slot="author">Charles Baudelaire</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 1857<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Charles Baudelaire's 1857 masterwork was scandalous in its day for its portrayals of sex, same-sex love, death, the corrupting and oppressive power of the modern city and lost innocence, Les Fleurs du Mal (The Flowers of Evil) remains powerful and relevant for our time.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/cantatrice.jpg" alt="La Cantatrice chauve" class="book_cover" data-caption="La Cantatrice chauve" data-description-id="desc-chauve">
+          <template id="desc-chauve">
+
+            <div data-slot="author">Eugène Ionesco</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1950<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Tout le monde la connaît. Peu peuvent l'expliquer. C'est ce que fait à merveille Emmanuel Jacquart, éditeur du Théâtre de Ionesco dans la Bibliothèque de la Pléiade. Il commence par retracer l'historique, la genèse de la pièce, à partir de L'anglais sans peine de la méthode Assimil. Les répliques se sont naturellement assemblées, et l'ensemble a produit ce que l'auteur appelle une «anti-pièce», une vraie parodie de pièce, sans ambition idéologique particulière.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/olivier_becaille.jpg" alt="La Mort d'Olivier Bécaille" class="book_cover" data-caption="La Mort d'Olivier Bécaille" data-description-id="desc-olivier">
+          <template id="desc-olivier">
+
+            <div data-slot="author">Émile Zola</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1884<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Olivier Bécaille est mort un matin, après trois jours de maladie. Le médecin est formel, et l’enterrement doit avoir lieu quelques jours plus tard. Mais, en réalité, Bécaille est bien vivant. Terrassé par une crise de catalepsie, prisonnier de son propre corps mais conscient de tout ce qui l’entoure, il assiste, impuissant, au chagrin de sa femme, aux préparatifs de sa mise en bière et à l’intervention d’un voisin un peu trop charmant…</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/anne_frank.jpg" alt="Anne Frank - Aus dem Tagebuch" class="book_cover" data-caption="Anne Frank - Aus dem Tagebuch" data-description-id="desc-frank">
+          <template id="desc-frank">
+
+            <div data-slot="author">Anne Frank</div>
+
+            <div data-slot="right">
+              <p><i>Published : May 2019<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>In einem Amsterdamer Hinterhaus versteckt sich die jüdische Familie Frank im Sommer 1942 vor den Nationalsozialisten. Hier schreibt Anne Frank ihr weltberühmtes Tagebuch, dem sie – wie einer besten Freundin – all ihre Beobachtungen, Gedanken und Gefühle...</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/dernieres_nouvelles.jpg" alt="Dernières Nouvelles de la Terre" class="book_cover" data-caption="Dernières Nouvelles de la Terre" data-description-id="desc-terre">
+          <template id="desc-terre">
+
+            <div data-slot="author">Pierre Bordage</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2010<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>N’est-il pas trop tard ? Pour faire un enfant, pour revoir les siens après trente ans de vie extraterrestre, pour dire non à la guerre et à l’endoctrinement…<br><br>
+                Dans les mondes où nous projette Pierre Bordage, la dégradation de l’espèce humaine et de la Terre a atteint son apogée. Se rebeller c’est mourir, au mieux se venger. Comment respirer, comment sortir de « notre insondable prison » ?</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/banquet.jpg" alt="Le Banquet" class="book_cover" data-caption="Le Banquet" data-description-id="desc-banquet">
+          <template id="desc-banquet">
+
+            <div data-slot="author">Plato</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 381<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Ils sont allongés sur des lits et parlent de l'Amour et de la Beauté. Leurs discours se succèdent, parfois se répondent : car il y a plusieurs Amours et plusieurs manières de désirer le Beau. À ces hommes vivant en un temps et un lieu où l'éducation des garçons est indissociable de la sexualité qui règle les rapports du maître et du disciple, une étrangère, Diotime, oppose un modèle féminin de la procréation du savoir. À travers elle, Socrate dessine les étapes de l'apprentissage du philosophe capable de se détacher du monde sensible pour devenir l'« amant » par excellence qui guide l'« aimé » dans sa quête du Vrai et du Beau. Par-delà les interprétations prudentes du Banquet que nous a léguées la tradition philosophique, cette traduction inédite invite à une lecture renouvelée du dialogue : un Banquet parfois extravagant, à l'image de son objet, d'une richesse stylistique exubérante, souvent cru dans son langage, foisonnant enfin dans sa recherche du bonheur véritable.</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/alice.jpg" alt="Alice et autres merveilles" class="book_cover" data-caption="Alice et autres merveilles" data-description-id="desc-alice">
+          <template id="desc-alice">
+
+            <div data-slot="author">Fabrice Melquiot</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2007<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <p>Fabrice Melquiot régénère la fantaisie du conte. Les flamants roses, qui servent de maillets pour la partie de croquet avec la Reine de Coeur, menacent d'en appeler à la SPA. Le Lapin Blanc à la légendaire redingote est d'une élégance dernier cri, portant un « veston quadrillé Nini Cerutto façon mots croisés pas finis »...</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+        
+        </td>
+      </tr>
+
+      <!-- Header 4 -->
+      <tr class="accordion-header" onclick="toggleRow('row4')">
+        <td class="td_dvd"><h3>Preteen/kid</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 4 -->
+      <tr id="row4" class="accordion-content">
+        <td colspan="5">
+          <p>Here are all my childhood books that I still have.</p>
+
+          <img src="/images/books/cats.jpg" alt="Into the Wild" class="book_cover" data-caption="Into the Wild" data-description-id="desc-cat">
+          <template id="desc-cat">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Erin Hunter</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2003<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of La guerre des clans (Warriors)</h3>
+              <p>For generations, four Clans of wild cats have shared the forest according to the laws laid down by their warrior ancestors. But the ThunderClan cats are in grave danger, and the sinister ShadowClan grows stronger every day. Noble warriors are dying—and some deaths are more mysterious than others. In the midst of this turmoil appears an ordinary house cat named Rusty . . . who may turn out to be the bravest warrior of them all.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/clans1.jpg" alt="Retour à l'état sauvage" class="book_cover" data-caption="Retour à l'état sauvage (Into the Wild)" data-description-id="desc-cat">
+        
+          <img src="/images/books/clans2.jpg" alt="À feu et à sang" class="book_cover" data-caption="À feu et à sang (Fire and Ice)" data-description-id="desc-cat2">
+          <template id="desc-cat2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Erin Hunter</div>
+
+            <div data-slot="right">
+              <p><i>Published : May 2003<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of La guerre des clans (Warriors)</h3>
+              <p>WindClan is missing, and hostilities between the remaining three clans place all the cats in peril. Illness and tragic accidents weaken the camp, and ThunderClan needs all its warriors to defend itself - but Fireheart suspects that certain cats may not be as loyal as they appear.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/perdues.jpg" alt="Gardiens des cités perdues" class="book_cover" data-caption="Gardiens des cités perdues (Keeper of the Lost Cities)" data-description-id="desc-perdues">
+          <template id="desc-perdues">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Shannon Messenger</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Keeper of the Lost Cities</h3>
+              <p>Twelve-year-old Sophie Foster has a secret. She’s a Telepath—someone who hears the thoughts of everyone around her. It’s a talent she’s never known how to explain.<br><br>
+                Everything changes the day she meets Fitz, a mysterious boy who appears out of nowhere and also reads minds. She discovers there’s a place she does belong, and that staying with her family will place her in grave danger. In the blink of an eye, Sophie is forced to leave behind everything and start a new life in a place that is vastly different from anything she has ever known.<br><br>
+                Sophie has new rules to learn and new skills to master, and not everyone is thrilled that she has come “home.”<br>
+                There are secrets buried deep in Sophie’s memory—secrets about who she really is and why she was hidden among humans—that other people desperately want. Would even kill for.</p>
+              <h3>Notes</h3>
+              <p>Loved reading all of these in my local library :)</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/lune.jpg" alt="La cité maudite" class="book_cover" data-caption="La cité maudite" data-description-id="desc-lune">
+          <template id="desc-lune">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Elodie Tirel</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2009<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of L'elfe de lune</h3>
+              <p>Luna est une jeune elfe argentée qui a grandi au sein d'une meute de loups. Lorsque des guerrières drows déciment sa famille adoptive, elle se réfugie chez son mentor, le Marécageux, qui lui révèle les circonstances de sa naissance. Dans le but de retrouver sa mère, Luna entame un long périple qui la mènera à Rhasgarrok, la cité souterraine des elfes noirs.<br><br>
+                La jeune fille éprouve une grande répulsion en découvrant le marché aux esclaves, les ruelles sordides et les créatures maléfiques qui peuplent la cité drow. C'est pourtant au plus profond de Rhasgarrok qu'elle retrouvera sa véritable famille. C'est aussi au cours de ce voyage qu'elle fera la rencontre de Darkhan, un elfe noir en mission.<br><br>
+                Tout oppose Luna à ce farouche guerrier ; pourtant, leurs destins vont bientôt s'entremêler. Pour le meilleur et pour le pire...</p>
+              <h3>Notes</h3>
+              <p></p>
+            </div>
+          </template>
+
+          <img src="/images/books/tatoo_1.jpg" alt="Les quatre élus" class="book_cover" data-caption="Les quatre élus (Wild Born)" data-description-id="desc-tatoo1">
+          <template id="desc-tatoo1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Brandon Mull</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2013<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Animal Totem (Spirit Animals) series</h3>
+              <p>Four children separated by vast distances all undergo the same ritual, watched by cloaked strangers. Four flashes of light erupt, and from them emerge the unmistakable shapes of incredible beasts - a wolf, a leopard, a panda, a falcon. Suddenly the paths of these children - and the world - have been changed forever. Enter the world of Erdas, where every child who comes of age must discover if they have a spirit animal, a rare bond between human and beast that bestows great powers to both. A dark force has risen from distant and long-forgotten lands, and has begun an onslaught that will ravage the world. Now the fate of Erdas has fallen on the shoulders of four young strangers... and on you.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/tatoo_2.jpg" alt="Traqués" class="book_cover" data-caption="Traqués (Hunted)" data-description-id="desc-tatoo2">
+          <template id="desc-tatoo2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Maggie Stiefvater</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Animal Totem (Spirit Animals) series</h3>
+              <p>In the world of Erdas, only a rare few are able to summon a spirit animal in the way Conor, Abeke, Meilin, and Rollan have. The bond they share with their animals is a partnership that allows them to access more-than-human abilities.<br><br>
+                But what if there was another way to create a spirit animal--to force the bond, giving the human partner total control? And what if someone with selfish intentions was offered this gift... with a catch?<br><br>
+                The four young heroes have barely had time to come together as a team, and their own spirit animal bonds are still greatly untested. But now they face a brutal confrontation against an enemy who will break any rule to defeat them.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/tatoo_3.jpg" alt="Prisonniers" class="book_cover" data-caption="Prisonniers (Blood Ties)" data-description-id="desc-tatoo3">
+          <template id="desc-tatoo3">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Garth Nix & Sean Williams</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of the Animal Totem (Spirit Animals) series</h3>
+              <p>Erdas is a land of balance. A rare link, the spirit animal bond, bridges the human and animal worlds. Conor, Abeke, Meilin, and Rollan each have this gift-and the grave responsibility that comes with it.<br><br>
+                But the Conquerors are trying to destroy this balance. They're swallowing whole cities in their rush for power-including Meilin's home. Fed up with waiting and ready to fight, Meilin has set off into enemy territory with her spirit animal, a panda named Jhi. Her friends aren't far behind... but they're not the only ones.<br><br>
+                The enemy is everywhere.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/tatoo_4.jpg" alt="La cité de glace" class="book_cover" data-caption="La cité de glace (Fire and Ice)" data-description-id="desc-tatoo4">
+          <template id="desc-tatoo4">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Brandon Mull</div>
+
+            <div data-slot="right">
+              <p><i>Published : June 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 4 of the Animal Totem (Spirit Animals) series</h3>
+              <p>Strange things are happening at the frozen edge of the world. Conor, Abeke, Meilin, and Rollan have crisscrossed Erdas in their quest to stop the ruthless Conquerors. Only the four of them, supported by the gifts of their legendary spirit animals, have the power to defeat an evil takeover.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/tatoo_5.jpg" alt="Trahisons" class="book_cover" data-caption="Trahisons (Against the Tide)" data-description-id="desc-tatoo5">
+          <template id="desc-tatoo5">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Tui T. Sutherland</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 5 of the Animal Totem (Spirit Animals) series</h3>
+              <p>The sun is shining in the Hundred Isles, and yet the path forward seems crowded with shadows. Conor, Abeke, Meilin, and Rollan have traveled across the world, seeking a set of powerful talismans in order to keep them from enemy hands. Throughout their journey the young heroes have been hounded by pursuers, who always seem to know just where to find them. Now they know why.<br><br>
+                One of them is a traitor.<br><br>
+                As they steer the crystal blue waters of this tropical paradise, the team can't help but suspect each other. There's a spy in their midst, and before this mission is over, a deadly trap will close around them.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/tatoo_6.jpg" alt="La chute" class="book_cover" data-caption="La chute (Rise and Fall)" data-description-id="desc-tatoo6">
+          <template id="desc-tatoo6">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Eliot Schrefer</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 6 of the Animal Totem (Spirit Animals) series</h3>
+              <p>Deep in the desert there sits a beautiful oasis, ruled by a monarch unlike any other in Erdas. His name is Cabaro, the Great Lion, and he reigns over a kingdom of animals, jealously guarding his golden talisman. No human has ever set foot in the Great Beast’s territory. The journey to his oasis is impossible.<br><br>
+                As a team, Conor, Abeke, Meilin, and Rollan have achieved the impossible before. But now that team is broken—the friends scattered by a devastating betrayal.<br><br>
+                The young heroes and their spirit animals have already sacrificed much in their quest for the talismans. But with the world crumbling all around them—and a ruthless enemy opposing their every move—their greatest sacrifices are yet to come.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/tatoo_7.jpg" alt="L'arbre éternel" class="book_cover" data-caption="L'arbre éternel (The Evertree)" data-description-id="desc-tatoo7">
+          <template id="desc-tatoo7">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Marie Lu</div>
+
+            <div data-slot="right">
+              <p><i>Published : March 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 7 of the Animal Totem (Spirit Animals) series</h3>
+              <p>Conor, Abeke, Meilin, and Rollan were once ordinary kids. Then they discovered that they had spirit animals-wise and powerful partners who granted them with amazing gifts... and a legendary responsibility.<br><br>
+                Together, the team has journeyed across Erdas, racing to stop a merciless foe. They have laughed and fought together. They've won challenges and lost friends. Some have even lost themselves.<br><br>
+                Now that journey is about to end. They must reach a place forgotten by time and face off against an ancient enemy breaking free from his prison. They have just one chance to stop him... or the whole world will shatter.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/tatoo_2_1.jpg" alt="Gardiens Immortels" class="book_cover" data-caption="Gardiens Immortels (Immortal Guardians)" data-description-id="desc-tatoo21">
+          <template id="desc-tatoo21">
+
+            <div data-slot="author">Eliot Schrefer</div>
+
+            <div data-slot="right">
+              <p><i>Published : August 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Animal Totem: Les bêtes suprêmes<br>(Spirit Animals: Fall of the Beasts) series</h3>
+              <p>In the world of Erdas, every child must discover if they will summon a spirit animal, a rare and incredible gift. Conor, Abeke, Meilin, and Rollan were rare even among those few. They summoned four animals who were once Great Beasts, immortal guardians who sacrificed everything to end a brutal war.<br><br>
+                Now, in the wake of that sacrifice, more special children are appearing all across Erdas who are connected to these legendary beings. But something else lurks in the shadows of this hard-won peace.<br><br>
+                A dark force is hunting the Great Beasts, just as the world is rebuilding. Older and more powerful than even the Great Beasts themselves, it has slept for centuries beneath the surface of the world. Now it has awakened ...and if the young heroes can't stop it, it will consume everything.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/tatoo_2_2.jpg" alt="Piégés" class="book_cover" data-caption="Piégés (Broken Ground)" data-description-id="desc-tatoo22">
+          <template id="desc-tatoo22">
+
+            <div data-slot="author">Victoria Schwab</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Animal Totem: Les bêtes suprêmes<br>(Spirit Animals: Fall of the Beasts) series</h3>
+              <p>Something ancient and evil has awoken from beneath the world of Erdas. Shrouded in shadow and older than memory, just a sliver of its power can destroy with a touch. Even the spirit animal bond, the sacred link between humans and animals that keeps Erdas in balance, is under threat.<br><br>
+                Four young heroes, Conor, Abeke, Meilin, and Rollan, are determined to stop it. Together with their spirit animals, they embark on a desperate journey that takes them deep underground and to the far corners of the world. As friends and allies fall around them, the four have no choice but to push forward and confront this darkness. If they stop to look back, they'll see the truth: Evil already has them surrounded.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/goldie_1.jpg" alt="Le passage des fées" class="book_cover" data-caption="Le passage des fées" data-description-id="desc-goldie1">
+          <template id="desc-goldie1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Billie Cairn</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Les cercles de Goldie series</h3>
+              <p>Ce livre pas comme les autres t'emmène à la rencontre d'une jeune orpheline, d'un chat féerique, d'un lutin facétieux et de ronds-points magiques. Mais, chut... à toi de découvrir tout ça. Alors, à l'aide de ta plus belle paire de ciseaux, découpe les pages secrètes pour découvrir les mystères de Goldie Loques !</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/goldie_2.jpg" alt="Celle qui traverse les mondes" class="book_cover" data-caption="Celle qui traverse les mondes" data-description-id="desc-goldie2">
+          <template id="desc-goldie2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Billie Cairn</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of Les cercles de Goldie series</h3>
+              <p>Chez les Faeriens, la musique est sacrée ! Alors, quand l'opéra est menacé de destruction, Sam, le lutin facétieux, n'a pas d'autres choix que de demander à nouveau l'aide de Goldie... Accompagnée de son chat Deneb, des elfes et des fées musiciens, la jeune orpheline va traverser les mondes pour sauver la source d'Harmonie. Mais, chut... à toi de découvrir tout ça. Alors, à l'aide de ta plus belle paire de ciseaux, découpe les pages secrètes pour découvrir tous les mystères de Goldie Loques ! Vite ! L'aventure t'attend au-delà des Cercles !</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/goldie_3.jpg" alt="La Tour des nuages" class="book_cover" data-caption="La Tour des nuages" data-description-id="desc-goldie3">
+          <template id="desc-goldie3">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Billie Cairn</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of Les cercles de Goldie series</h3>
+              <p>Sans cracheur de feu, la grande fête des Cerisiers en fleurs risque d'être bien triste ! Une nouvelle fois, le Petit Peuple se tourne vers Goldie. Avec son ami Sam, le lutin facétieux, la jeune orpheline traverse les mondes et part pour un voyage enchanté au pays des dragons. Et qui sait ? Peut-être que là-bas, elle en apprendra un peu plus sur ses origines...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/malenfer_1.jpg" alt="La forêt des ténèbres" class="book_cover" data-caption="La forêt des ténèbres" data-description-id="desc-malenfer1">
+          <template id="desc-malenfer1">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Malenfer series</h3>
+              <p>Malenfer, la forêt maléfique, grandit et s’approche chaque jour davantage de la maison où vivent Gabriel et sa petite sœur Zoé. Seuls depuis le départ de leurs parents, partis chercher de l’aide en terre de Gazmoria, les enfants doivent faire face aux ténèbres qui recouvrent lentement Wallangar. Mais aussi à un tout nouveau danger : ni les visions de Zoé, ni ses pouvoirs magiques ne parviennent encore à l’identifier…</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/malenfer_2.jpg" alt="La source magique" class="book_cover" data-caption="La source magique" data-description-id="desc-malenfer2">
+          <template id="desc-malenfer2">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the Malenfer series</h3>
+              <p>Le jour du Ténérit approche et les pouvoirs magiques de Gabriel ne cessent d’augmenter. Grâce à l’aide de maître Batavius, le sorcier de Gazmoria, il espère être prêt à temps pour affronter Malenfer, la forêt maléfique, avant qu’elle ne détruise la ville de Wallangar. Soutenu par sa petite sœur Zoé et ses trois amis Morgane, Ezéchiel et Thomas, le jeune sorcier se prépare au combat sans se douter qu’il devra faire face à un terrible dilemme…</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/malenfer_3.jpg" alt="Les héritiers" class="book_cover" data-caption="Les héritiers" data-description-id="desc-malenfer3">
+          <template id="desc-malenfer3">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of the Malenfer series</h3>
+              <p>Après avoir combattu et vaincu la part sombre de Malenfer, Gabriel et Zoé doivent faire face à une nouvelle épreuve : les deux enfants découvrent le terrible secret qui entoure leur naissance. Ils vont bientôt prendre une décision qui changera à tout jamais leur destin et celui des terres magiques... Gabriel et Zoé perceront-ils les mystères de la forêt magique Malenfer ?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/malenfer_4.jpg" alt="Les Sorcières des marais" class="book_cover" data-caption="Les Sorcières des marais" data-description-id="desc-malenfer4">
+          <template id="desc-malenfer4">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 4 of the Malenfer series</h3>
+              <p>Gabriel et Zoé se sont cachés dans les Terres de magie, après la disparition de leur ville Wallangar et de leurs amis. Parmi les sorcières des marais de Houquelande, ils découvrent un nouveau monde régi par ses propres règles. Alors que Zoé semble prendre conscience de son immense pouvoir, Gabriel doit l’aider à maîtriser mieux sa force pour défendre leurs amis. Un grand défi les attend...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+        
+          <img src="/images/books/sombreterre_1.jpg" alt="Le clan perdu" class="book_cover" data-caption="Le clan perdu" data-description-id="desc-sombreterre1">
+          <template id="desc-sombreterre1">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Le Monde secret de Sombreterre series</h3>
+              <p>Orphelin, Victor n’est pas un garçon comme les autres. Il parle avec les fantômes et voit des choses que personne d’autre ne perçoit. Quand la jolie et captivante Alina fait irruption dans sa classe avec son horrible monstre invisible sur son épaule, le monde de Victor est bouleversé.<br>
+                Qui est-elle ? D’où lui viennent ses étranges et terribles pouvoirs ? Et surtout, pourquoi a-t-il l’impression de la connaître et qu’un lien ancien et magique les relie l’un à l’autre ?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/sombreterre_2.jpg" alt="Les Gardiens" class="book_cover" data-caption="Les Gardiens" data-description-id="desc-sombreterre2">
+          <template id="desc-sombreterre2">
+
+            <div data-slot="author">Cassandra O'Donnell</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of Le Monde secret de Sombreterre series</h3>
+              <p>Alina comprend que la situation s’est dégradée depuis son départ : le voile qui protège le monde de Sombreterre se fissure de plus en plus, laissant des monstres-esprits semer le chaos chez les humains.<br>
+                Parmi les gardiens, on s’interroge : Victor est-il l’élu ? Pourra-t-il tous les sauver ? Les anciens sont fascinés par ses pouvoirs, mais Victor ne sait pas encore à qui accorder sa confiance…</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/tombquest_1.jpg" alt="Book of the Dead" class="book_cover" data-caption="Book of the Dead" data-description-id="desc-tombquest1">
+          <template id="desc-tombquest1">
+
+            <div data-slot="author">Michael Northrop</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the TombQuest series</h3>
+              <p>Nothing can save eleven-year-old Alex Sennefer’s life. That’s what all the doctors say, but his mother knows it’s not true. She knows that the Lost Spells — the most powerful piece of the Egyptian Book of the Dead — can crack open a door to the afterlife and pull her son back from the brink. But when she uses the spells, five evil ancients known as the Death Walkers are also brought back to life.<br><br>
+                Now terrible things are starting to happen. Mummies are awakening. New York is overrun with scorpion messengers. And worst of all, Alex’s mom and the Lost Spells have both disappeared. Alex and his best friend, Ren, will do anything to save his mom and save the world . . . even if that means going head-to-head with a Death Walker who has been plotting his revenge for 3,000 years.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/tombquest_2.jpg" alt="Amulet Keepers" class="book_cover" data-caption="Amulet Keepers" data-description-id="desc-tombquest2">
+          <template id="desc-tombquest2">
+
+            <div data-slot="author">Michael Northrop</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of the TombQuest series</h3>
+              <p>When Alex’s mother uses the Ancient Egyptian Book of the Dead to bring him back from the brink of death, she inadvertently summons a slew of other spirits from the underworld.<br><br>
+                In Book 2, Alex and his best friend Ren head to London, where people are going missing, treasures are disappearing, and a blood rain is pouring from the skies. Can they stop a powerful Death Walker from destroying the city?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/merlin.jpg" alt="Les années oubliées" class="book_cover" data-caption="Les années oubliées (The Lost Years)" data-description-id="desc-merlin">
+          <template id="desc-merlin">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">T.A. Barron</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1996<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Merlin series</h3>
+              <p>A raging sea tosses a boy upon the shores of ancient Wales. Left for dead, he has no memory, no name, and no home. But it is his determination to find out who he is - to learn the truth about his mysterious powers - that leads him to a strange and enchanted land. And it is there he discovers that the fate of this land and his personal quest are strangely entwined.<br><br>
+                He is destined to become the greatest wizard of all time--known to all as Merlin.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/wizard.jpg" alt="So You Want to Be a Wizard" class="book_cover" data-caption="So You Want to Be a Wizard" data-description-id="desc-wizard">
+          <template id="desc-wizard">
+
+            <div data-slot="author">Diane Duane</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 1983<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Young Wizards series</h3>
+              <p>Nita Callahan is at the end of her rope because of the bullies who've been hounding her at school... until she discovers a mysterious library book that promises her the chance to become a wizard. But she has no idea of the difference that taking the Wizard's Oath is going to make in her life. Shortly, in company with fellow beginner-wizard Kit Rodriguez, Nita's catapulted into what will be the adventure of a lifetime—if she and Kit can both live through it. For every wizard's career starts with an Ordeal in which he or she must challenge the one power in the universe that hates wizardry more than anything else: the Lone Power that invented death and turned it loose in the worlds. Plunged into a dark and deadly alternate New York full of the Lone One's creatures, Kit and Nita must venture into the very heart of darkness to find the stolen, legendary Book of Night with Moon. Only with the dangerous power of the wizardly Book do they have a chance to save not just their own lives, but their world...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/false.jpg" alt="The False Prince" class="book_cover" data-caption="The False Prince" data-description-id="desc-false">
+          <template id="desc-false">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>
+
+            <div data-slot="author">Jennifer A. Nielsen</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Ascendance series</h3>
+              <p>In a discontent kingdom, civil war is brewing. To unify the divided people, Conner, a nobleman of the court, devises a cunning plan to find an impersonator of the king's long-lost son and install him as a puppet prince. Four orphans are recruited to compete for the role, including a defiant boy named Sage. Sage knows that Conner's motives are more than questionable, yet his life balances on a sword's point—he must be chosen to play the prince or he will certainly be killed. But Sage's rivals have their own agendas as well.<br><br>
+                As Sage moves from a rundown orphanage to Conner's sumptuous palace, layer upon layer of treachery and deceit unfold, until finally, a truth is revealed that, in the end, may very well prove more dangerous than all of the lies taken together.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/julie.jpg" alt="The Edge of Great" class="book_cover" data-caption="The Edge of Great" data-description-id="desc-julie">
+          <template id="desc-julie">
+
+            <div data-slot="author">Micol Ostow</div>
+
+            <div data-slot="right">
+              <p><i>Published : December 2020<br><br>Read : 2021</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Julie and the Phantoms series</h3>
+              <p>After the passing of her mom, Julie has lost her passion for music and is on the verge of being kicked out of her performing arts high school. That is, until she makes the ultimate comeback with her new band, Julie and the Phantoms. There's only one catch: all of her bandmates are ghosts.<br><br>
+                Back in the 1990s, Luke, Reggie, and Alex were on the cusp of rock stardom with their band, Sunset Curve, before an unfortunate encounter with Los Angeles street food brought their rock band dreams-and lives-to an end. Now, with Julie as their lead singer, the guys have a second chance to make it big and to help Julie discover the real power of music.</p>
+              <h3>Notes</h3>
+              <p>What an incredible show. I still can't believe they cancelled it after 1 season !!</p>            
+            </div>
+          </template>
+
+          <img src="/images/books/oniria.jpg" alt="Le Royaume des rêves" class="book_cover" data-caption="Le Royaume des rêves" data-description-id="desc-oniria">
+          <template id="desc-oniria">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">B.F. Parry</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Oniria series</h3>
+              <p>Eliott, 12 ans, est un garçon en apparence comme tous les autres. Jusqu’au jour où il découvre un sablier magique qui lui permet de voyager dans un monde aussi merveilleux que dangereux : Oniria, le monde des rêves. Un monde où prennent vie les milliards de personnages, d’univers, et toutes les choses les plus folles et les plus effrayantes rêvées chaque nuit par les êtres humains. Collégien ordinaire le jour, Eliott devient la nuit, parmi les rêves et les cauchemars qui peuplent Oniria, un puissant Créateur, qui peut faire apparaître tout ce qu’il souhaite par le simple et immense pouvoir de son imagination. En explorant Oniria pour sauver son père, plongé depuis plusieurs mois dans un mystérieux sommeil, Eliott est finalement confronté à son extraordinaire destin. Car Eliott est l’ « Envoyé » : il doit sauver le Royaume des rêves, menacé par la sanglante révolution des cauchemars.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+        </td>
+      </tr>
+
+
+      <!-- Header 5 -->
+      <tr class="accordion-header" onclick="toggleRow('row5')">
+        <td class="td_dvd"><h3>Comics (BDs)</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 5 -->
+      <tr id="row5" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/books/cerise_1.jpg" alt="Le Zoo pétrifié" class="book_cover" data-caption="Le Zoo pétrifié" data-description-id="desc-cerise1">
+          <template id="desc-cerise1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Les Carnets de Cerise</h3>
+              <p>Cerise est une petite fille âgée de 11 ans, qui vit seule avec sa mère. Elle rêve de devenir romancière, et a même déjà commencé à écrire ses carnets ! Son sujet favori : les gens, et plus particulièrement, les adultes. Ils sont si compliqués qu’elle souhaiterait mieux les comprendre. Elle adore les observer pour tenter de deviner quels secrets ils dissimulent au fond d’eux. Prenez Michel... Tous les dimanches, ce vieil homme s’engouffre dans la forêt avec de gros pots de peinture à la main. Qu’y fait-il donc toute la journée ? Repeint-il une vieille maison ? Décore-t-il des arbres ? Et pourquoi a-t-il l’air si triste quand il rentre le soir ?</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/cerise_2.jpg" alt="Le Livre d'Hector" class="book_cover" data-caption="Le Livre d'Hector" data-description-id="desc-cerise2">
+          <template id="desc-cerise2">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 2013<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 2 of Les Carnets de Cerise</h3>
+              <P>Cerise est une petite fille âgée de onze ans, qui vit seule avec sa mère. Elle rêve de devenir romancière, et a même déjà commencé à écrire ses carnets ! Son sujet favori : les gens, et plus particulièrement, les adultes. Ils sont si compliqués qu'elle souhaiterait mieux les comprendre. Elle adore les observer pour tenter de deviner quels secrets ils dissimulent... Prenez Elisabeth... toutes les semaines, depuis vingt ans, cette vieille dame emprunte le même livre à la bibliothèque. Pourquoi ? Que contient-il de si important pour elle ? Quel secret cache-t-il qu'elle n'aurait toujours pas découvert ? Une nouvelle énigme pour Cerise, prête à tout pour la résoudre, quitte à détruire ce qu'elle a de plus cher.</P>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/cerise_3.jpg" alt="Le Dernier des cinq trésors" class="book_cover" data-caption="Le Dernier des cinq trésors" data-description-id="desc-cerise3">
+          <template id="desc-cerise3">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : Novembre 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of Les Carnets de Cerise</h3>
+              <p>Cerise est une petite fille âgée de onze ans, qui vit seule avec sa mère. Elle rêve de devenir romancière, et a même déjà commencé à écrire ses carnets ! Son sujet favori : les gens, et plus particulièrement, les adultes.Elle adore les observer pour tenter de deviner quels secrets ils dissimulent au fond d'eux... Cette fois, elle s'intéresse à Sandra... Son atelier de reliure regorge d'ouvrages anciens. Mais il en est un qu'elle n'a jamais réparé. Pourquoi ? Savait-elle seulement qu'il était là ? Et quels sont ces cinq trésors liés à la vie de la jeune femme ? Cerise, Line et Erica vont suivre ensemble ce jeu de piste, cette enquête à tiroirs, pour tenter de rendre à Sandra ce qu'elle a perdu, il y a tant d'années...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/cerise_4.jpg" alt="La déesse sans visage" class="book_cover" data-caption="La déesse sans visage" data-description-id="desc-cerise4">
+          <template id="desc-cerise4">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 4 of Les Carnets de Cerise</h3>
+              <p>Cerise est une jeune fille qui vit seule avec sa mère. Elle rêve de devenir romancière et a même déjà commencé à écrire ses carnets ! Son sujet favori : les gens, et plus particulièrement les adultes. Elle adore les observer pour tenter de deviner quels secrets ils dissimulent au fond d'eux... L'heure des vacances a sonné ! La visite d'un étrange manoir annonce une nouvelle enquête : chaque pièce est une énigme, chaque objet est un indice. Mais il est des secrets plus anciens qui ne demandent qu'à être dévoilés. Qui est cette déesse sans visage qui trône dans une pièce secrète ? Où se cache la partie manquante de ce tableau ? Mais surtout, qui tire vraiment les ficelles de ce nouveau mystère ? Si Cerise ne résolvait pas l'énigme à temps, les conséquences pourraient être terribles...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/cerise_5.jpg" alt="Des premières neiges aux Perséides" class="book_cover" data-caption="Des premières neiges aux Perséides" data-description-id="desc-cerise5">
+          <template id="desc-cerise5">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 5 of Les Carnets de Cerise</h3>
+              <p>Cerise, onze ans, vit seule avec sa mère et rêve de devenir romancière. Elle a déjà commencé à écrire ses carnets ! Son sujet favori : les gens, et surtout les adultes. Elle les observe pour tenter de deviner leurs secrets les plus enfouis...<br><br>
+                Au fil de ses enquêtes, elle a compris à quel point son passé lui manquait et faisait tout pour ressurgir.<br><br>
+                À travers une correspondance avec sa mère, Cerise va replonger dans ses souvenirs, dans son enfance - des premières rencontres aux premiers mensonges... Ce voyage lui dévoilera le secret de ses carnets et on comprendra enfin pourquoi elle déteste tant que les adultes dissimulent quelque chose...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/cerise_55.jpg" alt="Les carnets de cerise et valentin" class="book_cover" data-caption="Les carnets de cerise et valentin" data-description-id="desc-cerise55">
+          <template id="desc-cerise55">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Joris Chamblain (Writer), Aurélie Neyret (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2018<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 5.5 of Les Carnets de Cerise</h3>
+              <p>Valentin – tout comme Cerise, sa maman et le papa de Valentin – s'apprête à partir pour un long voyage autour du monde. Mais il n'a que sept ans et ce voyage lui fait un peu peur. Pour tenter d'apaiser cette angoisse, Cerise et lui ont imaginé une histoire d'extraterrestres : dans la nuit du 18 août, Toloh-Tim a atterri dans le jardin. Il veut fuir une mission spéciale qu'il devait accomplir. Mais laquelle ? C'est ce que les agents spéciaux Cerise et Valentin devront découvrir.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/legendaires_1.jpg" alt="Danaël" class="book_cover" data-caption="Danaël" data-description-id="desc-legendaires1">
+          <template id="desc-legendaires1">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Patrick Sobral, Nadou (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : May 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of Les Légendaires - Origines</h3>
+              <p>Devenu Faucon d'argent comme son père tombé au combat, Danaël parcourt Alysia en quête de justice et de vérité. Impulsif, arrogant et belliqueux, le jeune homme ne trouve pas sa place dans ce corps d'armée dirigé par son frère. Pire, il a le sentiment de ne rien avoir accompli. Mais il y a d'autres façons de servir la justice que dans une armure, il l'apprendra très prochainement...</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/legendaires_3.jpg" alt="Gryfenfer" class="book_cover" data-caption="Gryfenfer" data-description-id="desc-legendaires3">
+          <template id="desc-legendaires3">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Patrick Sobral, Nadou (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : July 2014<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 3 of Les Légendaires - Origines</h3>
+              <p>Alors qu’il n’est encore qu’un enfant, Gryfenfer rencontre Samaël. Les deux garçons se lient rapidement d’amitié. Ce grand frère de substitution marque de son influence le développement du Légendaire en devenir. Mais Samaël, dont le nom n’est autre que la première appellation de l’ange déchu Lucifer, est plus sombre qu’on ne le croit…</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/legendaires_4.jpg" alt="Shimy" class="book_cover" data-caption="Shimy" data-description-id="desc-legendaires4">
+          <template id="desc-legendaires4">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author">Patrick Sobral, Nadou (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : November 2015<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 4 of Les Légendaires - Origines</h3>
+              <p>Shimy est le personnage le plus énigmatique de toute l'équipe des Légendaires. C'est également le personnage dont le passé a été le moins évoqué jusqu'ici par l'auteur. On découvrira dans ce tome le monde elfique et sa culture, ses lois, ses règles, sa faune et ses ethnies, sous le trait époustouflant de Nadou.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/spirou.jpg" alt="Spirou et Fantasio à Tokyo" class="book_cover" data-caption="Spirou et Fantasio à Tokyo" data-description-id="desc-spirou">
+          <template id="desc-spirou">
+
+            <div data-slot="author">Jean-David Morvan, José Luis Munuera (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2006<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 49 of Spirou et Fantasio</h3>
+              <p>Nous retrouvons Spirou, Fantasio et Spip à Edo, capitale du Pays du Soleil Levant, de 1603 à 1864. Paradoxe temporel ? Voyage dans le temps ? Rien de tout ça : nos trois amis sont tout simplement invités à la prestigieuse inauguration de "Edo-resort", un gigantesque parc d’attractions qui reconstitue très fidèlement la vie du Japon médiéval. Mais Spirou et ses compagnons ne sont pas là pour le plaisir. Ils sont venus en Extrême-Orient à la demande de leur ami magicien, Itoh Kata, qui leur a confié une mission spéciale : récupérer deux enfants aux pouvoirs paranormaux étonnants qui sont détenus par Mangakana, un redoutable gangster aux ambitions immobilières troubles. Une course-poursuite va mener nos trois héros d’Akihabara, le quartier électronique, à Giza, celui des spectacles, en passant par Shinjuku, le territoire des redoutables yakuza, pour une visite guidée particulièrement mouvementée.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+
+      <!-- Header 6 -->
+      <tr class="accordion-header" onclick="toggleRow('row6')">
+        <td class="td_dvd"><h3>Guide books</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 6 -->
+      <tr id="row6" class="accordion-content">
+        <td colspan="5">
+          <p></p>
+          
+          <img src="/images/books/simples.jpg" alt="Le livre des simples: Les vertus des plantes médicinales" class="book_cover" data-caption="Le livre des simples: Les vertus des plantes médicinales" data-description-id="desc-simples">
+          <template id="desc-simples">
+
+            <div data-slot="author">Erika Laïs</div>
+
+            <div data-slot="right">
+              <p><i>Published : April 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>Au Moyen Âge, les plantes médicinales, ou "simples", permettaient de soigner toutes sortes de maux. Aujourd'hui, elles n'ont rien perdu de leurs vertus et servent à la confection de nombreux remèdes entièrement naturels.<br><br>
+                Découvrez ou redécouvrez comment cultiver, récolter et utiliser facilement près de 50 plantes pour préparer tisanes, infusions, boissons et vins aux multiples propriétés.<br><br>
+                Voyez comme les simples ont traversé le temps et appropriez-vous un savoir-faire ancestral grâce à cet ouvrage superbement illustré de planches botaniques et d'enluminures.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+          
+          <img src="/images/books/zelda.jpg" alt="The Legend of Zelda: Breath of the Wild – The Complete Official Guide – Expanded Edition" class="book_cover" data-caption="The Legend of Zelda: Breath of the Wild – The Complete Official Guide – Expanded Edition" data-description-id="desc-zelda">
+          <template id="desc-zelda">
+
+            <div data-slot="author">Piggyback</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2018<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>A 512-page hardcover guidebook covering everything in the main game as well as the two Expansion Pass DLC packs “The Master Trials” and “The Champions’ Ballad”.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/stardew.jpg" alt="Stardew Valley Guidebook" class="book_cover" data-caption="Stardew Valley Guidebook" data-description-id="desc-stardew">
+          <template id="desc-stardew">
+
+            <div data-slot="author">ConcernedApe, Kari Fry (Illustrator)</div>
+
+            <div data-slot="right">
+              <p><i>Published : January 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>This handy farmer's almanac covers farming, crafting, foraging, combat, fishing and mining; it also includes detailed information of the residents of Stardew Valley, so you can truly make the most of your wonderful new life on the farm.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/minecraft.jpg" alt="Imaginer Minecraft" class="book_cover" data-caption="Imaginer Minecraft" data-description-id="desc-minecraft">
+          <template id="desc-minecraft">
+
+            <div data-slot="author">Kirsten Kearney</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2016<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>Bien plus qu’un simple jeu vidéo, minecraft® est devenu une inépuisable source d’inspiration pour de nombreux artistes. Des pyramides du plateau de gizeh à la basilique saint-pierre de rome, du mythique kraken au dragon du nouvel an chinois, en passant par d’incroyables créations totalement originales. Retrouvez dans cet ouvrage les plus belles structures conçues par ces passionnés du monde entier. Guidé par les différents tutoriaux de ce livre, vous pourrez à votre tour vous lancer dans l’assemblage de constructions démesurées.<br>
+                La seule limite, c’est votre imagination!</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/mob.jpg" alt="Minecraft: Mobestiary" class="book_cover" data-caption="Minecraft: Mobestiary" data-description-id="desc-mob">
+          <template id="desc-mob">
+
+            <div data-slot="author">Mojang</div>
+
+            <div data-slot="right">
+              <p><i>Published : October 2017<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>Mobestiary reveals the secrets of every mob in the game. You’ll find little-known facts about passive, neutral, hostile, utility, and boss mobs, as well as more general information about their locations, behaviors, threat levels, and drops.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template> 
+
+          <img src="/images/books/egypte.jpg" alt="Assassin's creed Discovery Book - l'Egypte des Pharaons" class="book_cover" data-caption="Assassin's creed Discovery Book - l'Egypte des Pharaons" data-description-id="desc-egypte">
+          <template id="desc-egypte">
+
+            <div data-slot="author">Various</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2020<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>Redécouvrez à 360° la vie au temps de l'Egypte ancienne, grâce au Discovery Book, magnifique ouvrage fait à partir du Discovery Tour, le mode de jeu culturel et pédagogique d'Assassin's Creed. Plongez au cœur des pyramides, percez les secrets de leur fabrication, observez les cérémonies de momification des grands prêtres égyptiens, parcourez les terres fertiles autour du Nil, les tombes de la Vallée des morts... Retrouvez 1001 informations passionnantes et insolites sur les grands pharaons de l'Egypte et sur l'Egypte au temps de Cléopâtre.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/cinema.jpg" alt="Cinematography: Theory and Practice: For Cinematographers and Directors" class="book_cover" data-caption="Cinematography: Theory and Practice: For Cinematographers and Directors" data-description-id="desc-cinema">
+          <template id="desc-cinema">
+
+            <div data-slot="author">Blain Brown</div>
+
+            <div data-slot="right">
+              <p><i>Published : September 2020<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3></h3>
+              <p>This book covers both the artistry and craftsmanship of cinematography and visual storytelling. Few art forms are as tied to their tools and technology as is cinematography. Take your mastery of these new tools, techniques, and roles to the next level with this cutting-edge roadmap from author and filmmaker Blain Brown.<br><br>
+                This 4th edition has been thoroughly updated throughout to include detailed information on the latest lighting and camera equipment, as well as expanded and updated discussion on the following shooting on a budget, color spaces with emphasis on the new UHD standards, the decision-making process in choosing what lights and equipment to use, considerations concerning power issues, safety and what electrical supply is needed for various types of lights, an examination of the cinematographer’s role in preproduction, and much more.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+      
+      <!-- Header 7 -->
+      <tr class="accordion-header" onclick="toggleRow('row7')">
+        <td class="td_dvd"><h3>Other</h3></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+        <td class="td_dvd"></td>
+      </tr>
+      <!-- Content 7 -->
+      <tr id="row7" class="accordion-content">
+        <td colspan="5">
+          <p>Not sure where else to put these.</p>
+          
+          <img src="/images/books/aristotle.jpg" alt="Aristotle and Dante Discover the Secrets of the Universe" class="book_cover" data-caption="Aristotle and Dante Discover the Secrets of the Universe" data-description-id="desc-aristotle">
+          <template id="desc-aristotle">
+
+            <div data-slot="author">Benjamin Alire Sáenz</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2012<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Aristotle and Dante series</h3>
+              <p>Dante can swim. Ari can't. Dante is articulate and self-assured. Ari has a hard time with words and suffers from self-doubt. Dante gets lost in poetry and art. Ari gets lost in thoughts of his older brother who is in prison. Dante is fair skinned. Ari's features are much darker. It seems that a boy like Dante, with his open and unique perspective on life, would be the last person to break down the walls that Ari has built around himself.<br><br>
+                But against all odds, when Ari and Dante meet, they develop a special bond that will teach them the most important truths of their lives, and help define the people they want to be. But there are big hurdles in their way, and only by believing in each other—and the power of their friendship—can Ari and Dante emerge stronger on the other side.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>          
+          
+          <img src="/images/books/uglies.jpg" alt="Uglies" class="book_cover" data-caption="Uglies" data-description-id="desc-uglies">
+          <template id="desc-uglies">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>            
+            
+            <div data-slot="author">Scott Westerfeld</div>
+
+            <div data-slot="right">
+              <p><i>Published : February 2005<br><br>Read : ?</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Uglies series</h3>
+              <p>Tally is about to turn sixteen, and she can’t wait. In just a few weeks she’ll have the operation that will turn her from a repellent ugly into a stunningly attractive pretty. And as a pretty, she’ll be catapulted into a high-tech paradise where her only job is to have fun.<br><br>
+                But Tally’s new friend Shay isn’t sure she wants to become a pretty. When Shay runs away, Tally learns about a whole new side of the pretty world—and it isn’t very pretty. The authorities offer Tally a choice: find her friend and turn her in, or never turn pretty at all. Tally’s choice will change her world forever.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+          <img src="/images/books/divergent.jpg" alt="Divergent" class="book_cover" data-caption="Divergent" data-description-id="desc-divergent">
+          <template id="desc-divergent">
+
+            <div data-slot="banner">
+              <img src="/images/books/to_be_read.png" alt="To be read">
+            </div>            
+            
+            <div data-slot="author">Veronica Roth</div>
+
+            <div data-slot="right">
+              <p><i>Published : May 2011<br><br>Read : -</i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of the Divergent series</h3>
+              <p>In Beatrice Prior’s dystopian Chicago world, society is divided into five factions, each dedicated to the cultivation of a particular virtue: Candor (the honest), Abnegation (the selfless), Dauntless (the brave), Amity (the peaceful), and Erudite (the intelligent). On an appointed day of every year, all sixteen-year-olds must select the faction to which they will devote the rest of their lives. For Beatrice, the decision is between staying with her family and being who she really is, she can’t have both. So she makes a choice that surprises everyone, including herself.<br><br>
+                During the highly competitive initiation that follows, Beatrice renames herself Tris, and struggles alongside her fellow initiates to live out the choice they have made. Together, they must undergo extreme physical tests of endurance and intense psychological simulations, some with devastating consequences. As initiation transforms them all, Tris must determine who her friends really are, and where, exactly, a romance with a sometimes-fascinating, sometimes-exasperating boy fits into the life she’s chosen.<br><br>
+                But Tris also has a secret: one she’s kept hidden from everyone, because she’s been warned it can mean death. And as she discovers unrest and growing conflict that threatens to unravel her seemingly-perfect society, she also learns that her secret might be what helps her save those she loves...or it might be what destroys her.</p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <br><br>
+
+
+    </section>
+</main>
+
+<footer>©An Elvish Den 2026</footer>
+
+<!-- TEMPLATE -->
+
+<!--
+
+<img src="/images/books/the_girl_in_the_tower.jpg"
+     alt="The Girl in the Tower"
+     class="book_cover"
+     data-caption="The Girl in the Tower"
+     data-description-id="desc-tower">
+
+          <template id="desc-tower">
+
+            <div data-slot="banner">
+              <img src="/images/books/loved_it.png" alt="Loved it !">
+            </div>
+
+            <div data-slot="author"></div>
+
+            <div data-slot="right">
+              <p><i>Published : <br><br>Read : </i></p>
+            </div>
+
+            <div data-slot="description">
+              <h3>Book 1 of </h3>
+              <p></p>
+              <h3>Notes</h3>
+              <p></p>            
+            </div>
+          </template>
+
+-->
+
+<script src="/styles/javascript.js"></script>
+<script src="/styles/oneko.js" data-cat="/images/oneko.gif"></script>
+
+</body>
+</html>

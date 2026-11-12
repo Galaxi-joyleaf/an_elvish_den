@@ -1,0 +1,567 @@
+@font-face {
+  font-family: CherrySwash; /* set name */
+  src: url(CherrySwash-Regular.ttf);
+}
+
+@font-face {
+  font-family: CherrySwash;
+  src: url(CherrySwash-Bold.ttf);
+  font-weight: bold;
+}
+
+/* Large Yellow Polka Dot Pointer - https://www.cursors-4u.com/cursor/large-yellow-polka-dot-pointer */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/large-yellow-polka-dot-pointer-67a25abd-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+body {
+  background-image: url('/images/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 800px;
+  margin: auto;
+  cursor: url("cursor.png"), auto;
+}
+
+p, ul, li {
+  font-size: large;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center!important;
+  font-size: 4em;
+  text-shadow: 2px 2px 5px #4d7455;
+}
+
+h2 {
+  font-family: CherrySwash;
+  font-size: xx-large;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 2%;
+  font-family: CherrySwash;
+  font-size: x-large;
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.site_name {
+  padding-left: 25%;
+  text-decoration: none;
+}
+
+.sign {
+  float: right;
+  height: 46px;   /* same as the bar */
+  width: auto;    /* keeps the proportions */
+  display: block;
+  padding-right: 1%;
+}
+
+.sign:hover {
+  transform: none;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+/*****************Menu**************/
+
+.menu {
+  display: inline-block;
+  padding: 0;  
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #84b68e;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn a:hover .dropdown-content a:hover .dropdown-content-sub a:hover {
+  background-color: #4d7455;
+}
+
+/*Cacher sous-menu et définir position*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/*Afficher sous-menu*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Couleur sous-menu*/
+.dropdown-content a {
+  color: white;
+  background-color: #84b68e;
+}
+
+/*****Sous-sous-menu*****/
+
+.dropdown-sub {
+  position: relative;
+}
+
+/*Cacher le deuxième niveau*/
+.dropdown-content-sub {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%; /*apparait à droite*/
+  min-width: 160px;
+  z-index: 1;
+}
+
+/*Affichage avec hover*/
+.dropdown-sub:hover .dropdown-content-sub {
+  display: block;
+}
+
+/*Apparence du sous-sous menu*/
+.dropdown-content-sub a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/************Main***************/
+main {
+  text-align: center;
+}
+
+section {
+  background-color: #659d70;
+  padding: 1%;
+  float: none;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*Links*/
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: rgb(142, 224, 153);
+}
+
+
+
+
+
+dialog {
+      position: relative;
+      border-radius: 10px;
+      background: #4d7455;
+      padding: 20px;
+      max-width: 60vw;
+      max-height: 40vw;
+      width: auto;
+      border: none;
+      color: white;
+    }
+
+    dialog::backdrop {
+      backdrop-filter: blur(4px);
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    /* Conteneur principal pour centrer le contenu */
+    dialog > * {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    /* Style du titre (data-caption) */
+    .modal-caption {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+
+    /* Style de la description (data-description) */
+    .modal-description {
+      font-size: 1rem;
+      color: #e0e0e0;
+      line-height: 1.6;
+      margin-top: 15px;
+      max-width: 80%;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 36px;
+      height: 36px;
+      padding: 0;            /* cancels the 15px 32px from the global button rule */
+      border-radius: 50%;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  /* the global button:hover already applies, but you can customise it here */
+  .modal-close:hover {
+    background-color: #84b68e;
+  }
+
+    /* Style de l'image */
+    dialog img {
+      transform: none !important;
+      width: clamp(60%, auto, 90%);
+      max-height: 50vh;
+      object-fit: contain;
+      margin-bottom: 10px;
+      display: block;
+      border-radius: 5px;
+    }
+
+    /* Animation d'ouverture */
+    dialog[open] {
+      animation: dialog-fade-in 0.3s ease-in-out;
+    }
+
+    @keyframes dialog-fade-in {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+
+/* Side columns */
+
+/* Container: cover floats left, text wraps around it */
+.modal-body {
+  display: flow-root;   /* makes the container include the floated cover */
+  text-align: left;
+}
+
+/* The cover */
+.modal-body > img {
+  float: left;
+  width: 260px;
+  max-height: none;
+  margin: 0 25px 15px 0;
+}
+
+/* Extra info (right slot), now just text next to the cover */
+.modal-side {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.modal-side p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+/* Summary: no more separate dark box, so the text can wrap around the cover */
+.modal-body .modal-description {
+  background: none;
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  border-radius: 0;
+}
+
+.modal-description p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+
+.modal-side {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.modal-right { text-align: left; }
+
+.modal-side p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+/* Small images in the side columns */
+.modal-side img {
+  width: 80px;
+  max-height: none;
+  margin: 0 0 10px;
+}
+
+/* Description paragraphs */
+.modal-description p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+
+
+
+
+
+
+/*****************DVD Collection*********************/
+
+.dvd_section {
+  background-color: #659d70;
+  padding: 1%;
+}
+
+.movie_poster {
+  padding: 1%;
+  width: 20%;
+  object-fit: cover;
+}
+
+.section_links a {
+  color: black;
+  text-decoration: none;
+}
+
+.section_links a:hover {
+  background-color: #84b68e;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+
+
+
+
+
+
+.table_dvd td, .table_dvd th {
+  padding: 6px;
+}
+
+
+/*Boutons de tri*/
+button {
+  font-size: 17px;
+  border-radius: 2px;
+  background-color: #4d7455;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #84b68e;
+}
+
+
+.table_dvd { 
+  table-layout: fixed;
+  width: 94%;
+}
+
+/*Le texte ne coupe pas*/
+.td_dvd, .th_dvd {
+  overflow-wrap: anywhere;
+}
+
+.table_dvd { 
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto; 
+  border-spacing: 0;
+}
+.table_dvd, .th_dvd, .td_dvd { 
+  padding: 10px; 
+  text-align: center; 
+  border-bottom: 1px solid #194351;
+  border-top: 1px solid #194351;
+}
+  
+/*Lignes header*/
+.accordion-header { 
+  cursor: pointer; 
+  background-color: #659d70; 
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.accordion-header:hover, .tr_niveaux:hover { 
+  background-color: #84b68e;
+}
+  
+/*Cache le contenu par défaut*/
+.accordion-content { 
+  display: none; 
+}
+  
+/*Pour le javascript*/
+.accordion-content.open { 
+  display: table-row; 
+}
+
+.panel-row {
+  display: none;
+}
+
+/*Grid des images des planètes*/
+.grid-container {
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+    grid-gap: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.caption {
+  font-size: 0.85em;
+  font-style: italic;
+  color: gray;
+  margin-top: 0;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+}
+
+/*A partir de 1500px --> mettre les légendes à côté de l'image et centré*/
+@media screen and (min-width:1500px) {
+  .caption {
+  margin-top: 25%;
+}
+}
+
+
+
+
+/*****************Music Collection*********************/
+
+.album_poster {
+  padding: 1%;
+  width: 23%;
+}
+
+
+/*****************BOOKS*********************/
+
+.rating {
+  padding: 1%;
+  width: 200px;
+  transform: none !important;
+}
+
+.book_cover {
+  padding: 1%;
+  width: 20%;
+}
+
+/* Banner: floats to the right, next to the cover */
+.modal-banner {
+  float: right;
+  margin: 0 0 15px 20px;
+}
+
+.modal-banner img {
+  width: 250px;
+  height: 120px;
+  object-fit: cover; /* crops instead of stretching */
+  margin: 0;
+  border-radius: 5px;
+  transform: rotate(10deg) !important;
+}
+
+.modal-author {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #e0e0e0;
+  margin: -8px 0 20px; /* pulls it closer to the title */
+}
+
+/*****************ABOUT*********************/
+
+.picrew {
+  width: 260px;
+  max-height: none;
+  margin: 0 25px 15px 0;
+}
+
+.fig_caption {
+  font-size: 0.85em;
+  font-style: italic;
+  margin-top: 0;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+}
+
+ul.favs {
+  list-style: none;
+  background-color: #659d70;
+}
+ ul.favs li::before {
+  content: "⭐";
+}
+
+/*****************FOOTER*********************/
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1%;
+}
